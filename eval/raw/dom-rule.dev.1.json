@@ -1,0 +1,559 @@
+{
+ "system": "dom-rule",
+ "split": "dev",
+ "run": 1,
+ "rows": [
+  {
+   "id": "5movierulz.forex",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "abc.es",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "above.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "adspower.net",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "allnewyonoapps.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "aloyoga.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "ansa.it",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "arity.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "asurascans.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "bgr.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "bibliaon.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "bringatrailer.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "buddy4study.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "cgg.gov.in",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "dengeki.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "devtodev.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "dlink.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "dokuwiki.org",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "dyn.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "edpuzzle.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "educationdz.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "elavon.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "ele.me",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "eternalmangas.org",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "felenasoft.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "filmywap.wtf",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "france24.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "fronius.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "gb.net",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "gimyai.tw",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "goguardian.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "goldapple.ru",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "googleusercontent.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "havan.com.br",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "hela-lankaa-ads.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "huggingface.co",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "idos.cz",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "ikea.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "intelligems.io",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "issn.org",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "join4ra.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "juicyads.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "kubernetes.io",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "lafeltrinelli.it",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "ledger.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "lefigaro.fr",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "libertatea.ro",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "live-video.net",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "mencretmesum.store",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "metro.co.uk",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "mimecast.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "mopo.de",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "muckrack.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "nephobox.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "news.cn",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "notube.net",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "nsf.gov",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "pagalnew.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "page-stats.de",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "playnow.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "resy.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "runescape.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "ryanair.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "scientificamerican.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "seek.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "serverfault.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "sipri.org",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "slate.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "slido.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "so-net.ne.jp",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "sportfilm800.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "sportsyou.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "square-enix-games.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "stumbleupon.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "substackcdn.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "synxis.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "tagesschau.de",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "theguardian.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "tinyurl.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "tw1.ru",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "uchile.cl",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "unfpa.org",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "univ-lyon1.fr",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "univision.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "us.org",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "v-videoapp.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "v6velugu.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "vinted.fr",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "walkscore.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "weber.com",
+   "label": "broken",
+   "flagged": true,
+   "ms": 0
+  },
+  {
+   "id": "windguru.cz",
+   "label": "broken",
+   "flagged": false,
+   "ms": 0
+  },
+  {
+   "id": "yourtango.com",
+   "label": "held",
+   "flagged": false,
+   "ms": 0
+  }
+ ]
+}

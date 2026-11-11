@@ -1,0 +1,9 @@
+{
+  "name": "ghost-probe1",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-11",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "29db7c74093386544fed8046ef083a4b",
+  "workers_dev": false,
+  "browser": { "binding": "BROWSER" }
+}

@@ -1,0 +1,64 @@
+{
+  "sessionId": "3b0c129b-ebfe-4332-99c0-6541bd2ff7ab",
+  "liveViewPresent": true,
+  "liveViewUrlHost": "live.browser.run",
+  "liveViewUrlRedactedShape": "https://live.browser.run/ui/view?mode=devtools&wss=<redacted>",
+  "pages": [
+    {
+      "url": "https://www.bbc.co.uk",
+      "frameCount": 17,
+      "frameBytes": [
+        43827,
+        43836,
+        43818,
+        43815,
+        43821,
+        43815,
+        43806,
+        43806,
+        43806,
+        43800,
+        43791,
+        43794,
+        43794,
+        43794,
+        43791,
+        43791,
+        43791
+      ],
+      "firstFrameMs": 121,
+      "elementFromPoint": {
+        "tag": "IMG",
+        "id": "",
+        "className": "Image-styles__ImageStyled-sc-8c99a12b-0 cVsHni",
+        "text": ""
+      },
+      "title": "BBC Home | Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio"
+    },
+    {
+      "url": "https://example.com",
+      "frameCount": 10,
+      "frameBytes": [
+        27264,
+        30657,
+        33624,
+        30657,
+        33624,
+        30657,
+        33624,
+        30657,
+        33624,
+        30657
+      ],
+      "firstFrameMs": 43,
+      "elementFromPoint": {
+        "tag": "P",
+        "id": "",
+        "className": "",
+        "text": "This domain is for use in documentation examples without nee"
+      },
+      "title": "Example Domain"
+    }
+  ],
+  "errors": []
+}

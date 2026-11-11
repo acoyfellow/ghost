@@ -1,0 +1,91 @@
+{
+ "ready": true,
+ "results": [
+  {
+   "label": "p1",
+   "url": "./frames/frame0.jpg",
+   "answer": "No.",
+   "flagged": false,
+   "ms": 6503
+  },
+  {
+   "label": "broken",
+   "url": "./frames/20minutes.fr.jpg",
+   "answer": "Yes.",
+   "flagged": true,
+   "ms": 6263
+  },
+  {
+   "label": "broken",
+   "url": "./frames/5movierulz.forex.jpg",
+   "answer": "Yes.",
+   "flagged": true,
+   "ms": 6069
+  },
+  {
+   "label": "broken",
+   "url": "./frames/adsmoloco.com.jpg",
+   "answer": "No.",
+   "flagged": false,
+   "ms": 6050
+  },
+  {
+   "label": "broken",
+   "url": "./frames/amocrm.ru.jpg",
+   "answer": "Yes.",
+   "flagged": true,
+   "ms": 6429
+  },
+  {
+   "label": "broken",
+   "url": "./frames/elmundo.es.jpg",
+   "answer": "Cookie.",
+   "flagged": null,
+   "ms": 6872
+  },
+  {
+   "label": "held",
+   "url": "./frames/adspower.net.jpg",
+   "answer": "No.",
+   "flagged": false,
+   "ms": 7139
+  },
+  {
+   "label": "held",
+   "url": "./frames/aiscore.com.jpg",
+   "answer": "Yes.",
+   "flagged": true,
+   "ms": 6833
+  },
+  {
+   "label": "held",
+   "url": "./frames/amazon.co.jp.jpg",
+   "answer": "Cookie banner.",
+   "flagged": null,
+   "ms": 7264
+  },
+  {
+   "label": "held",
+   "url": "./frames/arte.tv.jpg",
+   "answer": "No.",
+   "flagged": false,
+   "ms": 7064
+  },
+  {
+   "label": "held",
+   "url": "./frames/asurascans.com.jpg",
+   "answer": "Yes.",
+   "flagged": true,
+   "ms": 6864
+  }
+ ],
+ "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+ "adapterInfo": {},
+ "loadMs": 851,
+ "device": "webgpu",
+ "errors": [],
+ "hasGpu": true,
+ "p50Ms": 6833,
+ "correct": 5,
+ "of": 10
+}

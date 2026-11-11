@@ -1,0 +1,11 @@
+node_modules
+.real
+.alchemy
+.env*
+.dev.vars
+probes/p1/.probe-key
+probes/p2/frames/
+.pi/
+.wrangler/
+*.jpg
+site/public/

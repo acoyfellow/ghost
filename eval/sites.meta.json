@@ -1,0 +1,19 @@
+{
+  "trancoListId": "Y895G",
+  "createdOn": "2026-11-10T22:00:01",
+  "download": "https://tranco-list.eu/download/Y895G/1000000",
+  "sampling": "rank 50*k for k=1..120 within the top 6000; if the name matches the adult/gambling pattern in build-sites.ts or is already taken, advance to the next rank",
+  "tranco": 120,
+  "euNewsCommerce": 30,
+  "expansion": {
+    "sampling": "rank 50*k for k=121..420 (ranks 6050-21000) from the same Tranco list; same name filter and taken-advance rule as build-sites.ts",
+    "tranco": 300,
+    "euNewsCommerce": 40,
+    "ranks": [
+      6050,
+      21000
+    ],
+    "script": "expand-sites.ts"
+  },
+  "tranco_total": 420
+}

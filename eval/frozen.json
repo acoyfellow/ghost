@@ -1,0 +1,18 @@
+{
+ "hashes": {
+  "eval/sites.txt": "c5d39856db099a1698bba08860a84bbf9312c4670da09a1ced85a9550805e2f9",
+  "eval/TARGET_RULE.md": "d424445cebb1f07fb97f3f384939e5e42290faccff4e087685508242b345750d",
+  "eval/prompt.txt": "ac05150ca478c76af2de9bc6f8725897f0820644fbdb258717e6f8f17bf0c35d",
+  "eval/models.json": "fd04854a4e4c4e0e77fc4e3e97f2d1eace29c57b2ab485868835c61b886a5ce4",
+  "eval/frames.index.json": "17cfcd1da9f60a96593577620c400263ebb1889aa5011d221487dfcf80ab41cf",
+  "eval/baseline-dom.ts": "7dbcbcf17f1aaac374d138830d42474cb9ae5afeeb01b34481aaebd138872d70",
+  "eval/score.ts": "d2013f0f102c10089b08b8d7c59a018f1ed972e632ab2f282f689f18b94c3c9c",
+  "fit/spec.json": "811b01db8a20311ce12f8cd79af6524c7e7d6cff51ef41a341b19f7793205ac2"
+ },
+ "changes": [
+  {
+   "at": "2026-11-11T20:22:08.395Z",
+   "reason": "initial freeze after collection: 285 ok frames (95 broken, 190 held), split ghost-split-v1 sha256 30% dev"
+  }
+ ]
+}

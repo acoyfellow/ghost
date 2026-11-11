@@ -1,0 +1,3147 @@
+[
+  {
+    "domain": "googleusercontent.com",
+    "label": "held",
+    "sha256": "fbcddd44636d5657df68179e95423fa7be5d7bdf96a5ba041756f2cfdf8b4757",
+    "ok": true
+  },
+  {
+    "domain": "dotaplabs.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "archive.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "omtrdc.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "charter.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "tinyurl.com",
+    "label": "held",
+    "sha256": "00f37dd02f2b478387c9cad513d73175c48399e83a66d7bb8fb5fa5cb25cf713",
+    "ok": true
+  },
+  {
+    "domain": "paloaltonetworks.com",
+    "label": "held",
+    "sha256": "82adf773e08b6250d799304779414611e4ee1d8cb64a88f3510af6b9c32e7069",
+    "ok": true
+  },
+  {
+    "domain": "live-video.net",
+    "label": "held",
+    "sha256": "61723f414b257200a7ff6b5a4ee1f9776569276c1bfae7cd76e1b5168ca3e94e",
+    "ok": true
+  },
+  {
+    "domain": "tiktokpangle.us",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "amazon.co.jp",
+    "label": "held",
+    "sha256": "6c72b9b0ddf61eaf3cd8fbc95f62e605d040a0f9311778cb12a5ab5fb628af6a",
+    "ok": true
+  },
+  {
+    "domain": "amagi.tv",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "goskope.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "avito.ru",
+    "label": "held",
+    "sha256": "0717412a141e22a40967c8af08c45ed285d34c3b98e217315b5e4e4da9d44137",
+    "ok": true
+  },
+  {
+    "domain": "bandcamp.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "rustore.ru",
+    "label": "held",
+    "sha256": "b1cb9f81be4f7b7c46ef81aafb4e6af6b36a5a6a77f0b9919bf4157be718bc0a",
+    "ok": true
+  },
+  {
+    "domain": "steamstatic.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "flipkart.com",
+    "label": "broken",
+    "sha256": "316db43f48c8b5e5ed2fa6a858be767f3f779800508485b535449986d9a541ea",
+    "ok": true
+  },
+  {
+    "domain": "ngenix.net",
+    "label": "broken",
+    "sha256": "211231aeb4ab8da7ff6bae1f614e233173a4e650e48a71d885a40704b3740d06",
+    "ok": true
+  },
+  {
+    "domain": "flashtalking.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "playfabapi.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "huggingface.co",
+    "label": "held",
+    "sha256": "5da98f3874f849bc5100aee38abea84c604981cec9166093f62b2bc01649cc18",
+    "ok": true
+  },
+  {
+    "domain": "samsungcloud.tv",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "finn.no",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "firebaseio.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "gismeteo.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "edgcdn.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "asurascans.com",
+    "label": "held",
+    "sha256": "2c7497cfe24878be5234342c622f0c72ef0629364d8ab91e11df7ddce924d861",
+    "ok": true
+  },
+  {
+    "domain": "missav.ws",
+    "label": "held",
+    "sha256": "29432fc482c899bd5da84e57af0b5bfcb580a7734934f546f401bf95f3137c2f",
+    "ok": true
+  },
+  {
+    "domain": "ukdevilz.com",
+    "label": "broken",
+    "sha256": "e5549bcc97f535b6ef7be4435da667dd1e805043ffe4187f967cad9b4cc7348f",
+    "ok": true
+  },
+  {
+    "domain": "rt.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "kooora.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "technorail.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "hentai.name",
+    "label": "held",
+    "sha256": "5130053da67a6a2654ba8b57f148cdaf8eb2e9bea8323f8759ae05cecbe0482b",
+    "ok": true
+  },
+  {
+    "domain": "nya2.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "kemensos.go.id",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "sportfilm800.com",
+    "label": "held",
+    "sha256": "385c49a1f192446cbcb3e95dabf8851ecaab1750d2464a22e8b4a8d91292dd5b",
+    "ok": true
+  },
+  {
+    "domain": "hover.com",
+    "label": "held",
+    "sha256": "a4c8f4df7ef3e1f6972215243f65392df31020718dec00752b5f494d32180c40",
+    "ok": true
+  },
+  {
+    "domain": "5movierulz.forex",
+    "label": "broken",
+    "sha256": "1402384329f6337f83ed3aa2b77275a4af4c3b201172a98e921d91c81199e685",
+    "ok": true
+  },
+  {
+    "domain": "usgs.gov",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "scientificamerican.com",
+    "label": "held",
+    "sha256": "d71a3a841cd7c2b3a00a90a1f54cd796e239c97e743296d2e098d05f440c39e8",
+    "ok": true
+  },
+  {
+    "domain": "git-scm.com",
+    "label": "held",
+    "sha256": "b0d1a0b8fcf2330a9091f4606af89b997d4bed2005c8c0137373ccc238c89303",
+    "ok": true
+  },
+  {
+    "domain": "kochava.com",
+    "label": "broken",
+    "sha256": "80656993e25178553315eedf1b967b29dc72121cfe71450502303cec4e5d64be",
+    "ok": true
+  },
+  {
+    "domain": "rzone.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "amocrm.ru",
+    "label": "broken",
+    "sha256": "b3eed7988997ecac61dfad6c162ac9483870e712c54e6b6d72fa6fcabf22e4c2",
+    "ok": true
+  },
+  {
+    "domain": "adsmoloco.com",
+    "label": "broken",
+    "sha256": "e7f844d738f6aaf8441d17b04526e68d53ab1570ce60d52a54171f649c606af9",
+    "ok": true
+  },
+  {
+    "domain": "goguardian.com",
+    "label": "held",
+    "sha256": "7dbbecf7435d6ac063ae1c6b3676dc86057c3f34add4bb1188d2bf3ae88a713a",
+    "ok": true
+  },
+  {
+    "domain": "wpengine.com",
+    "label": "held",
+    "sha256": "b607cf3686bb655d8a94dd7f1ef927bbad2989171bb92e2f38985be28f10b5bb",
+    "ok": true
+  },
+  {
+    "domain": "dstat.li",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "trustindex.io",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "slate.com",
+    "label": "held",
+    "sha256": "0a99e7687effbd3ecb6f02e43fb19b3377e28e025049ab423d76d829be8de2c6",
+    "ok": true
+  },
+  {
+    "domain": "xxpkg.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "heise.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "zscaler.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "spb.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "nhk.or.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "robinhood.com",
+    "label": "held",
+    "sha256": "7b0380747171c622f863eb04aa2254866dded10d81caf0e5a0e63a623088d7ac",
+    "ok": true
+  },
+  {
+    "domain": "rockstargames.com",
+    "label": "held",
+    "sha256": "132a2ee98ca67f6ef1606f129215496679e71881f233989b0c8546c12af16f59",
+    "ok": true
+  },
+  {
+    "domain": "news.cn",
+    "label": "held",
+    "sha256": "b893eb9e7788501234995a932b552eff59180351efbcdf9325afa0e4ab515819",
+    "ok": true
+  },
+  {
+    "domain": "stumbleupon.com",
+    "label": "held",
+    "sha256": "cfef1d5c66d73d12cb631d8d78b199d19b262ede9d32bd44b1d16a810d37ba28",
+    "ok": true
+  },
+  {
+    "domain": "foggymorningmist.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "v-videoapp.com",
+    "label": "held",
+    "sha256": "8ff972dec355abe9dff32343b19e6641b5828b36e86237631c0c8da47042de25",
+    "ok": true
+  },
+  {
+    "domain": "rkdms.com",
+    "label": "broken",
+    "sha256": "26d53a6653b9af431c1c088dc87e89efb3fc4954dd436804d014895fa7cf37ba",
+    "ok": true
+  },
+  {
+    "domain": "walkme.com",
+    "label": "broken",
+    "sha256": "a0880e8c5f11697ab858900b34b7992d27dbf4e1e83079b3cb9383c1ef721d5e",
+    "ok": true
+  },
+  {
+    "domain": "tradingeconomics.com",
+    "label": "held",
+    "sha256": "5c018dd2b8d77b03b1ae6c1482191902d3dd3d44b734e27090c1f1b9db59fc14",
+    "ok": true
+  },
+  {
+    "domain": "myanimelist.net",
+    "label": "broken",
+    "sha256": "1cf6a8899886bd387fb9d010a3e8bf4d6fa4bb5df0ab020678ab63048cc468c2",
+    "ok": true
+  },
+  {
+    "domain": "usp.br",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "toyota.com",
+    "label": "held",
+    "sha256": "45f98531b43f050988c2f3aeaa5403eee17a976394d20a3518e518a476e31917",
+    "ok": true
+  },
+  {
+    "domain": "macys.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "code.org",
+    "label": "held",
+    "sha256": "a4e41782f77542b60e12890d84b5794e1a2ee7f36b0e1b416ec8da22b12f9326",
+    "ok": true
+  },
+  {
+    "domain": "mimecast.com",
+    "label": "broken",
+    "sha256": "50ab5d150bdce423e7a86e4964b3b2e6aa924da90dab76cf28421991afe6ac9d",
+    "ok": true
+  },
+  {
+    "domain": "brown.edu",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "samsungads.com",
+    "label": "broken",
+    "sha256": "01ec120d743dd26e14df3f189ad9a6bf449dfc493fa9b655557fb93c095f679f",
+    "ok": true
+  },
+  {
+    "domain": "awsdns-04.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "over-blog.com",
+    "label": "held",
+    "sha256": "96a8326a85ad4e7be9adb644e8749cfb61fbf5d0076177432a72641e3fc2eb29",
+    "ok": true
+  },
+  {
+    "domain": "tritondigital.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "chron.com",
+    "label": "held",
+    "sha256": "b85f52090e7ced5cc513d75e5eb5fb2469d67a658ba0b86fe88a282a0037a111",
+    "ok": true
+  },
+  {
+    "domain": "ultradns.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "awsdns-45.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "uuidksinc.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "thestar.com",
+    "label": "held",
+    "sha256": "7a72c6e194a7ba2a1eb08f1c57c075e4b64adab4a1fdbd630ef0a371a9070199",
+    "ok": true
+  },
+  {
+    "domain": "awsdns-00.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "iheartmobo.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "uu.nl",
+    "label": "held",
+    "sha256": "bee9b5610f8b718f8e6efa810763f48d0470f3187aae2fc9d04f30f364d779e7",
+    "ok": true
+  },
+  {
+    "domain": "seek.com",
+    "label": "broken",
+    "sha256": "18f97e9205a8c1a3efff91241996bb60fc7a2497b8eca146566f2f73128f5e5c",
+    "ok": true
+  },
+  {
+    "domain": "ucsf.edu",
+    "label": "broken",
+    "sha256": "92f3856890180719ea17243bb94d8eec9e77a35f08c04ef9067bc2ddc5b11cba",
+    "ok": true
+  },
+  {
+    "domain": "runescape.com",
+    "label": "broken",
+    "sha256": "0bc52617cd0cd419bf68a1e1e79364fc71970ec33624b26dddfabee06be93c74",
+    "ok": true
+  },
+  {
+    "domain": "dyn.com",
+    "label": "held",
+    "sha256": "a63cf0f6ee9d66c7ca0efdf0137f8e154857b8633bd185c16e747d99b3ca1c23",
+    "ok": true
+  },
+  {
+    "domain": "namefind.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "goldapple.ru",
+    "label": "held",
+    "sha256": "bdec09923fbab4bee1b15462af4cb3a053d7385d71fd9f24bde8de4109a12f75",
+    "ok": true
+  },
+  {
+    "domain": "siteground.biz",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "adspower.net",
+    "label": "held",
+    "sha256": "4611a3d3a9444b511a1faf7cd36ebff6c243d2b855632bb7c161d0aee3fcad7f",
+    "ok": true
+  },
+  {
+    "domain": "nsf.gov",
+    "label": "held",
+    "sha256": "0b0089ad80058aca6f275f29b6e0c90ff1bfd7e1aba8b7ff41ed3dc316712555",
+    "ok": true
+  },
+  {
+    "domain": "mooo.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "ulta.com",
+    "label": "held",
+    "sha256": "6539d64c722e40ee149c7acfe34f301c23c008f183d45b2c393ada0fa471804d",
+    "ok": true
+  },
+  {
+    "domain": "redditspace.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "arte.tv",
+    "label": "held",
+    "sha256": "6bccd6a7fef05f8d6331bbc4e9a0ed735a860085b6e1b8e9645425283f06014c",
+    "ok": true
+  },
+  {
+    "domain": "worldometers.info",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "oaistatsig.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "kubernetes.io",
+    "label": "broken",
+    "sha256": "c8393a9a9c979a3cb93606a4a7e3b4b4ef27f7b2c904e80cbab61d08438b0686",
+    "ok": true
+  },
+  {
+    "domain": "docusign.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "buffalo.edu",
+    "label": "held",
+    "sha256": "1a3854238977cda7fabfc0a2b67488c0b0985173597cc198ff5fa921daf60033",
+    "ok": true
+  },
+  {
+    "domain": "lululemon.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "facemojikeyboard.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "hola.org",
+    "label": "held",
+    "sha256": "030ee47e6c22c22f820bd522b136889538fbe23dfb7fa21c0f664bd0d8a48f9e",
+    "ok": true
+  },
+  {
+    "domain": "gb.net",
+    "label": "held",
+    "sha256": "014d24f094160a969cb38c1568d82f747dfdf2bdba19c40fb0b4a837ae88b175",
+    "ok": true
+  },
+  {
+    "domain": "ipecho.net",
+    "label": "held",
+    "sha256": "aef8dcdb24053d1d29ba33784269084582fdcaa57a402d78a443028f1471783d",
+    "ok": true
+  },
+  {
+    "domain": "tw1.ru",
+    "label": "held",
+    "sha256": "b6caa6a2919948faeebabc323b9c10f3325b1aa65cb5af79497351154a21fd27",
+    "ok": true
+  },
+  {
+    "domain": "fstr.rocks",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "substackcdn.com",
+    "label": "held",
+    "sha256": "568a40d7a4162cbd3ddd64587d9b49b82dfc20f9cfbae7dfd91c0f92dbb6167b",
+    "ok": true
+  },
+  {
+    "domain": "airbridge.io",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "royalmail.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "u5fgb.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "tn.gov",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "hugedomainsdns.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "serverbid.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "crowd-umlaut.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "xunlei.com",
+    "label": "held",
+    "sha256": "28a7e2474da2967a53cf927cda015c4b6b1694f4b3caded188f9fbae64e3c880",
+    "ok": true
+  },
+  {
+    "domain": "codecademy.com",
+    "label": "held",
+    "sha256": "15108efd9ff4309e203a01aa0273ca2b40271419da1c30dbe6d2ed26ea50831d",
+    "ok": true
+  },
+  {
+    "domain": "icims.com",
+    "label": "broken",
+    "sha256": "e97f535c2198bfd45ea1289a0baa5f96d00b7e91763c4b0ee18a7bb32c08e300",
+    "ok": true
+  },
+  {
+    "domain": "aiscore.com",
+    "label": "held",
+    "sha256": "e3cdfbec7320d77edf887b0fe4a2e7dec4d980f78eaf74e2604b35e9753fbd5a",
+    "ok": true
+  },
+  {
+    "domain": "lemonde.fr",
+    "label": "broken",
+    "sha256": "c68a80ffc3f988bb415759908810e4d476025f43fabadd9b7a8e698f4c43d919",
+    "ok": true
+  },
+  {
+    "domain": "spiegel.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bbc.com",
+    "label": "held",
+    "sha256": "dc60c13a47a5846410f5e6c629d912e01ab4cbd79d1afbb4ce1dbbcd43255036",
+    "ok": true
+  },
+  {
+    "domain": "theguardian.com",
+    "label": "broken",
+    "sha256": "0f0e9e7ce6a544fdc79fb41f7d801cadfb2e6f0f182e36ccc0ee07cff8df482e",
+    "ok": true
+  },
+  {
+    "domain": "corriere.it",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "elpais.com",
+    "label": "broken",
+    "sha256": "e51efb7423944c4b48f6e7f020193def4429f5d16a88ed07a488ac40c851e859",
+    "ok": true
+  },
+  {
+    "domain": "zalando.de",
+    "label": "broken",
+    "sha256": "df3fe29a99b0cb165eb4cead4287811d9fc9f78358d1f0ccfaacd078e44c3a86",
+    "ok": true
+  },
+  {
+    "domain": "lefigaro.fr",
+    "label": "broken",
+    "sha256": "f262db7a8821fd4340e2d0e202f4ca8d45b21d493abe590aaa6e827ca31e5e11",
+    "ok": true
+  },
+  {
+    "domain": "bild.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "repubblica.it",
+    "label": "broken",
+    "sha256": "066ccf5228f8c68e43d357751643a7444f187b47de7890ce0ecf2488b164ac81",
+    "ok": true
+  },
+  {
+    "domain": "elmundo.es",
+    "label": "broken",
+    "sha256": "c94938b85fda77dc5bcab097e3b21fc53c6c9fca055e1a0c9aa879b942363c5b",
+    "ok": true
+  },
+  {
+    "domain": "welt.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "faz.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "zeit.de",
+    "label": "held",
+    "sha256": "6730d642785505ce945e841b017b71e37dda93666fa135efc22ee41450957cd1",
+    "ok": true
+  },
+  {
+    "domain": "telegraph.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "dailymail.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "independent.co.uk",
+    "label": "broken",
+    "sha256": "3073d1ac759c850869d7f1c59b55d57e48a65a8ba2821f928dcf844a34e502eb",
+    "ok": true
+  },
+  {
+    "domain": "marca.com",
+    "label": "broken",
+    "sha256": "a1ea589cef76bf694eed7cdd52fdf784f8997732ccd516e56e0c2ea190f31d88",
+    "ok": true
+  },
+  {
+    "domain": "lequipe.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "20minutes.fr",
+    "label": "broken",
+    "sha256": "79c977a9ec98d17e7eb728717d3f03cc8466ed3dd2b31bee7abc5cd317411599",
+    "ok": true
+  },
+  {
+    "domain": "ouest-france.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "nos.nl",
+    "label": "held",
+    "sha256": "a630482c8cb15cce7f7a8b6e3c75756d559201797768907641b24132144e36b6",
+    "ok": true
+  },
+  {
+    "domain": "nu.nl",
+    "label": "held",
+    "sha256": "4d12fcfc803c85f42fa230fcc75487f3ac21a4cdb7d9fd5691f912ccbe7fcc64",
+    "ok": true
+  },
+  {
+    "domain": "tagesschau.de",
+    "label": "held",
+    "sha256": "84758ecb562b87ba5aa4f4eed4506a29e0ee8fb210fa45a4d5ecb60ae663abf7",
+    "ok": true
+  },
+  {
+    "domain": "otto.de",
+    "label": "broken",
+    "sha256": "45a356b301af68cc7f42df84d71b8552373547c2aa3d63460062bc07ea858a84",
+    "ok": true
+  },
+  {
+    "domain": "cdiscount.com",
+    "label": "held",
+    "sha256": "88b6a665aac3ff5ff1fbc02ebddd00e42da3efe578068c512deebcbb64e76a64",
+    "ok": true
+  },
+  {
+    "domain": "fnac.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bol.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "asos.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ikea.com",
+    "label": "broken",
+    "sha256": "33bd8a1030914620558a982678af42f5612db3074da0ebb5e6b5d36b9e59b578",
+    "ok": true
+  },
+  {
+    "domain": "olx.in",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "nngroup.com",
+    "label": "broken",
+    "sha256": "960e14ab93d35389850cc135ce81cce538db6c04689fd3c04d0d8b39eb049122",
+    "ok": true
+  },
+  {
+    "domain": "razersynapse.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "fuximain.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "metropoles.com",
+    "label": "held",
+    "sha256": "b17031f7c73c10a7f8171c2e9e23fb29e24c27e89c79d95706fd02964767cf36",
+    "ok": true
+  },
+  {
+    "domain": "midilibre.fr",
+    "label": "broken",
+    "sha256": "de0909a895e5920280b895040c44cd5c50e34eaabab4e34815515a9c75c019df",
+    "ok": true
+  },
+  {
+    "domain": "dlink.com",
+    "label": "broken",
+    "sha256": "8b72f2dcd50c6cf9db3782d21a9cc7b662b861e50d83d60a4f32b71965b2c25c",
+    "ok": true
+  },
+  {
+    "domain": "prf.hn",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_ABORTED"
+  },
+  {
+    "domain": "storygize.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "utwente.nl",
+    "label": "broken",
+    "sha256": "f9e63405c91280dff694ef93325f22344a07eeb8227432875323c264e4b3ae0b",
+    "ok": true
+  },
+  {
+    "domain": "cdn-sw.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "superuser.com",
+    "label": "held",
+    "sha256": "2fa4f3ba14c9a12a153f3ca1d328801ef895464c7e815b95b5c9dca82b14857d",
+    "ok": true
+  },
+  {
+    "domain": "360buyimg.com",
+    "label": "held",
+    "sha256": "19e9667049fffb778f1b0fde9bcdf0733cf9026c29257a5925327d88e060890f",
+    "ok": true
+  },
+  {
+    "domain": "citex.info",
+    "label": "held",
+    "sha256": "ba1cc8eb94803370f6cfc47012b82fb06afebe47e928da6c398353fa6e2be522",
+    "ok": true
+  },
+  {
+    "domain": "paychex.com",
+    "label": "broken",
+    "sha256": "e3f1d93d59e6785791c779f2681381b0a40e0c05fa73a75f095953b24ffdb74b",
+    "ok": true
+  },
+  {
+    "domain": "ledger.com",
+    "label": "held",
+    "sha256": "ad7fa4d8e106fce76221abb67d0099fff33fc00659e6f8c09b6e8f535075e040",
+    "ok": true
+  },
+  {
+    "domain": "uchile.cl",
+    "label": "held",
+    "sha256": "2a41f89b25b55a4837b71eccb61b73a402c325b634f853c54c706ca4191c6000",
+    "ok": true
+  },
+  {
+    "domain": "uline.com",
+    "label": "held",
+    "sha256": "ee0a9d6ccf43d2de8d01a6dae49b8ee59f5e5fc84633f1dca9975590aece4d2d",
+    "ok": true
+  },
+  {
+    "domain": "narto-drama.com",
+    "label": "broken",
+    "sha256": "3ad65a5bb803eb56b8bd45d6e6b27d50be3c0571b5db19e18767ac2fe048b0a8",
+    "ok": true
+  },
+  {
+    "domain": "us.org",
+    "label": "held",
+    "sha256": "492f8530ee5fcffa75535feba11db669581f6f3aa4f7ed6aa077fa6b3c480be0",
+    "ok": true
+  },
+  {
+    "domain": "adminml.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "so-net.ne.jp",
+    "label": "held",
+    "sha256": "936ba9812d5d765fbe11efe8ca02c1fca119ce954dac45335479ca89fa3186de",
+    "ok": true
+  },
+  {
+    "domain": "windguru.cz",
+    "label": "broken",
+    "sha256": "3950cbcb408cd6e547b3498a6a3c6f70c15b739024b46792fd1fa57d8f0751a2",
+    "ok": true
+  },
+  {
+    "domain": "nme.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "dxc.com",
+    "label": "held",
+    "sha256": "cfddb8cd2995faa1aa4f9050036066b01ef2eac9e94040de3ab85e1af09a33e8",
+    "ok": true
+  },
+  {
+    "domain": "libertatea.ro",
+    "label": "broken",
+    "sha256": "e8cb39387e41c1fb16e456c8fac59e0e949d154de1776e9553bb60606c5cc963",
+    "ok": true
+  },
+  {
+    "domain": "bezeqint.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "countryliving.com",
+    "label": "broken",
+    "sha256": "fdc83c1c19a75d1c713c088a25aedbcf7c6a65e60974a749410b53a14cf27ab2",
+    "ok": true
+  },
+  {
+    "domain": "survicate.com",
+    "label": "broken",
+    "sha256": "d16328098f57da74705bc185491c0edc145e7ff9f33b0195e55d0bc204b9021d",
+    "ok": true
+  },
+  {
+    "domain": "boulanger.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "vidyard.com",
+    "label": "broken",
+    "sha256": "dfd16d2e5b808eb7fc47b0d64612eb08410077ae200593c47b962b4afd9e3c44",
+    "ok": true
+  },
+  {
+    "domain": "adafruit.com",
+    "label": "held",
+    "sha256": "5509abca19000684df0131c87e052b3f3dbe4e095b755c2e16f35820f9486064",
+    "ok": true
+  },
+  {
+    "domain": "wikiwiki.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "alodokter.com",
+    "label": "held",
+    "sha256": "5d89068d216fe8934c492b76bdcc810ad4e109def836f8853a04ba1fc8b7a4c3",
+    "ok": true
+  },
+  {
+    "domain": "theobjective.com",
+    "label": "held",
+    "sha256": "fecc7b53d3019761b4ae043e43e079c8fbb2b97972ae65f537ac14b746c6b66d",
+    "ok": true
+  },
+  {
+    "domain": "falabella.com.pe",
+    "label": "broken",
+    "sha256": "c6380bcbc2946cf52a15b05aa8d0c605db8f8f6f7a18bd40a3ed94bea4331a4b",
+    "ok": true
+  },
+  {
+    "domain": "futurecdn.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "davivienda.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "fronius.com",
+    "label": "broken",
+    "sha256": "b105d603f26314c60bc386ee7c8b7b6cd1f53fe01157177fa51c5a656a16d72a",
+    "ok": true
+  },
+  {
+    "domain": "linear.app",
+    "label": "held",
+    "sha256": "5ee4b497ae37569869ead7e1b0bb2d9d13a58ff1d3e26b8bf273b1353b4238ef",
+    "ok": true
+  },
+  {
+    "domain": "channelexco.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "pokefarm.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "oceanofpdf.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "la.lv",
+    "label": "broken",
+    "sha256": "ee4e98ed40fec8c5c1ee294a7decbcaab3fa78b6ef6104a212e2da0556bdd74f",
+    "ok": true
+  },
+  {
+    "domain": "novel543.com",
+    "label": "held",
+    "sha256": "982abea6c50cecf7197e7809848c661cf3fe71d1c6d441b0d0643d8a0e7ee7e5",
+    "ok": true
+  },
+  {
+    "domain": "telstra.com.au",
+    "label": "held",
+    "sha256": "670066ba1628760da8d1e8ca4fcc596119c5c488a8dab53e18b77b8535b73503",
+    "ok": true
+  },
+  {
+    "domain": "zerozero.pt",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "lokmat.com",
+    "label": "held",
+    "sha256": "40a5ef3102591f5ef43c8a1a29e62fea76a7ff92a0c40e9efcb944b67f3178b7",
+    "ok": true
+  },
+  {
+    "domain": "maybank2u.com.my",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "novelphoenix.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "rmf.fm",
+    "label": "broken",
+    "sha256": "caf8593ee64ffd26df67ff82843ba084be79a2ab81fecc5a8a2d652a1728ff5c",
+    "ok": true
+  },
+  {
+    "domain": "xanimu.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "anime-sama.to",
+    "label": "held",
+    "sha256": "4e530c1c243393b5b266367709adba74f9656febe1b9f544dd71408c9f218992",
+    "ok": true
+  },
+  {
+    "domain": "pixocial.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "sdna.gr",
+    "label": "broken",
+    "sha256": "b7e00625ebd60c60df8b1a3127767e1a63477be08b7c5c3dc650ffdff16ec2cb",
+    "ok": true
+  },
+  {
+    "domain": "cdn-website.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "jailatm.com",
+    "label": "held",
+    "sha256": "b332201ace86a03e4513db89ef167ba0e408eb2a8c0f15e6200ffe5a3da2b18b",
+    "ok": true
+  },
+  {
+    "domain": "fullhdfilmizlesene.now",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "dome9.com",
+    "label": "held",
+    "sha256": "825c4361d47f92ba7a99f0620c93fdc9f9f2caaee618bb5966a6db812440ca3f",
+    "ok": true
+  },
+  {
+    "domain": "ero-video.net",
+    "label": "held",
+    "sha256": "abc925a6dac876aa413b9ca964e11af6ad5b261a4ba0bc24cf208309d722aaf0",
+    "ok": true
+  },
+  {
+    "domain": "idos.cz",
+    "label": "held",
+    "sha256": "b2fa15a5d1b15eaf10fbf1d8b1083261c0f4c74e1e09448b97a2fd90995b226d",
+    "ok": true
+  },
+  {
+    "domain": "navercorp.com",
+    "label": "broken",
+    "sha256": "30ba14e7b2a936f0f20b139c678e14851778104155773291da3291e545e94abd",
+    "ok": true
+  },
+  {
+    "domain": "eagleeyenetworks.com",
+    "label": "held",
+    "sha256": "bc2bc212bae1043105b66cfb3d1ea0673a0ec31a1c643e9ea4e49520cfb16aaf",
+    "ok": true
+  },
+  {
+    "domain": "rozmusic.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "oar.net",
+    "label": "held",
+    "sha256": "85609f985c404427f19e8faadcdc0551bc75daad6c01a6ce726e2bafdedd8e6e",
+    "ok": true
+  },
+  {
+    "domain": "wavebrowserbase.com",
+    "label": "broken",
+    "sha256": "3da5d3e565b8bbdd91c69d711d179606609097c8770c9e29c8a6f8b60ce6e927",
+    "ok": true
+  },
+  {
+    "domain": "apuestasroyal.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "coinmastergame.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "buddy4study.com",
+    "label": "held",
+    "sha256": "9600f089eef0392be1212c27d49db5c3d58478c9891c50573d8f4848cd9d844f",
+    "ok": true
+  },
+  {
+    "domain": "thscore5.com",
+    "label": "held",
+    "sha256": "80e11f0ba4a98879d1041d03a82713217670afba4328ecf757ae01c8a1c5ff04",
+    "ok": true
+  },
+  {
+    "domain": "gimyai.tw",
+    "label": "held",
+    "sha256": "1b9b7856ef6ab58f0202cc49b5e3be46db33015f27ae885913ed6c601b715bba",
+    "ok": true
+  },
+  {
+    "domain": "xleche.com",
+    "label": "held",
+    "sha256": "60ee0c6c01f3dea66170c656cf0c8954be1014e9d9608a1b6fc517d48ee34ea8",
+    "ok": true
+  },
+  {
+    "domain": "braiiz.com",
+    "label": "held",
+    "sha256": "55510d29f833c28e506ca173a7d55dbef44ae21c972943c95508f1d32d8a6278",
+    "ok": true
+  },
+  {
+    "domain": "v6velugu.com",
+    "label": "held",
+    "sha256": "a736bf15420db9f18b548f4f617ebd79b0f462f9daf67d97c9cfae11e1033763",
+    "ok": true
+  },
+  {
+    "domain": "join4ra.com",
+    "label": "broken",
+    "sha256": "5628876cadf442350c970ef1b8954f84855b0687625bb3ac4159433b624b5455",
+    "ok": true
+  },
+  {
+    "domain": "steadfast.com.bd",
+    "label": "held",
+    "sha256": "8097921ebc912bad5485e4dd1b408d7625bc606c5b25dfb5c0154c642e90a5b4",
+    "ok": true
+  },
+  {
+    "domain": "eternalmangas.org",
+    "label": "held",
+    "sha256": "600ffb1297d1f1269b782dc104b5c3310612d169f5834dc39c85f321d92021a2",
+    "ok": true
+  },
+  {
+    "domain": "pagalnew.com",
+    "label": "held",
+    "sha256": "feedcfbc042e2e2908cf616abbe1cc72d4a203f1906819f8bc0002f14e95810c",
+    "ok": true
+  },
+  {
+    "domain": "tumadouga.jp",
+    "label": "held",
+    "sha256": "d478282c6ad2a2902bb7a28419c6607050dddb2b446204e2aa06e839756cbc5d",
+    "ok": true
+  },
+  {
+    "domain": "tujugada.com.ar",
+    "label": "held",
+    "sha256": "3c2995101a8bda24f805da4e809cf69e2f89000a4ff0e0dd739526bac1e70e41",
+    "ok": true
+  },
+  {
+    "domain": "mencretmesum.store",
+    "label": "held",
+    "sha256": "be868d5ac2519918623d539d6dfa416a583e76845c7306e2c4b39aef64a8e635",
+    "ok": true
+  },
+  {
+    "domain": "videq-l.ink",
+    "label": "held",
+    "sha256": "ff05597ad4c67100990b9302bc058d7158ef09aa1f4150cbfe54cf8d6f82386f",
+    "ok": true
+  },
+  {
+    "domain": "allnewyonoapps.com",
+    "label": "held",
+    "sha256": "7c4558caa28002004b3b8a41d00d126564b03e5fb7117e33efca140c1bebe88d",
+    "ok": true
+  },
+  {
+    "domain": "hela-lankaa-ads.com",
+    "label": "held",
+    "sha256": "d37c8329f3f53123b23a3696686738a17239ab2cb0282463f6a24b12833ae93a",
+    "ok": true
+  },
+  {
+    "domain": "tpservice.ai",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "bangkokpost.com",
+    "label": "broken",
+    "sha256": "aa0c72ae3bafd2261270430594618ae73a625d8843b7536a9d4714c1233c541b",
+    "ok": true
+  },
+  {
+    "domain": "flingo.tv",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "alcopa-auction.fr",
+    "label": "held",
+    "sha256": "d0dd76ecfaf2ca15f28bf86bbf34fb87154fc2865d3d463f91678f11fdf44a07",
+    "ok": true
+  },
+  {
+    "domain": "lamu.club",
+    "label": "held",
+    "sha256": "95f8a9eeac9fb413add8b6bf66e96213db174550ac124c5e4c9554ccb2afe3fe",
+    "ok": true
+  },
+  {
+    "domain": "ele.me",
+    "label": "broken",
+    "sha256": "9f3688cae4395fe90d07582587d3a9f61462025d537e8ade770a4aede1d89998",
+    "ok": true
+  },
+  {
+    "domain": "xoilacxbi.tv",
+    "label": "broken",
+    "sha256": "6e90b53540cdc4812d62cc5ae9d32bd73b2a6c9d56167eb9dd1efa258cefbbef",
+    "ok": true
+  },
+  {
+    "domain": "bancointer.com.br",
+    "label": "broken",
+    "sha256": "05838af85d5b8d17429a4acf895c90bafeb73da71a2dca0aff5934ae69198934",
+    "ok": true
+  },
+  {
+    "domain": "dailiupdeta.lifestyle",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "educationdz.com",
+    "label": "held",
+    "sha256": "7fef7dc32aa3f03c3835edc5516dc9818ee8af4bfc48e6c096547fb9c09fb309",
+    "ok": true
+  },
+  {
+    "domain": "filmywap.wtf",
+    "label": "held",
+    "sha256": "bcfa2e6c94f6936b997bdc9fe5463e9e3a28b08ca170108b42a9d90fd9cda535",
+    "ok": true
+  },
+  {
+    "domain": "sengkiper.site",
+    "label": "held",
+    "sha256": "5b269332647b0fd1bff7e4653ec9efcac83027219f4914a858ae541f36bb48f7",
+    "ok": true
+  },
+  {
+    "domain": "dokuwiki.org",
+    "label": "held",
+    "sha256": "ff529c83f827e4119dcbc1a5aab20247c5bc709291ffae3dac771e601c8adfdc",
+    "ok": true
+  },
+  {
+    "domain": "gtimg.cn",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bonappetit.com",
+    "label": "held",
+    "sha256": "9de0e9555e9f4205908df47380257329e7b6ec76d5dd84d0887334bcd8ff93b9",
+    "ok": true
+  },
+  {
+    "domain": "wikivoyage.org",
+    "label": "held",
+    "sha256": "c7532bb4c71cff974dd181560a1a7ecc0f340022a703040229f9340c368fd84e",
+    "ok": true
+  },
+  {
+    "domain": "intelligems.io",
+    "label": "held",
+    "sha256": "d5ab5d4118f2d0dff585fbd5534165c7b36a01c96950548dcb403fe9e7efee66",
+    "ok": true
+  },
+  {
+    "domain": "univision.com",
+    "label": "held",
+    "sha256": "c128cb14d7ebabcc9b7117312c1b8c6d95569c1df7c5fcdc38158c99dfc1960a",
+    "ok": true
+  },
+  {
+    "domain": "muckrack.com",
+    "label": "held",
+    "sha256": "1be3f96735be799a5e678c22ba6c5d0727ecd08a0ffd8c30d3a0ff9434b38a89",
+    "ok": true
+  },
+  {
+    "domain": "gu.se",
+    "label": "held",
+    "sha256": "89ac0c748d106e3284b5302c0e10dba7da20ecf3b886e6ce2272970ac0b7acf8",
+    "ok": true
+  },
+  {
+    "domain": "biahosted.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "felenasoft.com",
+    "label": "held",
+    "sha256": "6980bfcc788530b09dff94139b08718b55b858876f70755c7434c99f47d3e81d",
+    "ok": true
+  },
+  {
+    "domain": "on24.com",
+    "label": "broken",
+    "sha256": "4a50541b348c2e5e9d596871cd1371e4f9678609cd2992971e8b1dc1433492d9",
+    "ok": true
+  },
+  {
+    "domain": "9to5google.com",
+    "label": "held",
+    "sha256": "3b582ad08de4e473052327f530fc6fb62a499ea8fd6bdc7b5d4380989d93b854",
+    "ok": true
+  },
+  {
+    "domain": "unfpa.org",
+    "label": "broken",
+    "sha256": "7f7150590d6704b6d42a1d93772778217cca41e8bf8f7675bb4fb0c52b647b5e",
+    "ok": true
+  },
+  {
+    "domain": "cdnjs.com",
+    "label": "held",
+    "sha256": "279e89c10f9ce9bb173b8e6ce3f646240d6a194600be87b54dbe98db8dca9523",
+    "ok": true
+  },
+  {
+    "domain": "klarnacdn.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "uschamber.com",
+    "label": "held",
+    "sha256": "8909d3e5627f25195e2cf87db6f43bbf86b1adc0063032df5d3b6fe4c882a1a1",
+    "ok": true
+  },
+  {
+    "domain": "elavon.com",
+    "label": "held",
+    "sha256": "30765ba323e8131b9978d4adfffe3ea4f2c6dd833de62ad9487d88b4beabdcbb",
+    "ok": true
+  },
+  {
+    "domain": "slack-imgs.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ns0.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "anandtech.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "sptpub.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "renfe.com",
+    "label": "broken",
+    "sha256": "4de0964453f33078a97a15be5d66d3913e85687dda1229aa79aafdcd187634f6",
+    "ok": true
+  },
+  {
+    "domain": "anteldata.com.uy",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "21wiz.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bgr.com",
+    "label": "held",
+    "sha256": "331f7f87ae94dfe8d22ef6a71bc9ac6d9e68ba89b64fb73c9e0615f7d2ca3b86",
+    "ok": true
+  },
+  {
+    "domain": "pearltrees.com",
+    "label": "broken",
+    "sha256": "51f071509f4286533b658c8ae9b73b2a1068afef53bf756b3e06f0019cb2a117",
+    "ok": true
+  },
+  {
+    "domain": "forecast7.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "die.net",
+    "label": "held",
+    "sha256": "1333215e103557e4925bb81421de2c4b23f8f135bdd47afb3665472011894b41",
+    "ok": true
+  },
+  {
+    "domain": "juicyads.com",
+    "label": "held",
+    "sha256": "7cb360276f3d5339885d999db613a7133f7e6df1d467a87f1169efb6a7588fdc",
+    "ok": true
+  },
+  {
+    "domain": "geni.com",
+    "label": "held",
+    "sha256": "c1cb104354786a45392b9a088d591d0728a175e66398b8916d45a398d4fd2628",
+    "ok": true
+  },
+  {
+    "domain": "belwue.de",
+    "label": "held",
+    "sha256": "bbb0317442141c1212653084dc4e3fa7d77814580947315d63101a109867ed18",
+    "ok": true
+  },
+  {
+    "domain": "myqdevice.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "awsdns-56.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "yunxinfw.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "vueling.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "sgsnssdk.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "nuro.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "coles.com.au",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "lexology.com",
+    "label": "held",
+    "sha256": "b3befdf5f109042ff662efd0329f75340cbaede68581f3b46a0cc0eeebc30f3c",
+    "ok": true
+  },
+  {
+    "domain": "postimg.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "serverfault.com",
+    "label": "broken",
+    "sha256": "76ba767ee8b9991777d2093390158939a565308d783b1cfd657e0abee9089f75",
+    "ok": true
+  },
+  {
+    "domain": "resy.com",
+    "label": "broken",
+    "sha256": "4c90dd894d7140ae1a86d7d41b4fd9b8a9fe213c5a141b7c2e7b1eb9e51b7068",
+    "ok": true
+  },
+  {
+    "domain": "myavlive.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "yourtango.com",
+    "label": "held",
+    "sha256": "5771c13c4d71d4158ca30b5c5dfdb1a657e8fbabc40fb414d25e3fcb24e96b64",
+    "ok": true
+  },
+  {
+    "domain": "r-line.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "scopely.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ecbsn.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "tapsell.ir",
+    "label": "held",
+    "sha256": "c8832acc953c72e1848057420599e5fe2f54b3df455c5de2f8f1a67238509617",
+    "ok": true
+  },
+  {
+    "domain": "ngquotit.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "qidian.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "above.com",
+    "label": "held",
+    "sha256": "f45b8d8430c1530194a7afa73fcd0892ba2307539cfe5f3999f4fb4da0ceade1",
+    "ok": true
+  },
+  {
+    "domain": "bringatrailer.com",
+    "label": "broken",
+    "sha256": "6559c54bc6ae3a5e48499e259b262044b09b121acb2363b4ac9f05ca12cede24",
+    "ok": true
+  },
+  {
+    "domain": "threatseeker.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "laposte.net",
+    "label": "held",
+    "sha256": "29dad181a6def3b77a7228da9efac293a45a446f31aeb4ccd4ac64bc3dd683f5",
+    "ok": true
+  },
+  {
+    "domain": "websense.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "nutrition.org",
+    "label": "held",
+    "sha256": "516cd9e0d8e7855cc776993d0985ee8d7deae1eb886ec63c242a5cfd76ad3adb",
+    "ok": true
+  },
+  {
+    "domain": "bigrockservers.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "kpn.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "leroymerlin.com",
+    "label": "held",
+    "sha256": "eae1c938742316bd8268d6820a75b3182de2b38f78b61d5a7a796078766828db",
+    "ok": true
+  },
+  {
+    "domain": "edpuzzle.com",
+    "label": "held",
+    "sha256": "28d13d48ec2db7d5582c2414878a572e354fef42f51be239ef0778a8f03ce2de",
+    "ok": true
+  },
+  {
+    "domain": "p2bld.vip",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "klczy.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "weblate.org",
+    "label": "held",
+    "sha256": "8a539e5e2e445825491f82469c42b95603e8a37d8954dcdfd723a0bf3e56af1a",
+    "ok": true
+  },
+  {
+    "domain": "pfsense.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "allabout.co.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "tvinsider.com",
+    "label": "held",
+    "sha256": "4259b48d34a6bfd5957dcf2765c463fe4e787e1a9be30d7c97440aea61d6fe3d",
+    "ok": true
+  },
+  {
+    "domain": "awsdns-63.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "synxis.com",
+    "label": "broken",
+    "sha256": "96a628727145af8b26743d68618187546ee3bd813d82b99362640e7abcdb2dc9",
+    "ok": true
+  },
+  {
+    "domain": "forgejo.org",
+    "label": "broken",
+    "sha256": "74a7cb35e4920f197fcef1fef077eef85707dbea10cb31337dd9564b3bc71ccd",
+    "ok": true
+  },
+  {
+    "domain": "teads.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "mopo.de",
+    "label": "broken",
+    "sha256": "8a5f626ff3efca5388abe331847e9a34b6e6fd1b640cc1a505a09775a6b117a0",
+    "ok": true
+  },
+  {
+    "domain": "odn.ne.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "dnsenable.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "siteimproveanalytics.com",
+    "label": "held",
+    "sha256": "d3d573c5f2d0de9320ee27543c52898042c4f408c761b3735a049605ade8818b",
+    "ok": true
+  },
+  {
+    "domain": "hawkhost.com",
+    "label": "held",
+    "sha256": "1789120072da951c0cda359402a18600d60836a4ae91ba2dc589111ea8886825",
+    "ok": true
+  },
+  {
+    "domain": "nephobox.com",
+    "label": "held",
+    "sha256": "948622b03546ef92bded5afdf8fbc5527d521a2e79957139af4b75a3b9ebdd0b",
+    "ok": true
+  },
+  {
+    "domain": "360monitoring.io",
+    "label": "held",
+    "sha256": "43f471ff9959c7388f6df086b05a1252bd9c44942db539de627cad4317be1522",
+    "ok": true
+  },
+  {
+    "domain": "kwikdns.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "ntp-servers.net",
+    "label": "held",
+    "sha256": "ba6d3275f2b7f22fcc70e85f3f44fff9afe669421fa1c20ab29251d4ee65a3a1",
+    "ok": true
+  },
+  {
+    "domain": "sierraclub.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "geniussports.com",
+    "label": "held",
+    "sha256": "ecdc88cadeb8651310eeff900ecd0b310c44f3ac0bf3bb87e1afd339fc01b23f",
+    "ok": true
+  },
+  {
+    "domain": "thetvdb.com",
+    "label": "held",
+    "sha256": "9e7cc3b448d73ed40200531d6fc79584cb7e1ace07aa287e6acb5f19c343b83f",
+    "ok": true
+  },
+  {
+    "domain": "epicentrk.ua",
+    "label": "held",
+    "sha256": "92f3fa78b8adfb6990d21d07800d4d06da5ff7270abb7a85b06606cb71f83a28",
+    "ok": true
+  },
+  {
+    "domain": "qtlglb.info",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "univ-lyon1.fr",
+    "label": "broken",
+    "sha256": "d0f6a43a491894913b6412fbe689067e46b1329717a7e1deab530aa334455b82",
+    "ok": true
+  },
+  {
+    "domain": "lafeltrinelli.it",
+    "label": "held",
+    "sha256": "5959ae48a4b2107945318221789aaeabfa37bcfdd59b7f5e20bbbf24dcd916da",
+    "ok": true
+  },
+  {
+    "domain": "sandia.gov",
+    "label": "held",
+    "sha256": "96fc3574af7903f0a35d475e6578b3023620b6ea363a6090d0de479116b7f207",
+    "ok": true
+  },
+  {
+    "domain": "glancecdn.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "censys-scanner.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "ok.gov",
+    "label": "held",
+    "sha256": "8ffbeead422747efd0bb8219187289ccf9c2ec5bdeff9a56a340c5278ff25b5e",
+    "ok": true
+  },
+  {
+    "domain": "starott.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "ovgtm.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "my-force-user-content.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "sitelabweb.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "dtln.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "mamshirt.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "mantis-intelligence.com",
+    "label": "broken",
+    "sha256": "83ec4417e6d3e6d03ed026c31c620c10fedc8af5d017dd7357997250e34dbb7b",
+    "ok": true
+  },
+  {
+    "domain": "hypixel.net",
+    "label": "held",
+    "sha256": "9cc686ef1502c323b1c8f85412f67f34e01a8cf965261574f8c78e456a9b3a5c",
+    "ok": true
+  },
+  {
+    "domain": "canaryis.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "speakeasy.net",
+    "label": "held",
+    "sha256": "44a843f3564ad411aff5fa392c779125114ff0167b7b0ad152dbbd532187fc2b",
+    "ok": true
+  },
+  {
+    "domain": "nixos.org",
+    "label": "held",
+    "sha256": "46e73317154d0a8a16ccf5c1d41f08026fe87a67ee18ec6d41517127674908e6",
+    "ok": true
+  },
+  {
+    "domain": "bigrock.com",
+    "label": "broken",
+    "sha256": "274a2a2659aa2d15c85b104af3096c20a5ace82a0d0333a64e65ff7e5488dcc9",
+    "ok": true
+  },
+  {
+    "domain": "riverisland.com",
+    "label": "broken",
+    "sha256": "0abd9a812dde21ef56369e6d728852be1555766b11e17386fd852f13b090626f",
+    "ok": true
+  },
+  {
+    "domain": "securityeco.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "groamth.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "breuninger.com",
+    "label": "broken",
+    "sha256": "bf8e29c49b5512ff6d55622da09dfa4d49d96d16df4dac38cd7a2147b2a8e2fb",
+    "ok": true
+  },
+  {
+    "domain": "shein.com.mx",
+    "label": "broken",
+    "sha256": "953c6baa76e82ab7d360f879139d2517b4d35f09e7622c6b7116bfac84947d8e",
+    "ok": true
+  },
+  {
+    "domain": "fapcat.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "factset.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "citibankonline.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "tfbnw.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "quasarzone.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "havan.com.br",
+    "label": "held",
+    "sha256": "0b5453bc3a5f8a0694e95183e7018862fac059ec0078e83fb42c4b3c36be49de",
+    "ok": true
+  },
+  {
+    "domain": "8.in-addr.arpa",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "walkscore.com",
+    "label": "held",
+    "sha256": "e5473764574e30d732b3db3b715309a6e3ee0bd2cff659891fe0c577e9d2e507",
+    "ok": true
+  },
+  {
+    "domain": "sipri.org",
+    "label": "broken",
+    "sha256": "a276f33ceacb48a25bc5998d9853fad2fdb5ddd629bb4ad15dd941e958a61580",
+    "ok": true
+  },
+  {
+    "domain": "smartfit.com.br",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "broadcastify.com",
+    "label": "held",
+    "sha256": "dd61dedfc3bc1676ec40034466e573b06098b13a41bb3aaf6a0cbdabead722aa",
+    "ok": true
+  },
+  {
+    "domain": "zpath.vip",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "twincities.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ecal.com",
+    "label": "held",
+    "sha256": "79461bf50f7d5a8dfd1e9213d2b11b4367a0c66d59e4d91490678e3bc062d5b7",
+    "ok": true
+  },
+  {
+    "domain": "wiz.cn",
+    "label": "held",
+    "sha256": "de652dd9ec266f564dd2efc3959b638f4516a25ed85b42126efbe36aa1581a0e",
+    "ok": true
+  },
+  {
+    "domain": "slido.com",
+    "label": "held",
+    "sha256": "d98f26fe9609515701509f5533fa3b5f35170567a7a414796809116d4f02bfec",
+    "ok": true
+  },
+  {
+    "domain": "uhaul.net",
+    "label": "held",
+    "sha256": "bd8ed2771df9a7ce99a1a387a30794529558b6f02f9a9a5c6cf6c93ec7c67577",
+    "ok": true
+  },
+  {
+    "domain": "arity.com",
+    "label": "broken",
+    "sha256": "c8b91f83efffcf8c353d0ed0b5679face753f59b47880c52ad5d8283f9f5b0de",
+    "ok": true
+  },
+  {
+    "domain": "www.gov.ie",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "algogear.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "trouw.nl",
+    "label": "held",
+    "sha256": "8f050edca24d49ef482be166f4ea03862c2f7e47c2412d2389f504f2c5473f3a",
+    "ok": true
+  },
+  {
+    "domain": "flsenate.gov",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "dpd.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "sportsyou.com",
+    "label": "held",
+    "sha256": "75e2ff8cdd942cd6cc1e17f8a18814f83126ee8fcb45c4c91089149eb24476dc",
+    "ok": true
+  },
+  {
+    "domain": "irfanview.com",
+    "label": "held",
+    "sha256": "16b33fa5f31dd703ef8cac7732e63b788fc554b88a7b7d8f93b49fc0298d280c",
+    "ok": true
+  },
+  {
+    "domain": "page-stats.de",
+    "label": "held",
+    "sha256": "eeba6e27624a4b8c4f1067d6ae9613d30145d68e62b093dda7834b8f7781a340",
+    "ok": true
+  },
+  {
+    "domain": "gocarrot.com",
+    "label": "held",
+    "sha256": "a3dcf80cb1c1db5c982192ef3a1a4aa4fe7d3a22b2f1359a70af83a7574bd06f",
+    "ok": true
+  },
+  {
+    "domain": "valuehost.ru",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "rogerebert.com",
+    "label": "held",
+    "sha256": "62a739e0b7472184c28d9aefdd6b5b9e83dbbb89f98265b8c7f8ddddead2d47f",
+    "ok": true
+  },
+  {
+    "domain": "aloyoga.com",
+    "label": "held",
+    "sha256": "0a66d963636d1626787a14aab67adcf23bcfcef4b1b35e453452ffd11b278709",
+    "ok": true
+  },
+  {
+    "domain": "notube.net",
+    "label": "held",
+    "sha256": "0a76932c9826fb685c49bb46860ba6b43dfb7f8a7ed2cf0e6507c4f7c0829678",
+    "ok": true
+  },
+  {
+    "domain": "livetv.sx",
+    "label": "broken",
+    "sha256": "5de794ef70f100e1ac889eb19ea7881c22b04c28fb8c6f7a625a10719218a014",
+    "ok": true
+  },
+  {
+    "domain": "issn.org",
+    "label": "broken",
+    "sha256": "c829630795e62edd95625aa6fe43d44bc973f2dc22f814bfed0783c5ef1841b0",
+    "ok": true
+  },
+  {
+    "domain": "oscaro.com",
+    "label": "broken",
+    "sha256": "d85e8b0c363bd36a87e2d33215fced0f9712d8adf68824cf268562413597c5eb",
+    "ok": true
+  },
+  {
+    "domain": "britbox.com",
+    "label": "held",
+    "sha256": "8658a4d246c1df9425ad65f2a7cfadc0c3d501c63f0b3d1614364b58447d04da",
+    "ok": true
+  },
+  {
+    "domain": "dengeki.com",
+    "label": "held",
+    "sha256": "5a231fd068f20da2db627a40ca2f3866f694c68b21a83476afbf8e0f3cbac933",
+    "ok": true
+  },
+  {
+    "domain": "blogfa.com",
+    "label": "held",
+    "sha256": "10e3c4bfc0bcfb11e3f3372245a80d9cfe668edb935a83c0960e3ad5e18ac49d",
+    "ok": true
+  },
+  {
+    "domain": "jovempan.com.br",
+    "label": "held",
+    "sha256": "af3aa054dbb8318f77795db6ba3cd5d02c039d494b965f9f5bc9f22870821f00",
+    "ok": true
+  },
+  {
+    "domain": "weber.com",
+    "label": "broken",
+    "sha256": "09c0571cf984d45bb43e8bb2f489a7ba9236cfc5d65306fb8fca363a8d8bd7e0",
+    "ok": true
+  },
+  {
+    "domain": "havegreatday.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "bocongan.gov.vn",
+    "label": "held",
+    "sha256": "6f580899c8f4101ff966b408ea46270f975a1dbde92251e50a12441f89f6487c",
+    "ok": true
+  },
+  {
+    "domain": "comingsoon.it",
+    "label": "broken",
+    "sha256": "b916c463944a998ca443d034e444bd9e3dc6a07bcddbb94901d35cfb33e1745e",
+    "ok": true
+  },
+  {
+    "domain": "matbao.com",
+    "label": "broken",
+    "sha256": "a1d462b31f37d708f5532affaf05553cfae8ff1c145ab19ca4b312d67d3f3f03",
+    "ok": true
+  },
+  {
+    "domain": "devtodev.com",
+    "label": "held",
+    "sha256": "1bd3b5afb33deb9feb42fece95c926c4b655632b8b11061167d5a77623819324",
+    "ok": true
+  },
+  {
+    "domain": "kantar.com",
+    "label": "held",
+    "sha256": "f1c2f84e3161e89fea400b71734718f4b6b9634b2ea4727b3cb887cbcc73f830",
+    "ok": true
+  },
+  {
+    "domain": "redspell.ru",
+    "label": "held",
+    "sha256": "548f8ef98dfaa295e32c33bb8b1698c078b6494517c5fb6ee4518fdeeba28245",
+    "ok": true
+  },
+  {
+    "domain": "umaine.edu",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "playnow.com",
+    "label": "held",
+    "sha256": "451f15016dc5c8e5a5366fb8d9c42c6fcdc070a368f5e98b880c403a061555a6",
+    "ok": true
+  },
+  {
+    "domain": "adster.tech",
+    "label": "held",
+    "sha256": "15b42ab13dd41db7e4e5efad4fb730c6536f59ac71c5739819e3a1622b083ec4",
+    "ok": true
+  },
+  {
+    "domain": "cgg.gov.in",
+    "label": "held",
+    "sha256": "5e3d02530b88dfccaea0fd36ca2ba54cf590b39ce45efa7c21ace81abbac9b99",
+    "ok": true
+  },
+  {
+    "domain": "dropcatch.ai",
+    "label": "held",
+    "sha256": "a0b7ef3e33972d2540b4e2fb61a28662e8312125421f15e17c7ff1d2ecf9289d",
+    "ok": true
+  },
+  {
+    "domain": "worldpay.com",
+    "label": "broken",
+    "sha256": "4fc42a49391a76f9b988e43e01da21dce383dd08681aecd054f937ab40ac8d51",
+    "ok": true
+  },
+  {
+    "domain": "dataprev.gov.br",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "square-enix-games.com",
+    "label": "held",
+    "sha256": "fe94dd2e726c6163faa878cccc5fbc85270d4ac03b0a25111be1b1e03c75b483",
+    "ok": true
+  },
+  {
+    "domain": "gopayapi.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_HTTP_RESPONSE_CODE_FAILURE"
+  },
+  {
+    "domain": "servicewechat.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_HTTP_RESPONSE_CODE_FAILURE"
+  },
+  {
+    "domain": "shmu.sk",
+    "label": "held",
+    "sha256": "7e336f52a237bd892e8a87adb48abfbb4fa3ee03ae454ba91d171d0dfbea52ca",
+    "ok": true
+  },
+  {
+    "domain": "nccu.edu.tw",
+    "label": "held",
+    "sha256": "9b26d98ce1627d8cc9ca6615251ccbeccf7e851b4261c6c8d62f0a194feb4283",
+    "ok": true
+  },
+  {
+    "domain": "telekom-domains.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "vendora.gr",
+    "label": "broken",
+    "sha256": "f96357e793cdef1022981a53405f2f5fcf45042ec746f3c76f1fcc1d43687d25",
+    "ok": true
+  },
+  {
+    "domain": "fide.com",
+    "label": "held",
+    "sha256": "dd77ea818701ea0b8c321d4c2c1fea456aa89a8e52317e13755ddd85d7883a55",
+    "ok": true
+  },
+  {
+    "domain": "hmetro.com.my",
+    "label": "held",
+    "sha256": "da794df2d69e892eb634e374fa87f4d702a9e758d0cd520aa4a3abbcc46ed490",
+    "ok": true
+  },
+  {
+    "domain": "longisland.com",
+    "label": "held",
+    "sha256": "008adf91b1a67d1ba285e90c277342d11126b38c69b7e0e4822bcf8b972b1a96",
+    "ok": true
+  },
+  {
+    "domain": "vintedgo.com",
+    "label": "held",
+    "sha256": "e703011e1e11fe0f936d6806fa87eecaa38ba6b73c20163a21d75aba55792822",
+    "ok": true
+  },
+  {
+    "domain": "sgaas.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "copel.com",
+    "label": "broken",
+    "sha256": "e728a434d4a74a4f7db71e5c748cb0658720bd33a2fb8e6014c34eff95be8e84",
+    "ok": true
+  },
+  {
+    "domain": "alexdjane.am",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "showcamrips.com",
+    "label": "broken",
+    "sha256": "8bb2839e41dc00dfa102b8cb94da20ffe2dadb060eee1101179cc0b6af83ff50",
+    "ok": true
+  },
+  {
+    "domain": "ocmtag.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "extra.cz",
+    "label": "held",
+    "sha256": "5b4350357f9d15e649ca4e90acddf181214c513210a5a4e616e740d47cd4500e",
+    "ok": true
+  },
+  {
+    "domain": "ocnk.net",
+    "label": "held",
+    "sha256": "408c783d026cab02ba16bf0a13b32601366ca79e93726927669a8c532c531f51",
+    "ok": true
+  },
+  {
+    "domain": "orizzontescuola.it",
+    "label": "broken",
+    "sha256": "471695e16faf706ba149cc2cf869d6a41f74f0a1a5984fb8b0443729a0d53d2c",
+    "ok": true
+  },
+  {
+    "domain": "terrikon.com",
+    "label": "held",
+    "sha256": "055f65e7354743c56cc91a786a1c8ce802a79be4a77948151caa65f55ae15cbe",
+    "ok": true
+  },
+  {
+    "domain": "redcrossblood.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "nkn.in",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "iowl.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "adxyield.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "dfat.gov.au",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "mathsisfun.com",
+    "label": "held",
+    "sha256": "e8f26f6611e45c417f0478790f494b58ed84371d5c3d32f63b383b9acb9d6dfb",
+    "ok": true
+  },
+  {
+    "domain": "jigsy.com",
+    "label": "held",
+    "sha256": "bd11576400bf29504423f7bd20663a07a051e73b16189924736bc6579dd70dfd",
+    "ok": true
+  },
+  {
+    "domain": "raterhub.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "bibliaon.com",
+    "label": "held",
+    "sha256": "a4110eeb76021c9fcb667a194ed424a9bf35c593b7cb8762d1e7b19048608c87",
+    "ok": true
+  },
+  {
+    "domain": "asml.com",
+    "label": "broken",
+    "sha256": "4b039c339de0343cefcc08ddc9a94923cb880d06ced9f13628c1cac450abb883",
+    "ok": true
+  },
+  {
+    "domain": "automizely-analytics.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "bilendi.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "estpak.ee",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "maison-travaux.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "vendhq.com",
+    "label": "held",
+    "sha256": "4a505d80f279528ff1bcc8a5581deee1e9c70f81246c3e0b8129052245195aaf",
+    "ok": true
+  },
+  {
+    "domain": "drmax.ro",
+    "label": "broken",
+    "sha256": "699db384f1366c3284a8a4261621fc48afee45bb8f25703f3b764788c35b98cd",
+    "ok": true
+  },
+  {
+    "domain": "matsuyafoods.co.jp",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "bioone.org",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bitcoinmagazine.com",
+    "label": "held",
+    "sha256": "4c5dd4198053a16b28454f0c1ce777ff292812f0222b8dafe10a282e2f2d9c70",
+    "ok": true
+  },
+  {
+    "domain": "xbiz.ne.jp",
+    "label": "held",
+    "sha256": "de0f2d625a12d2dbbc26fe2dd1346a2a9a3b156e502620684292e3d9dbe0a47a",
+    "ok": true
+  },
+  {
+    "domain": "146.in-addr.arpa",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "zcu.cz",
+    "label": "held",
+    "sha256": "448903e6f7c91e81b800491d0ea73a9e838e049e95a432aff2976a6068a86d82",
+    "ok": true
+  },
+  {
+    "domain": "neon.build",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "8m.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "navigate: net::ERR_CONNECTION_RESET"
+  },
+  {
+    "domain": "sueddeutsche.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "focus.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "stern.de",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "spiegel.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "liberation.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "leparisien.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "france24.com",
+    "label": "held",
+    "sha256": "fb288d36366735b4a05eb5658c59bcd33701bc25fc4215181282750d99a5083b",
+    "ok": true
+  },
+  {
+    "domain": "lastampa.it",
+    "label": "broken",
+    "sha256": "d65dd84ac8d7e8249609c3f0b6aeeada80bcd5532dca403895ba494361e74f54",
+    "ok": true
+  },
+  {
+    "domain": "ilsole24ore.com",
+    "label": "broken",
+    "sha256": "225a1e9bf727df95f70441cc7e75c400dc28dbf0336c8c91111d3076cbe3e721",
+    "ok": true
+  },
+  {
+    "domain": "gazzetta.it",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ansa.it",
+    "label": "broken",
+    "sha256": "e4fa8056e4412b47170c5dc86cd100a6103564d34ea578e33c1a6ff96188010f",
+    "ok": true
+  },
+  {
+    "domain": "elconfidencial.com",
+    "label": "held",
+    "sha256": "9d7f558c87bd757fe8846e3a658fb225f2defc773e9933c73fe33a844770242c",
+    "ok": true
+  },
+  {
+    "domain": "lavanguardia.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "abc.es",
+    "label": "held",
+    "sha256": "1ae05294eea90b9e0c730dc56acaa8727ac01f6b092b02f92d3ac68706395bf6",
+    "ok": true
+  },
+  {
+    "domain": "20minutos.es",
+    "label": "held",
+    "sha256": "861e62e7f461143b31a29a1b65f34ea0c97ea099bed98a3459cdbf155044dc5a",
+    "ok": true
+  },
+  {
+    "domain": "metro.co.uk",
+    "label": "held",
+    "sha256": "05921f6d157e03534574cd3f37c9557d0a7075a2055cd329147d7dfd2f7338ca",
+    "ok": true
+  },
+  {
+    "domain": "mirror.co.uk",
+    "label": "held",
+    "sha256": "3f82c5d5c0554c144de750c9d4f5912ee988cfb4ac6face8045dbb7371deeea3",
+    "ok": true
+  },
+  {
+    "domain": "thesun.co.uk",
+    "label": "broken",
+    "sha256": "ad738a9b3279d62ffdb17fc21727ebbba089b134a06f805fadc0d3b214cad27e",
+    "ok": true
+  },
+  {
+    "domain": "standard.co.uk",
+    "label": "held",
+    "sha256": "6adb2949d531a4e6ffdc2fba3292db10af69535273b98d17946ce9011499a46f",
+    "ok": true
+  },
+  {
+    "domain": "skynews.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ft.com",
+    "label": "held",
+    "sha256": "426aa83d3f3402ffc6bb6545d60eab9be2c6bf5fbef83a69e779cac17b3110ca",
+    "ok": true
+  },
+  {
+    "domain": "economist.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "reuters.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "booking.com",
+    "label": "broken",
+    "sha256": "22f08eacf9197bcd3dbdee078330022f34ad85d5d6016069bdb91bae0510cbef",
+    "ok": true
+  },
+  {
+    "domain": "tripadvisor.co.uk",
+    "label": "broken",
+    "sha256": "bb95989e4be5c3f327bcec178b36bd4da6971830d2227aea80f0d6efdebd2907",
+    "ok": true
+  },
+  {
+    "domain": "skyscanner.net",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "ryanair.com",
+    "label": "broken",
+    "sha256": "d51fb82521cb12cdd68884b28f680f0dd230365e6433c24150f1d6b5fcc15df0",
+    "ok": true
+  },
+  {
+    "domain": "easyjet.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "lufthansa.com",
+    "label": "broken",
+    "sha256": "b1774438dbba17205ff958bdc729e6aaeb8fb91868561434287823f1f2135eff",
+    "ok": true
+  },
+  {
+    "domain": "airfrance.fr",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "kayak.co.uk",
+    "label": "broken",
+    "sha256": "a00ea935b17e2245b066dc6c6c9dc80ff65a18565423821c0183c6aa0869face",
+    "ok": true
+  },
+  {
+    "domain": "argos.co.uk",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "johnlewis.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "Page.navigate timed out"
+  },
+  {
+    "domain": "tesco.com",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "currys.co.uk",
+    "label": "broken",
+    "sha256": "3144a2ee449b9982ceb6fd8395f415c8a6a88a1f03a4e165351f6fc153d1d155",
+    "ok": true
+  },
+  {
+    "domain": "mediamarkt.de",
+    "label": "broken",
+    "sha256": "3621039c1b2f3363e149995f8e522cb805db15333b52712334911520a1a09789",
+    "ok": true
+  },
+  {
+    "domain": "aboutyou.de",
+    "label": "held",
+    "sha256": "c6da66c9bf23c9983aad0894e8e7820e326095d384a79721c7d9c530376a532e",
+    "ok": true
+  },
+  {
+    "domain": "vinted.fr",
+    "label": "broken",
+    "sha256": "f4c2cab16ad8ef57e985e65b5265f29d64a02688ee0228f7400fa1cab744155b",
+    "ok": true
+  },
+  {
+    "domain": "allegro.pl",
+    "label": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "bbc.co.uk",
+    "label": "held",
+    "sha256": "f4491eacb2e88fcf348f7c27ce31056ec89bf77dffa18c621def04e004686535",
+    "ok": true
+  }
+]

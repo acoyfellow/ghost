@@ -1,0 +1,4 @@
+{
+  "workers-ai-vision": "@cf/meta/llama-4-scout-17b-16e-instruct",
+  "ghost-local": "HuggingFaceTB/SmolVLM-256M-Instruct"
+}

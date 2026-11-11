@@ -1,0 +1,18 @@
+{
+  "name": "ghost",
+  "version": "0.0.1",
+  "description": "Does a vision model on your own GPU beat the DOM at spotting what blocks a click? Disproven.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "score": "bash eval/score.sh",
+    "test": "bun test ./eval",
+    "build": "bun site/build.ts",
+    "deploy": "bun site/build.ts && cd site && wrangler deploy",
+    "gate": "bash proof/gate.sh"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

@@ -1,0 +1,9 @@
+{
+ "candidate": "ghost-local",
+ "baselines": ["dom-rule", "workers-ai-vision"],
+ "rawDir": "eval/raw",
+ "split": "holdout",
+ "metric": "f1",
+ "margin": 0.02,
+ "polish": ["docs", "client/src", "alchemy.run.ts"]
+}
