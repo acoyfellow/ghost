@@ -1,22 +1,23 @@
 {
   "split": "holdout",
-  "candidate": "ghost-local",
+  "candidate": "ghost-compiled",
   "baselines": [
     "dom-rule",
-    "workers-ai-vision"
+    "workers-ai-vision",
+    "ghost-local"
   ],
   "margin": 0.02,
   "systems": [
     {
-      "system": "ghost-local",
-      "runs": 3,
-      "worstF1": 0.3485,
-      "bestF1": 0.3485,
-      "precision": 0.3538,
-      "recall": 0.3433,
-      "nulls": 369,
-      "msP50": 301,
-      "msP95": 413
+      "system": "ghost-compiled",
+      "runs": 1,
+      "worstF1": 0.8833,
+      "bestF1": 0.8833,
+      "precision": 1,
+      "recall": 0.791,
+      "nulls": 0,
+      "msP50": 0,
+      "msP95": 0.001
     },
     {
       "system": "dom-rule",
@@ -39,9 +40,20 @@
       "nulls": 0,
       "msP50": 862,
       "msP95": 1581
+    },
+    {
+      "system": "ghost-local",
+      "runs": 3,
+      "worstF1": 0.3485,
+      "bestF1": 0.3485,
+      "precision": 0.3538,
+      "recall": 0.3433,
+      "nulls": 369,
+      "msP50": 301,
+      "msP95": 413
     }
   ],
   "verdict": "disproven",
-  "candidateWorstF1": 0.3485,
+  "candidateWorstF1": 0.8833,
   "bestBaselineF1": 0.8833
 }

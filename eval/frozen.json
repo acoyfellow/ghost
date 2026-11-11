@@ -7,12 +7,24 @@
   "eval/frames.index.json": "17cfcd1da9f60a96593577620c400263ebb1889aa5011d221487dfcf80ab41cf",
   "eval/baseline-dom.ts": "7dbcbcf17f1aaac374d138830d42474cb9ae5afeeb01b34481aaebd138872d70",
   "eval/score.ts": "d2013f0f102c10089b08b8d7c59a018f1ed972e632ab2f282f689f18b94c3c9c",
-  "fit/spec.json": "811b01db8a20311ce12f8cd79af6524c7e7d6cff51ef41a341b19f7793205ac2"
+  "fit/spec.json": "afdf0619d2a1c94efc0d4b6603a5bdeaaaa8f3bf2ccc2663722b817271a53aff",
+  "eval/compiled/rule.ts": "5fe3654a4631a935bfdac4411787d4bbc17a0e366e38049372e9d08308dd5811",
+  "eval/compiled/TASK.md": "a41ed9cc2cd6fc8c9884f948f7790ddfa6ba5f879c88dd1efe01955c5303e466",
+  "eval/compiled/sandbox.manifest.json": "26be2430cb6abed26fc07563c76db259894647fe1ac9b6b4888b0d08cf650efb",
+  "eval/compiled/tool-calls.jsonl": "1811dc928ea822f81dd9ebd08bbff629603983aa422c0ccce21347b43aebd982"
  },
  "changes": [
   {
    "at": "2026-11-11T20:22:08.395Z",
    "reason": "initial freeze after collection: 285 ok frames (95 broken, 190 held), split ghost-split-v1 sha256 30% dev"
+  },
+  {
+   "at": "2026-11-11T21:37:25.035Z",
+   "reason": "freeze ghost-compiled rule.ts (Fable 5.2, 1 dev attempt, dev F1 0.9818) before its holdout run"
+  },
+  {
+   "at": "2026-11-11T21:38:09.661Z",
+   "reason": "refreeze: fit/spec.json candidate renamed to ghost-compiled after its holdout run; rule.ts hash unchanged (5fe3654a)"
   }
  ]
 }

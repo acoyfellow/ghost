@@ -10,6 +10,10 @@ export const frozenFiles = [
   "eval/baseline-dom.ts",
   "eval/score.ts",
   "fit/spec.json",
+  "eval/compiled/rule.ts",
+  "eval/compiled/TASK.md",
+  "eval/compiled/sandbox.manifest.json",
+  "eval/compiled/tool-calls.jsonl",
 ];
 
 const frozenPath = "eval/frozen.json";

@@ -15,12 +15,13 @@ const frozen: unknown = JSON.parse(readFileSync("eval/frozen.json", "utf8"));
 const index: unknown = JSON.parse(readFileSync("eval/frames.index.json", "utf8"));
 const okFrames = Array.isArray(index) ? index.filter((row) => typeof row === "object" && row !== null && "ok" in row && row.ok === true).length : 0;
 
-const shownF1 = (score: SystemScore) => (score.system === "ghost-local" ? score.worstF1 : score.bestF1);
+const shownF1 = (score: SystemScore) => (score.system === "ghost-compiled" ? score.worstF1 : score.bestF1);
 
 const describe: Record<string, string> = {
   "dom-rule": "One CDP call: does elementFromPoint at the target hit the target? Free.",
   "workers-ai-vision": "Workers AI vision model on the host. One screenshot, one yes/no question.",
-  "ghost-local": "SmolVLM-256M on WebGPU in the browser. Same screenshot, same question. Scored on its worst of 3 runs.",
+  "ghost-local": "SmolVLM-256M on WebGPU in the browser. Same screenshot, same question. Worst of 3 runs.",
+  "ghost-compiled": "Candidate. Fable 5.2 read only the 92 dev frames and wrote a deterministic rule. No model runs at decision time.",
 };
 
 const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -36,8 +37,8 @@ const repo = ["https:", "", "github.com", "acoyfellow", "ghost"].join("/");
 
 const headline =
   receipt.verdict === "proven"
-    ? "A vision model on your own GPU beat the DOM at spotting what blocks a click."
-    : "The DOM beat two vision models at spotting what blocks a click.";
+    ? "A rule written by a model beat the hand-written rule and two vision models at spotting what blocks a click."
+    : "One CDP call beat two vision models at spotting what blocks a click. A model asked to write a better rule wrote the same one.";
 
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -52,9 +53,9 @@ const html = `<!doctype html>
 <table><thead><tr><th>System</th><th>F1</th><th>Precision</th><th>Recall</th><th>p50</th></tr></thead><tbody>
 ${rows}
 </tbody></table>
-<p>Rule: ghost-local needed F1 at least ${receipt.bestBaselineF1} + ${receipt.margin} on the frozen holdout split. It scored ${receipt.candidateWorstF1}.</p>
+<p>Rule: ghost-compiled needed F1 at least ${receipt.bestBaselineF1} + ${receipt.margin} on the frozen holdout split. It scored ${receipt.candidateWorstF1}.</p>
 <h2>What this means</h2>
-<p>If your agent drives the browser over CDP, ask the page before you ask a model. The answer is one call and costs nothing. Send pixels to a model only for what the DOM cannot see: canvas, images, video.</p>
+<p>Do not ask a model about every frame. Ask it once to write the mechanism. Here the model looked at the data and wrote the same check a person would: did the click land on the target? It made the same call on all 193 holdout pages. The 14 blocked clicks that both rules miss leave no trace in the recorded DOM facts, so a better rule needs better facts, not a bigger model.</p>
 <h2>Proof</h2>
 <p>Receipt: <a href="/proof.json">/proof.json</a>. Frozen hashes: ${escape(JSON.stringify(typeof frozen === "object" && frozen !== null && "hashes" in frozen ? Object.keys(frozen.hashes).length : 0))} files. Code, raw runs and the gate: <a href="${repo}">${repo}</a>.</p>
 <p><small>A Customer 0 spike. Built on Browser Run, Workers AI, Workers and Transformers.js.</small></p>

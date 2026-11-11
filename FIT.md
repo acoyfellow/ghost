@@ -36,11 +36,14 @@ From `fit/spec.json`, holdout split, F1 on blocked frames. The candidate is scor
 | dom-rule | 0.8833 |
 | workers-ai-vision | 0.6615 |
 | ghost-local | 0.3485 |
+| ghost-compiled (candidate) | 0.8833 |
 
 ## Decision
 
 Live View already covers watching and taking over a session, so the Gemini "ghost browser" streaming stack is not needed. The remaining question is triage. Test it against the DOM rule before any build.
 
-ghost-local scored 0.3485 on its worst of 3 runs (all 3 identical, greedy decoding). The DOM rule scored 0.8833 for free. Stop.
+ghost-local scored 0.3485 on its worst of 3 runs (all 3 identical, greedy decoding). The DOM rule scored 0.8833 for free.
+
+Second candidate, ghost-compiled: Fable 5.2 wrote a deterministic rule from the 92 dev frames only (1 of 5 dev attempts). It agreed with dom-rule on all 193 holdout frames: 0.8833, not 0.8833 + 0.02. Stop.
 
 Decision: stop

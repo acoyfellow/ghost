@@ -24,6 +24,18 @@ git checkout -- eval/receipt.json
 verdict=$(bun -e 'console.log(require("./eval/receipt.json").verdict)')
 case "$verdict" in proven|disproven) echo "verdict: $verdict" ;; *) fail "verdict is $verdict" ;; esac
 
+echo "== compiled"
+grep -q '"eval/compiled/rule.ts"' eval/frozen.json || fail "compiled rule is not frozen"
+if grep -E '\.real|/Users/|holdout|eval/raw' eval/compiled/tool-calls.jsonl; then fail "compile session touched data outside the dev sandbox"; fi
+[ "$(bun -e 'console.log(require("./eval/compiled/sandbox.manifest.json").split)')" = "dev" ] || fail "sandbox was not dev only"
+bun -e '
+const m=require("./eval/compiled/sandbox.manifest.json");
+const h=require("./eval/raw/ghost-compiled.holdout.1.json");
+const dev=new Set(m.ids);
+const leak=h.rows.filter(r=>dev.has(r.id));
+if(leak.length){console.error("holdout ids in sandbox:",leak.length);process.exit(1)}
+' || fail "dev and holdout overlap"
+
 echo "== docs"
 for section in "## Why" "## What it does" "## Quick start" "## Proof" "## Limits"; do
   grep -q "^$section" README.md || fail "README missing $section"
