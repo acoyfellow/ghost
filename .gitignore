@@ -9,3 +9,4 @@ probes/p2/frames/
 .wrangler/
 *.jpg
 site/public/
+.guardrail/
