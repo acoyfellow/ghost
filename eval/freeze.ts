@@ -14,6 +14,7 @@ export const frozenFiles = [
   "eval/compiled/TASK.md",
   "eval/compiled/sandbox.manifest.json",
   "eval/compiled/tool-calls.jsonl",
+  "gym/RULE.md",
 ];
 
 const frozenPath = "eval/frozen.json";

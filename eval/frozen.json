@@ -11,7 +11,8 @@
   "eval/compiled/rule.ts": "5fe3654a4631a935bfdac4411787d4bbc17a0e366e38049372e9d08308dd5811",
   "eval/compiled/TASK.md": "a41ed9cc2cd6fc8c9884f948f7790ddfa6ba5f879c88dd1efe01955c5303e466",
   "eval/compiled/sandbox.manifest.json": "26be2430cb6abed26fc07563c76db259894647fe1ac9b6b4888b0d08cf650efb",
-  "eval/compiled/tool-calls.jsonl": "1811dc928ea822f81dd9ebd08bbff629603983aa422c0ccce21347b43aebd982"
+  "eval/compiled/tool-calls.jsonl": "1811dc928ea822f81dd9ebd08bbff629603983aa422c0ccce21347b43aebd982",
+  "gym/RULE.md": "e0ff057229175f3a36c09013c858fc5e1ec6306097216dbc223bfc7f600412a4"
  },
  "changes": [
   {
@@ -25,6 +26,10 @@
   {
    "at": "2026-11-11T21:38:09.661Z",
    "reason": "refreeze: fit/spec.json candidate renamed to ghost-compiled after its holdout run; rule.ts hash unchanged (5fe3654a)"
+  },
+  {
+   "at": "2026-11-12T18:24:53.510Z",
+   "reason": "L0: freeze gym/RULE.md v2 after adversarial review, before any gym page exists"
   }
  ]
 }
