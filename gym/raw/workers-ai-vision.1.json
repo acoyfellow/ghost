@@ -1,0 +1,3006 @@
+{
+ "system": "workers-ai-vision",
+ "run": 1,
+ "rows": [
+  {
+   "id": "F1-0",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-1",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-2",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-3",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-4",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-5",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-6",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-7",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-8",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-9",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-10",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-11",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-12",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-13",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-14",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-15",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-16",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-17",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-18",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-19",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-20",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-21",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-22",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-23",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-24",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-25",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-26",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-27",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-28",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-29",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-30",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-31",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-32",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-33",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-34",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-35",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-36",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-37",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-38",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-39",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-40",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-41",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-42",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-43",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-44",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-45",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-46",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-47",
+   "family": "F1",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F1-48",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F1-49",
+   "family": "F1",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F2-0",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-1",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-2",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-3",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-4",
+   "family": "F2",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F2-5",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-6",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-7",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-8",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-9",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-10",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-11",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-12",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-13",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-14",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-15",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-16",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-17",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-18",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-19",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-20",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-21",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-22",
+   "family": "F2",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F2-23",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-24",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-25",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-26",
+   "family": "F2",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F2-27",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-28",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-29",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-30",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-31",
+   "family": "F2",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F2-32",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-33",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-34",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-35",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-36",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-37",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-38",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-39",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-40",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-41",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-42",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-43",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-44",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-45",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-46",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-47",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F2-48",
+   "family": "F2",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F2-49",
+   "family": "F2",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-0",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-1",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-2",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-3",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-4",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-5",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-6",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-7",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-8",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-9",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-10",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-11",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-12",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-13",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-14",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-15",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-16",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-17",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-18",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-19",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-20",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-21",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-22",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-23",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-24",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-25",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-26",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-27",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-28",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-29",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-30",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-31",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-32",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-33",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-34",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-35",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-36",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-37",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-38",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-39",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-40",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-41",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-42",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-43",
+   "family": "F3",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F3-44",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-45",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-46",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F3-47",
+   "family": "F3",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F3-48",
+   "family": "F3",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F3-49",
+   "family": "F3",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-0",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-1",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-2",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-3",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-4",
+   "family": "F4",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-5",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-6",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-7",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-8",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-9",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-10",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-11",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-12",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-13",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-14",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-15",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-16",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-17",
+   "family": "F4",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-18",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-19",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-20",
+   "family": "F4",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-21",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-22",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-23",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-24",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-25",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-26",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-27",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-28",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-29",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-30",
+   "family": "F4",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-31",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-32",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-33",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-34",
+   "family": "F4",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F4-35",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-36",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-37",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-38",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-39",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-40",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-41",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-42",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-43",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-44",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-45",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F4-46",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-47",
+   "family": "F4",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F4-48",
+   "family": "F4",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F4-49",
+   "family": "F4",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F5-0",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-1",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-2",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-3",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-4",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-5",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-6",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-7",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-8",
+   "family": "F5",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F5-9",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-10",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-11",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-12",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-13",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-14",
+   "family": "F5",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F5-15",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-16",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-17",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-18",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-19",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-20",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-21",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-22",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-23",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-24",
+   "family": "F5",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F5-25",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-26",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-27",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-28",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-29",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-30",
+   "family": "F5",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F5-31",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-32",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-33",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-34",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-35",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-36",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-37",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-38",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-39",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-40",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-41",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-42",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-43",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-44",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-45",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-46",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-47",
+   "family": "F5",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F5-48",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F5-49",
+   "family": "F5",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-0",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-1",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-2",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-3",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-4",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-5",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-6",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-7",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-8",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-9",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-10",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-11",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-12",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-13",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-14",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-15",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-16",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-17",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-18",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-19",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-20",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-21",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-22",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-23",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-24",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-25",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-26",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-27",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-28",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-29",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-30",
+   "family": "F6",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F6-31",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-32",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-33",
+   "family": "F6",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F6-34",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-35",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-36",
+   "family": "F6",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F6-37",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-38",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-39",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-40",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-41",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-42",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-43",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-44",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-45",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-46",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-47",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F6-48",
+   "family": "F6",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F6-49",
+   "family": "F6",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-0",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-1",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-2",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-3",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-4",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-5",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-6",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-7",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-8",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-9",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-10",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-11",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-12",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-13",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-14",
+   "family": "F7",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F7-15",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-16",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-17",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-18",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-19",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-20",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-21",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-22",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-23",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-24",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-25",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-26",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-27",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-28",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-29",
+   "family": "F7",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F7-30",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-31",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-32",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-33",
+   "family": "F7",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F7-34",
+   "family": "F7",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F7-35",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-36",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-37",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-38",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-39",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-40",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-41",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-42",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-43",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-44",
+   "family": "F7",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F7-45",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-46",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F7-47",
+   "family": "F7",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F7-48",
+   "family": "F7",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F7-49",
+   "family": "F7",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-0",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-1",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-2",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-3",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-4",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-5",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-6",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-7",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-8",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-9",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-10",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-11",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-12",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-13",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-14",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-15",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-16",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-17",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-18",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-19",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-20",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-21",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-22",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-23",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-24",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-25",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-26",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-27",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-28",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-29",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-30",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-31",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-32",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-33",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-34",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-35",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-36",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-37",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-38",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F8-39",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-40",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-41",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-42",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-43",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-44",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-45",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-46",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-47",
+   "family": "F8",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F8-48",
+   "family": "F8",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F8-49",
+   "family": "F8",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-0",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-1",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-2",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-3",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-4",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-5",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-6",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-7",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-8",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-9",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-10",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-11",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-12",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-13",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-14",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-15",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-16",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-17",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-18",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-19",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-20",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-21",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-22",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-23",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-24",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-25",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-26",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-27",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-28",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-29",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-30",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-31",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-32",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-33",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-34",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-35",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-36",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-37",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-38",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-39",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-40",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-41",
+   "family": "F9",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F9-42",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-43",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-44",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-45",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F9-46",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-47",
+   "family": "F9",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F9-48",
+   "family": "F9",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F9-49",
+   "family": "F9",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-0",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-1",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-2",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-3",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-4",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-5",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-6",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-7",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-8",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-9",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-10",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-11",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-12",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-13",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-14",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-15",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-16",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-17",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-18",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-19",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-20",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-21",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-22",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-23",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-24",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-25",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-26",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-27",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-28",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-29",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-30",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-31",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-32",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-33",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-34",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-35",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-36",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-37",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-38",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-39",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-40",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-41",
+   "family": "F10",
+   "label": "held",
+   "flagged": false
+  },
+  {
+   "id": "F10-42",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-43",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-44",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-45",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  },
+  {
+   "id": "F10-46",
+   "family": "F10",
+   "label": "broken",
+   "flagged": true
+  },
+  {
+   "id": "F10-47",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-48",
+   "family": "F10",
+   "label": "broken",
+   "flagged": false
+  },
+  {
+   "id": "F10-49",
+   "family": "F10",
+   "label": "held",
+   "flagged": true
+  }
+ ]
+}

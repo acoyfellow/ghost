@@ -1,0 +1,12 @@
+{
+ "families": [
+  "F1",
+  "F2",
+  "F4",
+  "F5",
+  "F8"
+ ],
+ "count": 250,
+ "broken": 68,
+ "sha256": "36ad3a929f561beffe058716d6d0b9491d602a2c359bf71186a91ab01bc7f780"
+}

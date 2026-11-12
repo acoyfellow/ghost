@@ -1,0 +1,8 @@
+L3: run the two vision baselines on all 500 gym frames. Read gym/RULE.md (frozen), gym/frames.ts, gym/run-rules.ts, eval/run-wai.ts, eval/wai/, eval/local/ (server.ts, main.js), eval/models.json, eval/prompt.txt. Do not edit frozen files.
+
+Output row shape for both, one file per run: gym/raw/<system>.<run>.json = {system, run, rows:[{id, family, label, flagged}]} for every frame in loadGymFrames() (ids like F2-3). flagged: reply starting yes -> true, no -> false, else null. Raw reply text (first 200 chars) to gym/replies/<system>.<run>.json.
+
+1. workers-ai-vision, 3 runs. Redeploy eval/wai as Worker ghost-eval-ai on account 29db7c74093386544fed8046ef083a4b (workers.dev gave error 1050 before; if so, add a temporary custom domain ghost-eval-ai.customer0.dev, and remove it after), gated by x-probe-key (value in probes/p1/.probe-key). Write gym/run-wai.ts reusing eval/run-wai.ts logic, images from .real/gym/<id>.jpg. Concurrency 4. After the 3 runs, delete the Worker (npx wrangler delete --force) and revert any route you added. Hard cap: stop if Workers AI spend for this task would exceed $3 (1500 calls of llama-4-scout should be well under).
+2. ghost-local, 3 runs. Add gym support to eval/local/server.ts without changing its eval behaviour: a query param set=gym serves frames from .real/gym, and writes completed runs to gym/raw/ghost-local.<run>.json and gym/replies. Drive one cmux browser surface (cmux browser CLI only) through run=1,2,3 at http://localhost:4378/?set=gym&run=N; poll document.title at most every 30 s. The model/prompt/dtype mix stays exactly as in eval/local/main.js.
+3. Write gym/receipts/L3.md with per-run counts, nulls and wall time. touch /tmp/ghost-plan/L3.done.
+TypeScript strict, no `as`, no source comments, no mocks.

@@ -1,0 +1,2001 @@
+[
+  {
+    "domain": "googleusercontent.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fbcddd44636d5657df68179e95423fa7be5d7bdf96a5ba041756f2cfdf8b4757",
+    "ok": true
+  },
+  {
+    "domain": "tinyurl.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "00f37dd02f2b478387c9cad513d73175c48399e83a66d7bb8fb5fa5cb25cf713",
+    "ok": true
+  },
+  {
+    "domain": "paloaltonetworks.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "82adf773e08b6250d799304779414611e4ee1d8cb64a88f3510af6b9c32e7069",
+    "ok": true
+  },
+  {
+    "domain": "live-video.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "61723f414b257200a7ff6b5a4ee1f9776569276c1bfae7cd76e1b5168ca3e94e",
+    "ok": true
+  },
+  {
+    "domain": "amazon.co.jp",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c986c9bf7c4a0ef4aca293012036c8e9f061497b0fae453a5445ebdda0342273",
+    "ok": true
+  },
+  {
+    "domain": "avito.ru",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "dd69e9a4d3546449cc4f2138d77d776fbe86c96af67adca04543c374429fea39",
+    "ok": true
+  },
+  {
+    "domain": "rustore.ru",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "b70721168f7fd152d16d9494b817fe9b9a7497899e434b6249ac208a45d29e4e",
+    "ok": true
+  },
+  {
+    "domain": "flipkart.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "2a8a1fa5dd480f0d3573f70f9a9b0d4fb608ce57b7f6c015027143379dd029da",
+    "ok": true
+  },
+  {
+    "domain": "ngenix.net",
+    "label": "broken",
+    "label_v2": "held",
+    "sha256": "211231aeb4ab8da7ff6bae1f614e233173a4e650e48a71d885a40704b3740d06",
+    "ok": true
+  },
+  {
+    "domain": "huggingface.co",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "5da98f3874f849bc5100aee38abea84c604981cec9166093f62b2bc01649cc18",
+    "ok": true
+  },
+  {
+    "domain": "asurascans.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "5a54ece81343bf49d612148f969e35d11ea20439ba076aeeac7a2fd6b87cb42e",
+    "ok": true
+  },
+  {
+    "domain": "missav.ws",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f4acf0451893972d757b8688d236a3a921f8b8552d30d9b551a1d57fe603c637",
+    "ok": true
+  },
+  {
+    "domain": "ukdevilz.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "383f81617c77095e3e3b068076946891dadb9f2683ef40e4f142419baa526372",
+    "ok": true
+  },
+  {
+    "domain": "hentai.name",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a060a5094c618668cd6dc1d845c9898f800e5cb0e2035b560474d3efd8cdda7c",
+    "ok": true
+  },
+  {
+    "domain": "sportfilm800.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "385c49a1f192446cbcb3e95dabf8851ecaab1750d2464a22e8b4a8d91292dd5b",
+    "ok": true
+  },
+  {
+    "domain": "hover.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "b95fd72a8f102bdd2c1bd19c67e72a8b0c240f97c9341f4bdbaa1ada61aacec7",
+    "ok": true
+  },
+  {
+    "domain": "5movierulz.forex",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "9a93b9e4c5abd002a909d2458b89054551ae78d9b50463699c10b16797f6c8e5",
+    "ok": true
+  },
+  {
+    "domain": "scientificamerican.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "46f3283b222aecc7bcf2fda20c9b54efb4f5da5955df9c721f1f3b754ac6d5cc",
+    "ok": true
+  },
+  {
+    "domain": "git-scm.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "424c96cf3378335c18c1e20cd894af66c333d77e4e2b9070123392d7fd20c8c8",
+    "ok": true
+  },
+  {
+    "domain": "kochava.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c02f6bb4934586b85ade4577f64ec6b5f6065c6517121fc9a1acfb129b6cc10c",
+    "ok": true
+  },
+  {
+    "domain": "amocrm.ru",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "f63d7b0f3eece0ed5e2c4c3f8e5f0cdad92a39b05db0a98ee67632c7cfd890b8",
+    "ok": true
+  },
+  {
+    "domain": "adsmoloco.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "e7f844d738f6aaf8441d17b04526e68d53ab1570ce60d52a54171f649c606af9",
+    "ok": true
+  },
+  {
+    "domain": "goguardian.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7dbbecf7435d6ac063ae1c6b3676dc86057c3f34add4bb1188d2bf3ae88a713a",
+    "ok": true
+  },
+  {
+    "domain": "wpengine.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "021de2204aff569752f48992ddb70cd7797eddc2bffe6ff73875de1a79314533",
+    "ok": true
+  },
+  {
+    "domain": "slate.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9c978278b0c813bd381933ec2e1ff8fabdba2d0277a8a61d12c093fcce70149e",
+    "ok": true
+  },
+  {
+    "domain": "robinhood.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7b0380747171c622f863eb04aa2254866dded10d81caf0e5a0e63a623088d7ac",
+    "ok": true
+  },
+  {
+    "domain": "rockstargames.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "91134d4c0d857fa8bafd11f32b01ab78149b7b8b1d630e43f77a0fa04d788aa7",
+    "ok": true
+  },
+  {
+    "domain": "news.cn",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0616afbf23bf65c99055887aaaeca62ff5ac22f1c9bd1a4fce422dbe4b544f6d",
+    "ok": true
+  },
+  {
+    "domain": "stumbleupon.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6a40c18a04d61b3cd90c5d64388ee40a046cb6fc1d01f82de0d1f86f306fe5c1",
+    "ok": true
+  },
+  {
+    "domain": "v-videoapp.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8ff972dec355abe9dff32343b19e6641b5828b36e86237631c0c8da47042de25",
+    "ok": true
+  },
+  {
+    "domain": "rkdms.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "26d53a6653b9af431c1c088dc87e89efb3fc4954dd436804d014895fa7cf37ba",
+    "ok": true
+  },
+  {
+    "domain": "walkme.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "38787ed70c9bb65c90da7f7040bda0265a7ed9d8e084d48d3242de5332a8a00c",
+    "ok": true
+  },
+  {
+    "domain": "tradingeconomics.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "5c018dd2b8d77b03b1ae6c1482191902d3dd3d44b734e27090c1f1b9db59fc14",
+    "ok": true
+  },
+  {
+    "domain": "myanimelist.net",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "e0e3a6fcf1abccdd807f59122ad1bbaa6b1d8e0e64ee40f706794156701c9322",
+    "ok": true
+  },
+  {
+    "domain": "toyota.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "45f98531b43f050988c2f3aeaa5403eee17a976394d20a3518e518a476e31917",
+    "ok": true
+  },
+  {
+    "domain": "code.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a4e41782f77542b60e12890d84b5794e1a2ee7f36b0e1b416ec8da22b12f9326",
+    "ok": true
+  },
+  {
+    "domain": "mimecast.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "50fa91bcb611b2bfa33322fd141c20606e811de066ba65a994981dc680d49afb",
+    "ok": true
+  },
+  {
+    "domain": "samsungads.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "01ec120d743dd26e14df3f189ad9a6bf449dfc493fa9b655557fb93c095f679f",
+    "ok": true
+  },
+  {
+    "domain": "over-blog.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c8d407b2a4d8ec3b65a0981a1b1d264689b0d57323862805997ba4dc047f72ba",
+    "ok": true
+  },
+  {
+    "domain": "chron.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c29fd4706796ef13f94663386d67afa6a8e2ebb0c144ff26076f3e044f87120c",
+    "ok": true
+  },
+  {
+    "domain": "thestar.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "33324d409f06028f1a9b258fae6bad468c1ef43595e83d43554eacd5e5dcc5e5",
+    "ok": true
+  },
+  {
+    "domain": "uu.nl",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "bee9b5610f8b718f8e6efa810763f48d0470f3187aae2fc9d04f30f364d779e7",
+    "ok": true
+  },
+  {
+    "domain": "seek.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "158979a9cc2275dd1b532f13e3b526eb773e230cbccccedd4b3e5415b9e17c41",
+    "ok": true
+  },
+  {
+    "domain": "ucsf.edu",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "92f3856890180719ea17243bb94d8eec9e77a35f08c04ef9067bc2ddc5b11cba",
+    "ok": true
+  },
+  {
+    "domain": "runescape.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "bae932302b9cf966252565fc4862c4f99b9bb8b71077256696350da48e46d660",
+    "ok": true
+  },
+  {
+    "domain": "dyn.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a63cf0f6ee9d66c7ca0efdf0137f8e154857b8633bd185c16e747d99b3ca1c23",
+    "ok": true
+  },
+  {
+    "domain": "goldapple.ru",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "3dff7a8348761c9890c972a2fce67f93284054cddeb9d8a1e338c5b682778fff",
+    "ok": true
+  },
+  {
+    "domain": "adspower.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "83896f87e186937a6fda4b0558c0a8f4beaccf61bbf69e3d7cf2b897198056b8",
+    "ok": true
+  },
+  {
+    "domain": "nsf.gov",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0b0089ad80058aca6f275f29b6e0c90ff1bfd7e1aba8b7ff41ed3dc316712555",
+    "ok": true
+  },
+  {
+    "domain": "ulta.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "da8a627dc9edfbb1dd8ac1c6e593cc781c58b6cede19825f6faf73ca78a396e0",
+    "ok": true
+  },
+  {
+    "domain": "arte.tv",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6bccd6a7fef05f8d6331bbc4e9a0ed735a860085b6e1b8e9645425283f06014c",
+    "ok": true
+  },
+  {
+    "domain": "kubernetes.io",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c8393a9a9c979a3cb93606a4a7e3b4b4ef27f7b2c904e80cbab61d08438b0686",
+    "ok": true
+  },
+  {
+    "domain": "buffalo.edu",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6bf9d0e21d7300c19b0a5a871f64956e9c8ca072a56ae09e57847ece53ce8a0f",
+    "ok": true
+  },
+  {
+    "domain": "hola.org",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "030ee47e6c22c22f820bd522b136889538fbe23dfb7fa21c0f664bd0d8a48f9e",
+    "ok": true
+  },
+  {
+    "domain": "gb.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "26256fa252e0eaa22dc3a50b74195db6bd4fafe3075deae424c767194e6a627f",
+    "ok": true
+  },
+  {
+    "domain": "ipecho.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "68451f8aee2506d73f6791ddad44b0fc6f859837f8564055e4b1ac8c02fc3055",
+    "ok": true
+  },
+  {
+    "domain": "tw1.ru",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "2133f86daf000b82b131b100a5346878d81a8f5d96058fc315f44598da80cc07",
+    "ok": true
+  },
+  {
+    "domain": "substackcdn.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "568a40d7a4162cbd3ddd64587d9b49b82dfc20f9cfbae7dfd91c0f92dbb6167b",
+    "ok": true
+  },
+  {
+    "domain": "xunlei.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c986965d4d5124511458ca07f293e67f5f73531d78a32eb75123222008444834",
+    "ok": true
+  },
+  {
+    "domain": "codecademy.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d743ac83047d91c5c60ccd1e9d641261fb7316d3697b48c8e6715d18c2da151a",
+    "ok": true
+  },
+  {
+    "domain": "icims.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "b8f3fa3b8d917dd5547038e33da9c969102f371adda1ee104f3c07c5a0686bd7",
+    "ok": true
+  },
+  {
+    "domain": "aiscore.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "755842991ce59f45e1ffd3443f59962f4f1e1bafcf1961febb364f4336ead124",
+    "ok": true
+  },
+  {
+    "domain": "lemonde.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "d5f62c30b2b3fb0af8731c40956e0f266286e532994381721431fa46ebc90bfa",
+    "ok": true
+  },
+  {
+    "domain": "bbc.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6654a696c58c9107c3f6f72b4940bd9ef02b73bcafc225851c48a603bb636620",
+    "ok": true
+  },
+  {
+    "domain": "theguardian.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "0395eee2ebec983eb10dd17089175cec0e13414d20cdc7a175d5448eaba7981e",
+    "ok": true
+  },
+  {
+    "domain": "elpais.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "122479e5cd27caa3ca10b768e83f2b76990bc6436e39d758b6363578f713a0ee",
+    "ok": true
+  },
+  {
+    "domain": "zalando.de",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "df3fe29a99b0cb165eb4cead4287811d9fc9f78358d1f0ccfaacd078e44c3a86",
+    "ok": true
+  },
+  {
+    "domain": "lefigaro.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "9ec08bea8871277a9df13995bb6a52c3c807e503c6e71e271840a3118c866a64",
+    "ok": true
+  },
+  {
+    "domain": "repubblica.it",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "4f4611d531b7f94a2fb6e2163b133975f57dbd32a5a3a9209546adece95b16de",
+    "ok": true
+  },
+  {
+    "domain": "elmundo.es",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "6f637696e56ed30bf1be7db47e6c0dee0c27ae56082b0ce0e78ad5cf4f52eb62",
+    "ok": true
+  },
+  {
+    "domain": "zeit.de",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6730d642785505ce945e841b017b71e37dda93666fa135efc22ee41450957cd1",
+    "ok": true
+  },
+  {
+    "domain": "independent.co.uk",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "3073d1ac759c850869d7f1c59b55d57e48a65a8ba2821f928dcf844a34e502eb",
+    "ok": true
+  },
+  {
+    "domain": "marca.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "f6f3973954db0a8eba9a25ffb3d433c5b6db0161628140c7c4738dbb6756b037",
+    "ok": true
+  },
+  {
+    "domain": "20minutes.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "be2880b9155bb6dfc2cdc0a8a89b65a900f310c13532ed318154b87afb928046",
+    "ok": true
+  },
+  {
+    "domain": "nos.nl",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fd8f8920587657e698e9f32d7fabd117ce95081e7f3acbe1f245dbb74e24dd4c",
+    "ok": true
+  },
+  {
+    "domain": "nu.nl",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8db582a1367f68e5e3ffd42fc157a8e1a0e19acd52d3d760966d1f03cf4ba23e",
+    "ok": true
+  },
+  {
+    "domain": "tagesschau.de",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "aa49aeb1e82ea0ca5d3541b0c364a3df033cb6ed36b78bff6f43f0cefa6bb378",
+    "ok": true
+  },
+  {
+    "domain": "otto.de",
+    "label": "broken",
+    "label_v2": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "cdiscount.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "b487c06ad484975c0a4a570580b69e3e0b3b5da0a40313c9b1e432e054c39db1",
+    "ok": true
+  },
+  {
+    "domain": "ikea.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "072cb6b89ff607e3fa6ad92a5171a10918db8add2473e9cb6ab270fa72c598bf",
+    "ok": true
+  },
+  {
+    "domain": "nngroup.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "79bd0eb0d569f8b4657be15de4f94761b9fb800dca7cc582d5075ba0698eacf5",
+    "ok": true
+  },
+  {
+    "domain": "metropoles.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e0829136e0d1a8c26ae9718a0e22e6638de944babf3269676573d418ad5fde8b",
+    "ok": true
+  },
+  {
+    "domain": "midilibre.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "f3f9abedf126c05ffd48ab0b95ec3f5ed60ccb1f60b9032eab5c11377dce6167",
+    "ok": true
+  },
+  {
+    "domain": "dlink.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "8b72f2dcd50c6cf9db3782d21a9cc7b662b861e50d83d60a4f32b71965b2c25c",
+    "ok": true
+  },
+  {
+    "domain": "utwente.nl",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "a11bd6f4e1b130990abb8a123ccc99ed19d3aea57637629038a8d5946b7aa9f6",
+    "ok": true
+  },
+  {
+    "domain": "superuser.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "3eb18e23bd3988813ad4116c6b724f8638086a99b6c40dbd8f75abe727db0929",
+    "ok": true
+  },
+  {
+    "domain": "360buyimg.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e9053d3e044c5223b42f48646266ce17c038c73cb3d4e3d527e34fccbe4acab5",
+    "ok": true
+  },
+  {
+    "domain": "citex.info",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ba1cc8eb94803370f6cfc47012b82fb06afebe47e928da6c398353fa6e2be522",
+    "ok": true
+  },
+  {
+    "domain": "paychex.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "e3f1d93d59e6785791c779f2681381b0a40e0c05fa73a75f095953b24ffdb74b",
+    "ok": true
+  },
+  {
+    "domain": "ledger.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ad7fa4d8e106fce76221abb67d0099fff33fc00659e6f8c09b6e8f535075e040",
+    "ok": true
+  },
+  {
+    "domain": "uchile.cl",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a62126012603f24c6b4ff4c82887f912eb84ab13e96ad9caba76570b38556094",
+    "ok": true
+  },
+  {
+    "domain": "uline.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8a6e00eab6d8d30cb61920a1ce098dcabe75be4b629263976ebbd5d27a653f0b",
+    "ok": true
+  },
+  {
+    "domain": "narto-drama.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "1c47961090050d188671d226159f4f781986367ff42c5da32320c9de81f70a4a",
+    "ok": true
+  },
+  {
+    "domain": "us.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1a1fd5f22e065467094008faf002ba8b2a602cb989776c0434cda2e94afae9df",
+    "ok": true
+  },
+  {
+    "domain": "so-net.ne.jp",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "936ba9812d5d765fbe11efe8ca02c1fca119ce954dac45335479ca89fa3186de",
+    "ok": true
+  },
+  {
+    "domain": "windguru.cz",
+    "label": "broken",
+    "label_v2": "held",
+    "sha256": "4dd4a95df9e9d06cd300969e0b94c7a1007c205a0c7d3d780b4a36fc4b647470",
+    "ok": true
+  },
+  {
+    "domain": "dxc.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "56eb338a080bbbb92df03116da8241144232c3d2edb821f386bb41088718bb2c",
+    "ok": true
+  },
+  {
+    "domain": "libertatea.ro",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "30281a616477469bcbce64ceac892822d4235e37f59d73aba369bb353bd3ce1c",
+    "ok": true
+  },
+  {
+    "domain": "countryliving.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "0ac46887026e8cd50983bc464b2d99cf39cbda31180ec5eb7eb55b15fff17959",
+    "ok": true
+  },
+  {
+    "domain": "survicate.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "d16328098f57da74705bc185491c0edc145e7ff9f33b0195e55d0bc204b9021d",
+    "ok": true
+  },
+  {
+    "domain": "vidyard.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "0bea08b51edc5cce2e654814854b4cc791bda24d446a85fdef2bbc84bebda029",
+    "ok": true
+  },
+  {
+    "domain": "adafruit.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1ce13b1dc9faa9ff8b5d2497eff366166694079eb7eace2b72ef233ab7b91d0a",
+    "ok": true
+  },
+  {
+    "domain": "alodokter.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7816611b43b7e8bbd98195077a6e6cbbca86899c5205535ed7ca1afbc0e7686d",
+    "ok": true
+  },
+  {
+    "domain": "theobjective.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fecc7b53d3019761b4ae043e43e079c8fbb2b97972ae65f537ac14b746c6b66d",
+    "ok": true
+  },
+  {
+    "domain": "falabella.com.pe",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c6380bcbc2946cf52a15b05aa8d0c605db8f8f6f7a18bd40a3ed94bea4331a4b",
+    "ok": true
+  },
+  {
+    "domain": "fronius.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "b105d603f26314c60bc386ee7c8b7b6cd1f53fe01157177fa51c5a656a16d72a",
+    "ok": true
+  },
+  {
+    "domain": "linear.app",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "30f7929992ab1877dceda9de5fe319ab3e3b856b8ebd4b669b56930bdbacdba6",
+    "ok": true
+  },
+  {
+    "domain": "la.lv",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c224d126a47330ab9a7c25b9f6ffae2e94006b640f7fa8b933e7c67457bc330e",
+    "ok": true
+  },
+  {
+    "domain": "novel543.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "76dfac5fe786755f0ebd8c6ae8e9abab3a8b369c71b19c5259324e96b3a1a070",
+    "ok": true
+  },
+  {
+    "domain": "telstra.com.au",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7df20d6d00f758b49cc108999cd29e2ad7b24dc7c8db050b01935d59b8adeafe",
+    "ok": true
+  },
+  {
+    "domain": "lokmat.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "2ddbc35331b979293c3e566a6f2c9af980826fd6f76274f14c817527a98cc505",
+    "ok": true
+  },
+  {
+    "domain": "rmf.fm",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "e4df7a93d5578e4fa20f8ff1d8e98ab10a02dcba6c1be77e99a2d50b46a8f7c8",
+    "ok": true
+  },
+  {
+    "domain": "anime-sama.to",
+    "label": "held",
+    "label_v2": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "sdna.gr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "b54df0c2c1192fefaf2a02086825d3494cc91489fb124df78f0565bbc5134de3",
+    "ok": true
+  },
+  {
+    "domain": "jailatm.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "b332201ace86a03e4513db89ef167ba0e408eb2a8c0f15e6200ffe5a3da2b18b",
+    "ok": true
+  },
+  {
+    "domain": "dome9.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "cb4a2de5d9f94341e8538cc0e2988a0a5417813d882e7ca5e4cee6803bea65c5",
+    "ok": true
+  },
+  {
+    "domain": "ero-video.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "abc925a6dac876aa413b9ca964e11af6ad5b261a4ba0bc24cf208309d722aaf0",
+    "ok": true
+  },
+  {
+    "domain": "idos.cz",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "72f822a5086b031ed6a2daf3e4dc4468a320385075e560df43b853d9281cfe8d",
+    "ok": true
+  },
+  {
+    "domain": "navercorp.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "5e107afdf1af9a1c97ac45dfc3662542c97bd19715c6d3eabb2e8a5a94d8fafb",
+    "ok": true
+  },
+  {
+    "domain": "eagleeyenetworks.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "686344210cc7695b38ff623b45f7dad29898cf73b374923eb7aebe96e02b952f",
+    "ok": true
+  },
+  {
+    "domain": "oar.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0613bae563ef5b0057e2fcc03ff20c93e540c82f0ddaf2dc0c65acd9e788b508",
+    "ok": true
+  },
+  {
+    "domain": "wavebrowserbase.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "3da5d3e565b8bbdd91c69d711d179606609097c8770c9e29c8a6f8b60ce6e927",
+    "ok": true
+  },
+  {
+    "domain": "buddy4study.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9600f089eef0392be1212c27d49db5c3d58478c9891c50573d8f4848cd9d844f",
+    "ok": true
+  },
+  {
+    "domain": "thscore5.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fded1a9773642aca72f17a5bed0c3254cac90ec3ddab23711f66f176fa32e16d",
+    "ok": true
+  },
+  {
+    "domain": "gimyai.tw",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "29c98cb73b17ec2f4df4a48e817c245efa66d3750ff281c747140e4a060cc178",
+    "ok": true
+  },
+  {
+    "domain": "xleche.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "3c2f507473103f35017b6327e9c23e6029c60f1d46a1f21d35f054a96d7e27f4",
+    "ok": true
+  },
+  {
+    "domain": "braiiz.com",
+    "label": "held",
+    "label_v2": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "v6velugu.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c0b9c151985423137051ab3764f92a857f73697a452a96e1ce4af434615d343d",
+    "ok": true
+  },
+  {
+    "domain": "join4ra.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "5628876cadf442350c970ef1b8954f84855b0687625bb3ac4159433b624b5455",
+    "ok": true
+  },
+  {
+    "domain": "steadfast.com.bd",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7face0be0b4adeb317e7a608ce8877614f11765ff7f5bc6a139300097b5b3833",
+    "ok": true
+  },
+  {
+    "domain": "eternalmangas.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a805da1c569506ef97de770ac301d6d070023aff1de90ec818aaed3f7e40062e",
+    "ok": true
+  },
+  {
+    "domain": "pagalnew.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "feedcfbc042e2e2908cf616abbe1cc72d4a203f1906819f8bc0002f14e95810c",
+    "ok": true
+  },
+  {
+    "domain": "tumadouga.jp",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d3343ad0f87a1e09881aa62808b9d1add5363b7ef0311c1db0344629436e4362",
+    "ok": true
+  },
+  {
+    "domain": "tujugada.com.ar",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6f3f70683e294ed445560cc824c250d7b62f12b59057647ea0aba68b4f1a90d4",
+    "ok": true
+  },
+  {
+    "domain": "mencretmesum.store",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "36268afe4d74b7e12209b8fe3cba8d22685d0490218f20d113ed72fefc2ed15d",
+    "ok": true
+  },
+  {
+    "domain": "videq-l.ink",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ff05597ad4c67100990b9302bc058d7158ef09aa1f4150cbfe54cf8d6f82386f",
+    "ok": true
+  },
+  {
+    "domain": "allnewyonoapps.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7c4558caa28002004b3b8a41d00d126564b03e5fb7117e33efca140c1bebe88d",
+    "ok": true
+  },
+  {
+    "domain": "hela-lankaa-ads.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fa2b8a2356400d5a59d415bb662ea708650185e86bbaa40c28b76aa8ae56ac3f",
+    "ok": true
+  },
+  {
+    "domain": "bangkokpost.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "3ee2843ac1843897574a8fbef7fe09f5652debf7bc546082df97fd6fd84051ab",
+    "ok": true
+  },
+  {
+    "domain": "alcopa-auction.fr",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d0dd76ecfaf2ca15f28bf86bbf34fb87154fc2865d3d463f91678f11fdf44a07",
+    "ok": true
+  },
+  {
+    "domain": "lamu.club",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "26a294cb255702847c57c24ae6fab6e6b328554e1c4aa937a71b548612d14d9c",
+    "ok": true
+  },
+  {
+    "domain": "ele.me",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "7f5d11d502cc13da0835eccb7bc37b34cc961e5fb6902166a743d61619ad5db9",
+    "ok": true
+  },
+  {
+    "domain": "xoilacxbi.tv",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "dd03d4c042d32cf0cb964f47c5b3adef4fa02659bbd44604f5fd6889294c1296",
+    "ok": true
+  },
+  {
+    "domain": "bancointer.com.br",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "f1f2923580010ff7818eed9cab72395c6a5c702bc6933ca77437313eca51ffbe",
+    "ok": true
+  },
+  {
+    "domain": "educationdz.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "8e1798e0c648e5828281132799416448beec072cf68b2e25456327d2cfc2a309",
+    "ok": true
+  },
+  {
+    "domain": "filmywap.wtf",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9c6deeaf735a2d5860fd34af019b8a7f6f0e3ad5717d1d9ef88561a2c3c417b7",
+    "ok": true
+  },
+  {
+    "domain": "sengkiper.site",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "896a74557f2f23e4b8387ea7f78b910795ee9317118904754f4c8c842dc8e945",
+    "ok": true
+  },
+  {
+    "domain": "dokuwiki.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ff529c83f827e4119dcbc1a5aab20247c5bc709291ffae3dac771e601c8adfdc",
+    "ok": true
+  },
+  {
+    "domain": "bonappetit.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "a9053a57f045cd4f378a356790f10965dff4823c7801b7cb7c81fe61c070c64f",
+    "ok": true
+  },
+  {
+    "domain": "wikivoyage.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c7532bb4c71cff974dd181560a1a7ecc0f340022a703040229f9340c368fd84e",
+    "ok": true
+  },
+  {
+    "domain": "intelligems.io",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d5ab5d4118f2d0dff585fbd5534165c7b36a01c96950548dcb403fe9e7efee66",
+    "ok": true
+  },
+  {
+    "domain": "univision.com",
+    "label": "held",
+    "label_v2": null,
+    "sha256": null,
+    "ok": false,
+    "error": "no eligible target"
+  },
+  {
+    "domain": "muckrack.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8b0fafbea1a05b3ae6a8883d116f227472e3a0d2f0a7c20ca02bdac1659ecc63",
+    "ok": true
+  },
+  {
+    "domain": "gu.se",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "23ccdefdb46cec45a5f83390063aa81e9322e4b74672a61cd011eb28c5211b0d",
+    "ok": true
+  },
+  {
+    "domain": "felenasoft.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6980bfcc788530b09dff94139b08718b55b858876f70755c7434c99f47d3e81d",
+    "ok": true
+  },
+  {
+    "domain": "on24.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "b63bc8def33bd81d7e8186d716d15ada596bce8ac48b9d7bad90bd373fdb9c99",
+    "ok": true
+  },
+  {
+    "domain": "9to5google.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "2498cfd0e5c7a316c24b701fbbddcf3a9f615c7b6c6dbf560ee1e64e658ee2c0",
+    "ok": true
+  },
+  {
+    "domain": "unfpa.org",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "7f7150590d6704b6d42a1d93772778217cca41e8bf8f7675bb4fb0c52b647b5e",
+    "ok": true
+  },
+  {
+    "domain": "cdnjs.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f8572fb5e128aacc86f80f1cc4e0db22c1e393153a9b8f2020bd7bb6267bf5dc",
+    "ok": true
+  },
+  {
+    "domain": "uschamber.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8909d3e5627f25195e2cf87db6f43bbf86b1adc0063032df5d3b6fe4c882a1a1",
+    "ok": true
+  },
+  {
+    "domain": "elavon.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "30765ba323e8131b9978d4adfffe3ea4f2c6dd833de62ad9487d88b4beabdcbb",
+    "ok": true
+  },
+  {
+    "domain": "renfe.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "4de0964453f33078a97a15be5d66d3913e85687dda1229aa79aafdcd187634f6",
+    "ok": true
+  },
+  {
+    "domain": "bgr.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "12af84a510660e847011794b0d1ca7b7356839144e62d9f0d3441162954c5dc4",
+    "ok": true
+  },
+  {
+    "domain": "pearltrees.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "0d8185ff02ba5568202f868b2555577e76621af28986a629a55f7bf5ab96c8cb",
+    "ok": true
+  },
+  {
+    "domain": "die.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1333215e103557e4925bb81421de2c4b23f8f135bdd47afb3665472011894b41",
+    "ok": true
+  },
+  {
+    "domain": "juicyads.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "7cb360276f3d5339885d999db613a7133f7e6df1d467a87f1169efb6a7588fdc",
+    "ok": true
+  },
+  {
+    "domain": "geni.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "4db87328426456a499c17157a788d0e72d9021ba1a660e3aa99f084089fc9791",
+    "ok": true
+  },
+  {
+    "domain": "belwue.de",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "bbb0317442141c1212653084dc4e3fa7d77814580947315d63101a109867ed18",
+    "ok": true
+  },
+  {
+    "domain": "lexology.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "0a1f05a0b4ddc0db505e4f40c5e8ffc4effd08691405af8068fc7b6256f42ab8",
+    "ok": true
+  },
+  {
+    "domain": "serverfault.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "d3d78a205d92c9528bf30c2c5ed4e1bfc6dcd9d430f8c5baa3effd672a365a33",
+    "ok": true
+  },
+  {
+    "domain": "resy.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "ceec35d3a4aeb8122edd9bc5f58d1d7b37b50cc4a98238bcac5aa0a295c1676c",
+    "ok": true
+  },
+  {
+    "domain": "yourtango.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ffefdfc5882f889f068cb811e9aac4c6e10c5508f508f24acea739744bb9918d",
+    "ok": true
+  },
+  {
+    "domain": "tapsell.ir",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c8832acc953c72e1848057420599e5fe2f54b3df455c5de2f8f1a67238509617",
+    "ok": true
+  },
+  {
+    "domain": "above.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f6f18c622b31c65e6e0c239bec76a88921517bb2339787eb9be2ea259518aa24",
+    "ok": true
+  },
+  {
+    "domain": "bringatrailer.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "ed6432eaf9d03bd9317ea2dc17cb70243e0805d7b338abd96ca17fedde198404",
+    "ok": true
+  },
+  {
+    "domain": "laposte.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "29dad181a6def3b77a7228da9efac293a45a446f31aeb4ccd4ac64bc3dd683f5",
+    "ok": true
+  },
+  {
+    "domain": "nutrition.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "516cd9e0d8e7855cc776993d0985ee8d7deae1eb886ec63c242a5cfd76ad3adb",
+    "ok": true
+  },
+  {
+    "domain": "leroymerlin.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "eae1c938742316bd8268d6820a75b3182de2b38f78b61d5a7a796078766828db",
+    "ok": true
+  },
+  {
+    "domain": "edpuzzle.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "05bc76c5d0fe7b89237168038bd1057f239b7168d89c8b0e2e377f324329b1d5",
+    "ok": true
+  },
+  {
+    "domain": "weblate.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8f3f6e49c4fd0747b260cd7eb0c89a8b052d10d3756541db1f5a8e999ea98ed4",
+    "ok": true
+  },
+  {
+    "domain": "tvinsider.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "ce93463b6bff9a4885ee42ba3a0ef3a7dde035fe4e59cb618edd6ddbc6ce2f5e",
+    "ok": true
+  },
+  {
+    "domain": "synxis.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "fa4a5dd3e387b1801e9a61671e3a5f251fcf27df35f5e168d726f204abbda9bd",
+    "ok": true
+  },
+  {
+    "domain": "forgejo.org",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "74a7cb35e4920f197fcef1fef077eef85707dbea10cb31337dd9564b3bc71ccd",
+    "ok": true
+  },
+  {
+    "domain": "mopo.de",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "7dcc692ee925fb2c55caf35fc7244afdaa4ddb42d5f59235d3aa7f5e30cffc87",
+    "ok": true
+  },
+  {
+    "domain": "siteimproveanalytics.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d3d573c5f2d0de9320ee27543c52898042c4f408c761b3735a049605ade8818b",
+    "ok": true
+  },
+  {
+    "domain": "hawkhost.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "4fcfb6e6efca0c2e00cc5bdfa6e6ab31ddb1402df9f20ef754c0398f0d14c704",
+    "ok": true
+  },
+  {
+    "domain": "nephobox.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e2f647e13a7a5f2bb4291216ca50ad8a821921aa086b6d503f52b554f2b23cc3",
+    "ok": true
+  },
+  {
+    "domain": "360monitoring.io",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "43f471ff9959c7388f6df086b05a1252bd9c44942db539de627cad4317be1522",
+    "ok": true
+  },
+  {
+    "domain": "ntp-servers.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "dc497dadcafa589e7b0677125cb920e5a6d918421fa066de4865b93afdae8493",
+    "ok": true
+  },
+  {
+    "domain": "geniussports.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "4712155e6ab7e931be8bd4f23c7f0648b485f03a0948ba996512dd11b78737c7",
+    "ok": true
+  },
+  {
+    "domain": "thetvdb.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9e7cc3b448d73ed40200531d6fc79584cb7e1ace07aa287e6acb5f19c343b83f",
+    "ok": true
+  },
+  {
+    "domain": "epicentrk.ua",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "bf0339bd33d513bd4dafc13b83a7798ab4ae2af8aaab0868b5de03cafd3e9d59",
+    "ok": true
+  },
+  {
+    "domain": "univ-lyon1.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "d0f6a43a491894913b6412fbe689067e46b1329717a7e1deab530aa334455b82",
+    "ok": true
+  },
+  {
+    "domain": "lafeltrinelli.it",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "4669b6d0713f3b3adad50ba893acb139ac5495278d8463ec23a56dfbb29de9c9",
+    "ok": true
+  },
+  {
+    "domain": "sandia.gov",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "96fc3574af7903f0a35d475e6578b3023620b6ea363a6090d0de479116b7f207",
+    "ok": true
+  },
+  {
+    "domain": "ok.gov",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1dec6f25e7a8205c2cf0a39d9ca31e14a9dd591a009e2c3a555fe70b2d4c5c27",
+    "ok": true
+  },
+  {
+    "domain": "mantis-intelligence.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "716ec17bcee42e208d537d3e7be53d2e8cdc4372c02a18b932bf13af3627e61e",
+    "ok": true
+  },
+  {
+    "domain": "hypixel.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "b27fd589918c7b060a0e859da152d1345cf6ece77dafc098a0389e2135b4a3fc",
+    "ok": true
+  },
+  {
+    "domain": "speakeasy.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "44a843f3564ad411aff5fa392c779125114ff0167b7b0ad152dbbd532187fc2b",
+    "ok": true
+  },
+  {
+    "domain": "nixos.org",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "46e73317154d0a8a16ccf5c1d41f08026fe87a67ee18ec6d41517127674908e6",
+    "ok": true
+  },
+  {
+    "domain": "bigrock.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "fc86150947647ecc820219b5a76860bab67ea709a09b0f51e56ed5048c470c41",
+    "ok": true
+  },
+  {
+    "domain": "riverisland.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "31dbf41fbf15f35ade8d9e8a5278320a48a7a960e3cceaba7c449b3edd2254dd",
+    "ok": true
+  },
+  {
+    "domain": "breuninger.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "238ebc7c1d8f9ebb4a133694f81d61af9184e676b72c6f8405aee95fe321802e",
+    "ok": true
+  },
+  {
+    "domain": "shein.com.mx",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "15844b84167a9bc2a74365495f7e153eafdb302e0770d3380f16af042e95afb1",
+    "ok": true
+  },
+  {
+    "domain": "havan.com.br",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6a25914fc8d332912d46110c565e474b20949f8da5ada4e34421e80748fb86b6",
+    "ok": true
+  },
+  {
+    "domain": "walkscore.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0d71839b875bc3a444a1f505f748f9a621f016ddac4d7074a0124773b87fe54c",
+    "ok": true
+  },
+  {
+    "domain": "sipri.org",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "a276f33ceacb48a25bc5998d9853fad2fdb5ddd629bb4ad15dd941e958a61580",
+    "ok": true
+  },
+  {
+    "domain": "broadcastify.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8768c70e5e9758744bd3bfb4557bea5770829fe7226e217cda43a62434d7c4ab",
+    "ok": true
+  },
+  {
+    "domain": "ecal.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "dda72328bd929602db7e8cab3def3a4de70b6ffa8e4cb415013b5e23371302d3",
+    "ok": true
+  },
+  {
+    "domain": "wiz.cn",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "de652dd9ec266f564dd2efc3959b638f4516a25ed85b42126efbe36aa1581a0e",
+    "ok": true
+  },
+  {
+    "domain": "slido.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d98f26fe9609515701509f5533fa3b5f35170567a7a414796809116d4f02bfec",
+    "ok": true
+  },
+  {
+    "domain": "uhaul.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "bd8ed2771df9a7ce99a1a387a30794529558b6f02f9a9a5c6cf6c93ec7c67577",
+    "ok": true
+  },
+  {
+    "domain": "arity.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c8b91f83efffcf8c353d0ed0b5679face753f59b47880c52ad5d8283f9f5b0de",
+    "ok": true
+  },
+  {
+    "domain": "trouw.nl",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e34ff826dab64bae753beac5ad0567b7150dcfc449928fad10026ab5522d16f0",
+    "ok": true
+  },
+  {
+    "domain": "sportsyou.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "8d8ce7a7a40b8628698c4acff8359c1738a69cf15b98cfbf5613870b2fa0103f",
+    "ok": true
+  },
+  {
+    "domain": "irfanview.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "481719d1fcc8d993b901d616d108d866f77abad5fbcc53184d23497efd093ff4",
+    "ok": true
+  },
+  {
+    "domain": "page-stats.de",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "eeba6e27624a4b8c4f1067d6ae9613d30145d68e62b093dda7834b8f7781a340",
+    "ok": true
+  },
+  {
+    "domain": "gocarrot.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e2502213b040c0bef4b5cdb22bcfa6975ed8ae326baaf97e97953079cb4bcdfe",
+    "ok": true
+  },
+  {
+    "domain": "rogerebert.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "98f4d7c036f9006c26fe96527480899cd791faab50374ac81e341c5ffb51bc8f",
+    "ok": true
+  },
+  {
+    "domain": "aloyoga.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "812ca108a2f9a9d1c8ffe6e51435fbc6a65e966dfed5e67ac95d424c7189c524",
+    "ok": true
+  },
+  {
+    "domain": "notube.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0a76932c9826fb685c49bb46860ba6b43dfb7f8a7ed2cf0e6507c4f7c0829678",
+    "ok": true
+  },
+  {
+    "domain": "livetv.sx",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "0b3859da3219343022f5f3d5399e6afff7708766b7fc3d3e844cedabfddc5147",
+    "ok": true
+  },
+  {
+    "domain": "issn.org",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c829630795e62edd95625aa6fe43d44bc973f2dc22f814bfed0783c5ef1841b0",
+    "ok": true
+  },
+  {
+    "domain": "oscaro.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "4bcb2b3ad387edf3f6e9e9a44f5e58e4c64682674662ad909b86ce012d0506aa",
+    "ok": true
+  },
+  {
+    "domain": "britbox.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "110f94f54181aac3a62f74688b129f688b1d7f9815a61a3dc5e783decb202b4e",
+    "ok": true
+  },
+  {
+    "domain": "dengeki.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6afc522aaebc3148753dedd0eb259ad8d33cf3a41063292629c7f742d310de26",
+    "ok": true
+  },
+  {
+    "domain": "blogfa.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "d77f7b1ba8646f9b2c14b8b08faf67e977824ac7ac2c25dc80f36ad0f2e063fb",
+    "ok": true
+  },
+  {
+    "domain": "jovempan.com.br",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f6c15821cabcfd08cb6f88a72b586ed12e3254418cb02495c0cf5a6251bf2ff5",
+    "ok": true
+  },
+  {
+    "domain": "weber.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "45002584293e0085bab619a884205bff617866a201f7da04f959b70db6e44490",
+    "ok": true
+  },
+  {
+    "domain": "bocongan.gov.vn",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "16ba4b8f44aeca8d3e30d0770228ed410f8c384dea571d850f3aa0f0928e17e2",
+    "ok": true
+  },
+  {
+    "domain": "comingsoon.it",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "61f359662f04211814593421b1e61a2920166a9057ba24ede72b959a0eb72d64",
+    "ok": true
+  },
+  {
+    "domain": "matbao.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "1fe9d71918ef11d1af94d2bac3e9e8a436933f6cb103c01fcc22b4d6f14bd4d2",
+    "ok": true
+  },
+  {
+    "domain": "devtodev.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1bd3b5afb33deb9feb42fece95c926c4b655632b8b11061167d5a77623819324",
+    "ok": true
+  },
+  {
+    "domain": "kantar.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f1c2f84e3161e89fea400b71734718f4b6b9634b2ea4727b3cb887cbcc73f830",
+    "ok": true
+  },
+  {
+    "domain": "redspell.ru",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "548f8ef98dfaa295e32c33bb8b1698c078b6494517c5fb6ee4518fdeeba28245",
+    "ok": true
+  },
+  {
+    "domain": "playnow.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "134c9974bb44872acf6fb531e4235c0eb23b936c17fcf860afd4ff6646a8da60",
+    "ok": true
+  },
+  {
+    "domain": "adster.tech",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "15b42ab13dd41db7e4e5efad4fb730c6536f59ac71c5739819e3a1622b083ec4",
+    "ok": true
+  },
+  {
+    "domain": "cgg.gov.in",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "36a8e60125eddf73f3488eb20d57e5a3dbba8f8f0f709b77184a0963fb1dc274",
+    "ok": true
+  },
+  {
+    "domain": "dropcatch.ai",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "f03117ede0bda2cf073734623befb9c6d20a2de74573dd2c1334da33e6118a1e",
+    "ok": true
+  },
+  {
+    "domain": "worldpay.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "cb092a44dda6d8cc39ffb8ecab7063ced3f020b35570f37cafa593e0aa24f5fa",
+    "ok": true
+  },
+  {
+    "domain": "square-enix-games.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "fe94dd2e726c6163faa878cccc5fbc85270d4ac03b0a25111be1b1e03c75b483",
+    "ok": true
+  },
+  {
+    "domain": "shmu.sk",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9a7ea53ebad4351596244c56717fa04472a53c9fd76d3956e3c2af579b4ab7c2",
+    "ok": true
+  },
+  {
+    "domain": "nccu.edu.tw",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "9b26d98ce1627d8cc9ca6615251ccbeccf7e851b4261c6c8d62f0a194feb4283",
+    "ok": true
+  },
+  {
+    "domain": "vendora.gr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c5cb58303980a3e8db170d84c507b8b4627eb0b6e4326b3f8ec6adb83a9a7c8e",
+    "ok": true
+  },
+  {
+    "domain": "fide.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "524e6ccb6fc515f6b8a1297a21f53fab000bd2b8645314687b54f5ce74ccbedc",
+    "ok": true
+  },
+  {
+    "domain": "hmetro.com.my",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "353abe8f22ef19652d10e6b5444bc57abaf76b4f327c9f6f183c76f604198f3c",
+    "ok": true
+  },
+  {
+    "domain": "longisland.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "3ef5339d91dc3772dfd8eacd2ee42c0f800701cae287db67d2580d9909d4d370",
+    "ok": true
+  },
+  {
+    "domain": "vintedgo.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "e703011e1e11fe0f936d6806fa87eecaa38ba6b73c20163a21d75aba55792822",
+    "ok": true
+  },
+  {
+    "domain": "copel.com",
+    "label": "broken",
+    "label_v2": "held",
+    "sha256": "5b51847bb9520792c7cd228a9a844b8da7aeb2a0d4d3ac5d7c1bcc5b7d063cde",
+    "ok": true
+  },
+  {
+    "domain": "showcamrips.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "945466ece79490affd2ef0af49a149dfcf8eeff3a5209a01cb251985f4cb757b",
+    "ok": true
+  },
+  {
+    "domain": "extra.cz",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "5ffce8a33a25967a6d8ff1e76c0a5700b4585574ea43ac6081259e656f022bb4",
+    "ok": true
+  },
+  {
+    "domain": "ocnk.net",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "408c783d026cab02ba16bf0a13b32601366ca79e93726927669a8c532c531f51",
+    "ok": true
+  },
+  {
+    "domain": "orizzontescuola.it",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "c418be65d7db7f18fc77874f20ad91285b4f1057c350e56bbe63928c8757792f",
+    "ok": true
+  },
+  {
+    "domain": "terrikon.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "270344b02235018958229563d0c6bc31859363b6d7235250dbe4b0621a11a63d",
+    "ok": true
+  },
+  {
+    "domain": "mathsisfun.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "b4ad0a8a8296f9e13c087d625a810e067ed18d4fa9f0d6cbb0e64a8fb610a735",
+    "ok": true
+  },
+  {
+    "domain": "jigsy.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "bd11576400bf29504423f7bd20663a07a051e73b16189924736bc6579dd70dfd",
+    "ok": true
+  },
+  {
+    "domain": "bibliaon.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "0deaf34d76d67efbd1f68c12a33f81606199ede76588b16216a245fbb1747a65",
+    "ok": true
+  },
+  {
+    "domain": "asml.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "4b039c339de0343cefcc08ddc9a94923cb880d06ced9f13628c1cac450abb883",
+    "ok": true
+  },
+  {
+    "domain": "vendhq.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "4a505d80f279528ff1bcc8a5581deee1e9c70f81246c3e0b8129052245195aaf",
+    "ok": true
+  },
+  {
+    "domain": "drmax.ro",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "699db384f1366c3284a8a4261621fc48afee45bb8f25703f3b764788c35b98cd",
+    "ok": true
+  },
+  {
+    "domain": "bitcoinmagazine.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "1b807d9cab6ae3e19d63799fd31ab503ab1c98b6e82427ea2d3577a2f3d2af40",
+    "ok": true
+  },
+  {
+    "domain": "xbiz.ne.jp",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "de0f2d625a12d2dbbc26fe2dd1346a2a9a3b156e502620684292e3d9dbe0a47a",
+    "ok": true
+  },
+  {
+    "domain": "zcu.cz",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "ddc8865e23de2d8e56d04341f00168c095b726f8dc1f66a60c691b40e47361db",
+    "ok": true
+  },
+  {
+    "domain": "france24.com",
+    "label": "held",
+    "label_v2": "broken",
+    "sha256": "b68e900844e64ad27cb12b02e8117c06b9cc49f468d49ee6e8962e6c195396ed",
+    "ok": true
+  },
+  {
+    "domain": "lastampa.it",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "9595cc942c0ea87cc6455f7c583f80794fb20145b8344d6e9141b471dbb78b93",
+    "ok": true
+  },
+  {
+    "domain": "ilsole24ore.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "630cb819838adddccb9e4465fc68f592d2666762090819b962d6e1ff8dad777b",
+    "ok": true
+  },
+  {
+    "domain": "ansa.it",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "4c19f22eb2c8243b7c86865ae35835cbb306f90e8d69530e3b4ea5e0c735810a",
+    "ok": true
+  },
+  {
+    "domain": "elconfidencial.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "04628aa0d9fba7c1a2ca5b928365c8c81574531b46e7e63a430c9d9c74443050",
+    "ok": true
+  },
+  {
+    "domain": "abc.es",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "0c8221127921098c758a2b15872a1cb41a8f9e07766971451c5f3665342e2b45",
+    "ok": true
+  },
+  {
+    "domain": "20minutos.es",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "54251bb6d6bc2c6580a30e21b0ee2f9280838032c3e17161a2eaeb103598357f",
+    "ok": true
+  },
+  {
+    "domain": "metro.co.uk",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "85df5369f948cd0a851264f6d6c0c896490dbe173e47d514ea0d802574c0c31d",
+    "ok": true
+  },
+  {
+    "domain": "mirror.co.uk",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "c68ca41e917b7bb4247668f19868dd95e5b84cb6d31e2926c6881d979ee983fe",
+    "ok": true
+  },
+  {
+    "domain": "thesun.co.uk",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "ad738a9b3279d62ffdb17fc21727ebbba089b134a06f805fadc0d3b214cad27e",
+    "ok": true
+  },
+  {
+    "domain": "standard.co.uk",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "bb35569f80e38389635f6528cf6830506389e58558293922e4a84b37fa8e1e48",
+    "ok": true
+  },
+  {
+    "domain": "ft.com",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "6d2d2c6c8d22700bbc6609acccd266be68667a65c1a2e0f644b86d716c43b556",
+    "ok": true
+  },
+  {
+    "domain": "booking.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "6fb36b1c711591d7e74f7617a10eedb1c1c8d779d2c8a061a3db8cb1231a2804",
+    "ok": true
+  },
+  {
+    "domain": "tripadvisor.co.uk",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "8a75a610c349f172985d2f13def83085ee9674363e52c249ba93453655644c00",
+    "ok": true
+  },
+  {
+    "domain": "ryanair.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "34bc170ac02f863e93b5e88ef1cb5e75007f3c7f75b231e07684eb3815af9baa",
+    "ok": true
+  },
+  {
+    "domain": "lufthansa.com",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "804555d14e3740bdd5f9c37c9273b1c0bb5b7c4d913497d0813cbdb7c9542a8d",
+    "ok": true
+  },
+  {
+    "domain": "kayak.co.uk",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "1203c729b51bcf3df8542dcbd40c7169a31472bf27da15d7c36daac0e1a1d557",
+    "ok": true
+  },
+  {
+    "domain": "currys.co.uk",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "5cecd67f1f3076f7defd457f9e435dd7b79d5781386787e4d5ea70470c35ba89",
+    "ok": true
+  },
+  {
+    "domain": "mediamarkt.de",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "f70bbaa4dd04a64f08e11c91c778904464d077025e6ad2094b211843cce22d9e",
+    "ok": true
+  },
+  {
+    "domain": "aboutyou.de",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "de5812cfb6bef9c14ea301e28ffdacd1886d9278eab2f71381ce7454f8087274",
+    "ok": true
+  },
+  {
+    "domain": "vinted.fr",
+    "label": "broken",
+    "label_v2": "broken",
+    "sha256": "6ef53ca2a8b3f20a2e5a590fb07c357c566340f95bb83f13d13411d982b3a3cf",
+    "ok": true
+  },
+  {
+    "domain": "bbc.co.uk",
+    "label": "held",
+    "label_v2": "held",
+    "sha256": "504f5acb3afb4a4abb65689ebf5058a691604bac4ee673bb6f2f8a8aff1f58b0",
+    "ok": true
+  }
+]

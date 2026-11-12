@@ -12,7 +12,13 @@
   "eval/compiled/TASK.md": "a41ed9cc2cd6fc8c9884f948f7790ddfa6ba5f879c88dd1efe01955c5303e466",
   "eval/compiled/sandbox.manifest.json": "26be2430cb6abed26fc07563c76db259894647fe1ac9b6b4888b0d08cf650efb",
   "eval/compiled/tool-calls.jsonl": "1811dc928ea822f81dd9ebd08bbff629603983aa422c0ccce21347b43aebd982",
-  "gym/RULE.md": "e0ff057229175f3a36c09013c858fc5e1ec6306097216dbc223bfc7f600412a4"
+  "gym/RULE.md": "e0ff057229175f3a36c09013c858fc5e1ec6306097216dbc223bfc7f600412a4",
+  "gym/compiled/rule.ts": "a38d89d30695fc323b156f4367b7d574a05ad4634551a7d2c572d8be097a1026",
+  "gym/compiled/TASK.md": "698dc7dcbc2cc1a5b2646e6c6d952be9868fb0080f9781c7611c9fea3608a1a2",
+  "gym/compiled/sandbox.manifest.json": "f0e7d87b009f32ff96685b650deb166506d5305f84ca024564856d5d961738f4",
+  "gym/compiled/tool-calls.jsonl": "08d9e584e3d242b712b56af82aa92f6026b07023523f2d3ae222d9f3590931a3",
+  "gym/compiled/attempts.log": "ef80a029235680eb8bae048a550bdbcd9cb9f247a491d0236924ad77df637b17",
+  "gym/frames.index.json": "ccc00dd34b43ccfb00cde7e7103fc6d75dbddadc54a14112c548b60aa127dd09"
  },
  "changes": [
   {
@@ -30,6 +36,10 @@
   {
    "at": "2026-11-12T18:24:53.510Z",
    "reason": "L0: freeze gym/RULE.md v2 after adversarial review, before any gym page exists"
+  },
+  {
+   "at": "2026-11-12T19:19:37.979Z",
+   "reason": "L4: freeze ghost-compiled-v2 (Fable 5.2, 2 of 5 train attempts, train F1 1.0) before its one held-out and real-site scoring"
   }
  ]
 }

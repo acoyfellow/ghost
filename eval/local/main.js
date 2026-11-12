@@ -3,6 +3,7 @@ import { AutoProcessor, AutoModelForVision2Seq, RawImage } from "https://cdn.jsd
 const params = new URLSearchParams(location.search);
 const split = params.get("split") ?? "dev";
 const run = params.get("run") ?? "1";
+const set = params.get("set") ?? "eval";
 const limit = Number(params.get("limit") ?? "0");
 const visionDtype = params.get("vision") ?? "fp16";
 const embedDtype = params.get("embed") ?? "fp16";
@@ -16,7 +17,7 @@ const show = (progress) => {
 };
 
 const downscale = async (id) => {
-  const blob = await (await fetch(`/frames/${encodeURIComponent(id)}.jpg`)).blob();
+  const blob = await (await fetch(`/frames/${encodeURIComponent(id)}.jpg?set=${set}`)).blob();
   const bitmap = await createImageBitmap(blob);
   const scale = Math.min(1, longestSide / Math.max(bitmap.width, bitmap.height));
   const width = Math.max(1, Math.round(bitmap.width * scale));
@@ -48,8 +49,8 @@ const main = async () => {
   const [models, prompt, allFrames, done] = await Promise.all([
     fetch("/models").then((r) => r.json()),
     fetch("/prompt").then((r) => r.text()),
-    fetch(`/frames?split=${split}`).then((r) => r.json()),
-    fetch(`/done?run=${run}`).then((r) => r.json()),
+    fetch(`/frames?split=${split}&set=${set}`).then((r) => r.json()),
+    fetch(`/done?run=${run}&set=${set}`).then((r) => r.json()),
   ]);
   state.model = models["ghost-local"];
   const frames = limit ? allFrames.slice(0, limit) : allFrames;
@@ -73,7 +74,7 @@ const main = async () => {
     }
     const result = { id: frame.id, answer, flagged: parse(answer), ms: Math.round(performance.now() - started) };
     state.results.push({ ...result, label: frame.label });
-    await fetch(`/result?run=${run}`, { method: "POST", body: JSON.stringify(result) });
+    await fetch(`/result?run=${run}&set=${set}`, { method: "POST", body: JSON.stringify(result) });
     count += 1;
     show(`${count}/${frames.length}`);
   }
