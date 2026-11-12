@@ -1,18 +1,17 @@
 {
- "verdict": "unscored",
- "candidate": "none",
- "candidateHeldOutF1": null,
+ "verdict": "disproven",
+ "candidate": "ghost-compiled-v2",
+ "candidateHeldOutF1": 0.7374,
  "bestBaseline": 0.6467,
  "margin": 0.05,
- "realHoldoutF1": null,
+ "realHoldoutF1": 0.8387,
  "conditions": {
   "heldOutAtLeast090": false,
-  "beatsBestBaselineBy005": false,
+  "beatsBestBaselineBy005": true,
   "realHoldoutAtLeast0883": false
  },
  "failing": [
   "heldOutAtLeast090",
-  "beatsBestBaselineBy005",
   "realHoldoutAtLeast0883"
  ],
  "bySystem": {
@@ -128,6 +127,180 @@
      "F10": {
       "f1": 0.7,
       "fpr": 0
+     }
+    }
+   }
+  },
+  "ghost-compiled-v2": {
+   "runs": 1,
+   "heldOutF1": 0.7374,
+   "spread": [
+    0.7374,
+    0.7374
+   ],
+   "representative": {
+    "run": 1,
+    "heldOutF1": 0.7374,
+    "heldOutCI": [
+     0.6573,
+     0.8043
+    ],
+    "trainF1": 1,
+    "nulls": 0,
+    "byFamily": {
+     "F1": {
+      "fpr": 0
+     },
+     "F2": {
+      "f1": 1,
+      "fpr": 0
+     },
+     "F4": {
+      "f1": 1,
+      "fpr": 0
+     },
+     "F5": {
+      "fpr": 0
+     },
+     "F8": {
+      "f1": 1,
+      "fpr": 0
+     },
+     "F3": {
+      "f1": 0,
+      "fpr": 0
+     },
+     "F6": {
+      "f1": 1,
+      "fpr": 0
+     },
+     "F7": {
+      "f1": 1,
+      "fpr": 0
+     },
+     "F9": {
+      "f1": 0,
+      "fpr": 0
+     },
+     "F10": {
+      "f1": 1,
+      "fpr": 0
+     }
+    }
+   }
+  },
+  "ghost-local": {
+   "runs": 1,
+   "heldOutF1": 0.1899,
+   "spread": [
+    0.1899,
+    0.1899
+   ],
+   "representative": {
+    "run": 1,
+    "heldOutF1": 0.1899,
+    "heldOutCI": [
+     0.1154,
+     0.2821
+    ],
+    "trainF1": 0.2804,
+    "nulls": 329,
+    "byFamily": {
+     "F1": {
+      "fpr": 0.3
+     },
+     "F2": {
+      "f1": 0.35,
+      "fpr": 0.2917
+     },
+     "F4": {
+      "f1": 0.2581,
+      "fpr": 0.2581
+     },
+     "F5": {
+      "fpr": 0.2
+     },
+     "F8": {
+      "f1": 0.2222,
+      "fpr": 0.3333
+     },
+     "F3": {
+      "f1": 0.0645,
+      "fpr": 0.2593
+     },
+     "F6": {
+      "f1": 0.3125,
+      "fpr": 0.2069
+     },
+     "F7": {
+      "f1": 0.1429,
+      "fpr": 0.2258
+     },
+     "F9": {
+      "f1": 0.1875,
+      "fpr": 0.1923
+     },
+     "F10": {
+      "f1": 0.2286,
+      "fpr": 0.2083
+     }
+    }
+   }
+  },
+  "workers-ai-vision": {
+   "runs": 3,
+   "heldOutF1": 0.4444,
+   "spread": [
+    0.4444,
+    0.4444
+   ],
+   "representative": {
+    "run": 1,
+    "heldOutF1": 0.4444,
+    "heldOutCI": [
+     0.3654,
+     0.5236
+    ],
+    "trainF1": 0.4029,
+    "nulls": 0,
+    "byFamily": {
+     "F1": {
+      "fpr": 0.3
+     },
+     "F2": {
+      "f1": 0.6389,
+      "fpr": 0.9583
+     },
+     "F4": {
+      "f1": 0.2778,
+      "fpr": 0.3871
+     },
+     "F5": {
+      "fpr": 0.9
+     },
+     "F8": {
+      "f1": 0,
+      "fpr": 0.2963
+     },
+     "F3": {
+      "f1": 0.3684,
+      "fpr": 0.2963
+     },
+     "F6": {
+      "f1": 0.5588,
+      "fpr": 0.9655
+     },
+     "F7": {
+      "f1": 0.303,
+      "fpr": 0.2903
+     },
+     "F9": {
+      "f1": 0.5116,
+      "fpr": 0.3077
+     },
+     "F10": {
+      "f1": 0.3721,
+      "fpr": 0.375
      }
     }
    }

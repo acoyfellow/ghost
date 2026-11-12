@@ -1,56 +1,67 @@
 # ghost
 
-**Disproven.** A browser agent wants to know, before it clicks, whether something covers the target. On 193 frozen real pages from Cloudflare Browser Run, one free CDP call (`elementFromPoint`) beat a Workers AI vision model and a vision model running on your own GPU in the browser. Then we asked a model to *write* a better rule instead of judging frames. It wrote the same rule.
+**Disproven, with a real win inside it.** Before a browser agent clicks, will the click reach the target? We asked a model to *write a rule* instead of judging every page. On kinds of page it never saw, its rule beat the hand-written rule and two vision models. It still missed the bar we set, because some pages change after the agent looks, and no rule can see that.
 
 > Ask a model to play the game and it burns tokens. Ask it to design a system that plays the game and it writes software that runs 1000x faster.
 
-ghost tests that idea on browser agents. The compiled rule runs in microseconds for $0. It did not beat the hand-written one, because the misses leave no trace in the DOM facts we recorded.
+Live: https://ghost.customer0.dev · Gym: https://ghost.customer0.dev/gym · Receipts: [`gym/receipt.json`](gym/receipt.json), [`eval/receipt.json`](eval/receipt.json)
 
-Live: https://ghost.customer0.dev · Receipt: [`eval/receipt.json`](eval/receipt.json)
+Held-out gym families, 250 pages, F1 on blocked clicks:
 
-| System | F1 (holdout) |
-|---|---|
-| dom-rule | 0.8833 |
-| workers-ai-vision | 0.6615 |
-| ghost-local | 0.3485 |
-| ghost-compiled (candidate) | 0.8833 |
+| System | Held-out F1 | F10 inert / disabled (unseen mechanism) |
+|---|---|---|
+| ghost-compiled-v2 (candidate, written by Fable 5.2) | **0.7374** | **1.0** |
+| dom-rule (hand-written) | 0.6467 | 0.7 |
+| ghost-compiled-v1 (round 1 rule) | 0.6467 | 0.7 |
+| workers-ai-vision (median of 3 runs) | 0.4444 | 0.3721 |
+| ghost-local (SmolVLM-256M, WebGPU) | 0.1899 | 0.2286 |
+
+Pre-registered conditions in [`gym/RULE.md`](gym/RULE.md): beats the best baseline by 0.05 **passes** (+0.09). Held-out F1 at least 0.90 **fails** (0.7374). Real holdout pages at least 0.883 **fails** (0.8387).
 
 ## Why
 
-Many browser agents send a screenshot to a vision model to ask "is a cookie banner or modal in the way?". The idea we tested came from a design chat: run a small vision model on the user's GPU (WebGPU) and the triage becomes free and private. Before building that stack, we asked whether it beats the signal the agent already has.
+Most browser agents send a screenshot to a model and ask "is something in the way?". That is the model playing the game: slow, paid per page, and in round 1 it lost to one free DOM call. The better use of a model is to write the mechanism once. ghost measures whether a model-written rule generalises to pages it was never shown, or only memorises the ones it was.
 
 ## What it does
 
-- `eval/collector/` is a Worker that opens a site in Browser Run, picks a click target with a fixed rule ([`eval/TARGET_RULE.md`](eval/TARGET_RULE.md)), takes a screenshot, records DOM facts at the target, and then sends a real click. The label is `broken` when the target did not receive the click.
-- Four systems answer the same question on the same frames:
-  - `dom-rule`: does `elementFromPoint` at the target centre hit the target? ([`eval/baseline-dom.ts`](eval/baseline-dom.ts))
-  - `workers-ai-vision`: a Workers AI vision model, one yes/no prompt ([`eval/run-wai.ts`](eval/run-wai.ts), model in [`eval/models.json`](eval/models.json))
-  - `ghost-local`: SmolVLM-256M through Transformers.js on WebGPU, run three times in a browser ([`eval/local/`](eval/local/))
-  - `ghost-compiled`: Fable 5.2 got a sandbox with only the 92 dev frames and a dev scorer, and wrote [`eval/compiled/rule.ts`](eval/compiled/rule.ts). Its notes and every tool call are in [`eval/compiled/`](eval/compiled/). The rule was frozen before its one holdout run.
-- [`eval/score.ts`](eval/score.ts) recomputes F1 from the raw per-frame runs in `eval/raw/`. The candidate is scored on its worst run, the baselines on their best.
+Two rounds, each frozen before scoring.
+
+**Round 2, the gym (current result).**
+- [`gym/RULE.md`](gym/RULE.md) defines 10 families of pages, the split, the facts and the verdict. It was reviewed by an adversarial model ([`gym/receipts/rule-critic.md`](gym/receipts/rule-critic.md)) and frozen before any page existed.
+- [`gym/generator/`](gym/generator/) serves each family at `/gym/<family>/<seed>`. The answer for each page is set by construction, with a secret salt so the rule author cannot guess labels from seed numbers. Every label was confirmed by a real click in Browser Run: 500 of 500 agreed.
+- Fable 5.2 got a sandbox with only the 5 train families (F1, F2, F4, F5, F8), no page ids, no URLs, and a scorer it could run 5 times. It used 2. It wrote [`gym/compiled/rule.ts`](gym/compiled/rule.ts), 55 lines. Its notes are in [`gym/compiled/NOTES.md`](gym/compiled/NOTES.md) and every tool call is in [`gym/compiled/tool-calls.jsonl`](gym/compiled/tool-calls.jsonl).
+- The rule was frozen, then scored once on the 5 held-out families (F3, F6, F7, F9, F10) and on the real sites.
+
+**Round 1, real sites.** 285 real pages captured in Browser Run, labelled by a real click, split 92 dev and 193 holdout. One `elementFromPoint` call scored 0.8833. A Workers AI vision model scored 0.6615 and SmolVLM-256M on WebGPU 0.3485. A rule Fable wrote from the dev pages made the same call as the DOM check on all 193 holdout pages.
+
+## What we learned
+
+1. **The model wrote mechanisms, not memories.** No train page had a disabled or inert target. Fable's rule still says a disabled control gets no click and an inert subtree is skipped, because that is how browsers work. On the unseen F10 family it scored 1.0; the hand-written rule scored 0.7.
+2. **Some failures are out of reach for every rule.** In F3 and F9 the page changes after the agent looks. Every system scored 0 there except vision, which is close to guessing. This was written down before any page existed. The fix is not a better rule: check again at the moment of the click.
+3. **The real-site drop is the data moving, not the rule.** The pages were collected again with the gym protocol. The plain DOM rule scores the same 0.8387 on the new facts. The two rules disagree on 2 of 193 pages, one each way.
 
 ## Quick start
 
 ```sh
 bun install
-bash eval/score.sh        # recompute the receipt from eval/raw
-bun eval/verify-frozen.ts # check that the cases and harness match eval/frozen.json
-bash proof/gate.sh        # the full release contract
+bash gym/score.sh          # recompute the gym receipt from gym/raw
+bash eval/score.sh         # recompute the round 1 receipt from eval/raw
+bun eval/verify-frozen.ts  # check every frozen file against eval/frozen.json
+bash proof/gate.sh         # the full release contract
 ```
 
-Collecting new frames needs a Cloudflare account with Browser Run: deploy `eval/collector` with wrangler and run `bun eval/mine.ts`. Frames are written to `.real/`, which is not committed.
+Open any gym page, such as https://ghost.customer0.dev/gym/F10/3, to see a case. Collecting new frames needs a Cloudflare account with Browser Run: deploy `gym/collector` with wrangler and run `bun gym/mine.ts`. Frames go to `.real/`, which is not committed.
 
 ## Proof
 
 - Fit first: [`FIT.md`](FIT.md) and [`fit/spec.json`](fit/spec.json), checked by `fit/spike-fit.ts`.
-- Frozen before scoring: [`eval/frozen.json`](eval/frozen.json) holds hashes of the site list, the target rule, the prompt, the model ids, the frame index and the scorer.
-- Probes: [`probes/p1/VERDICT.md`](probes/p1/VERDICT.md) (screencast, `elementFromPoint` and Live View work from a Worker) and [`probes/p2/VERDICT.md`](probes/p2/VERDICT.md) (WebGPU model in the browser).
-- [`proof/gate.sh`](proof/gate.sh) checks fit, the frozen hashes, the recomputed verdict, the live page, GitHub `main`, gitleaks, and that no frames are tracked.
+- [`eval/frozen.json`](eval/frozen.json) holds hashes of every rule, site list, prompt, model id, frame index and scorer, with a log of every refreeze and its reason.
+- [`proof/gate.sh`](proof/gate.sh) checks, from git history, that `gym/RULE.md` was committed before the generator and that the candidate rule was frozen before its scored run. It checks that the model never touched files outside its sandbox, recomputes both receipts, and checks that the live page shows the verdict and every number. It also checks that GitHub `main` matches, that gitleaks is clean and that no frames are tracked.
 
 ## Limits
 
-- The label and `dom-rule` use the same browser. An overlay that appears between the screenshot and the click counts against every system equally, but `dom-rule` reads the DOM at the same moment as the click.
-- One prompt for all models, no per-model tuning. A larger local model or a tuned prompt can score higher. It must still beat a free call.
-- One egress location. Consent banners depend on the visitor's country.
-- Canvas, image and video content is invisible to the DOM. ghost does not test that stratum, where pixels can matter.
-- 205 of 490 sites failed to load or had no eligible target and are not in the set.
+- **Condition 3 compares two collections.** The 0.883 threshold came from round 1 facts. The candidate was scored on facts collected again a day later. 13 pages changed their click label between the two, and 3 failed to load.
+- **`ghost-local` has 1 complete gym run, not 3.** The cmux browser tab grew past 6 GB and was restarted while the run was going. Run 1 finished all 500 pages, and run 2 stopped at 469.
+- **Same model family on both sides.** Sonnet wrote the gym generator and Fable wrote the rule. Fable never saw the generator code, but both come from one model family.
+- **Gym pages are simpler than real sites.** Every gym target is one button. A rule that wins here can still lose on real pages, which is why condition 3 exists.
+- **One prompt for all vision models, no tuning.** One egress location for real sites.
