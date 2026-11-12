@@ -10,3 +10,4 @@ probes/p2/frames/
 *.jpg
 site/public/
 .guardrail/
+gym/.salt

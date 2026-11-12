@@ -1,0 +1,11 @@
+L1: build the ghost gym page generator. Read gym/RULE.md first; it is frozen and you must not edit it. Also read site/wrangler.jsonc and site/build.ts.
+
+Build:
+1. gym/generator/families.ts: pure function render(family: string, seed: number, salt: string) -> { html: string; truth: "broken" | "held" }. Implements F1..F10 exactly as gym/RULE.md says, including the protocol hooks: window.__ghostReady, window.__ghostAct() (F3 and F9 hold their change until __ghostAct is called), window.__ghostTruth, and exactly one element with data-ghost-target. Truth per seed: keyed hash of (family, seed, salt), about half broken, except F1 and F5 always held. Randomise layout, colours, text, target size/position and overlay size by seed with a seeded PRNG. No external assets; inline everything. Same-origin srcdoc iframes and open shadow roots only.
+2. Turn the ghost site into a Worker that serves both: keep static assets from site/public, add site/src/index.ts with routes GET /gym (index listing families with links), GET /gym/<family>/<seed> (the page, header x-ghost-truth, cache-control no-store). The salt is a Worker secret GYM_SALT; generate it with openssl rand -hex 16, store it ONLY in gym/.salt (add gym/.salt to .gitignore) and `wrangler secret put GYM_SALT` from site/. site/wrangler.jsonc keeps the custom domain ghost.customer0.dev, account 29db7c74093386544fed8046ef083a4b, workers_dev false, assets binding with run_worker_first only for /gym*. No other bindings.
+3. gym/generator/families.test.ts (bun:test): every family renders for seeds 0..49; exactly one data-ghost-target; F1/F5 always held; other families have between 15 and 35 broken of 50; determinism (same input same html).
+4. Deploy with `npx wrangler deploy` from site/. Check https://ghost.customer0.dev/gym and two pages of each family return 200, and / still serves the existing page.
+5. Visual check: with the cmux browser CLI only, open one broken and one held page of each family, take `cmux browser --surface <ref> screenshot --out /tmp/ghost-plan/gym-shots/<family>-<truth>.png`, and look at them. Fix pages that do not look like their description. Close nothing you did not open.
+6. Write gym/receipts/L1.md: what each family renders, test results, the URLs checked.
+Then touch /tmp/ghost-plan/L1.done.
+TypeScript strict, no `as` casts, no source comments, no mocks.
