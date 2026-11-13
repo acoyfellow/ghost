@@ -164,6 +164,24 @@ export const armListeners = `(() => {
   return true;
 })()`;
 
+export const hitAtPoint = (x: number, y: number) => `(() => {
+  const target = window.__ghostTarget;
+  let hit = document.elementFromPoint(${x}, ${y});
+  while (hit && hit.shadowRoot) {
+    const inner = hit.shadowRoot.elementFromPoint(${x}, ${y});
+    if (!inner || inner === hit) break;
+    hit = inner;
+  }
+  if (hit && hit.tagName === "IFRAME" && hit.contentDocument) {
+    const frame = hit.getBoundingClientRect();
+    hit = hit.contentDocument.elementFromPoint(${x} - frame.left, ${y} - frame.top) || hit;
+  }
+  for (let node = hit; node; node = node.parentElement || (node.getRootNode && node.getRootNode().host) || (node.ownerDocument && node.ownerDocument.defaultView && node.ownerDocument.defaultView.frameElement) || null) {
+    if (node === target) return true;
+  }
+  return false;
+})()`;
+
 export const boxNow = `(() => { const r = window.__ghostTarget.getBoundingClientRect(); return { x: r.left, y: r.top, width: r.width, height: r.height }; })()`;
 
 export const readOutcome = `(() => ({ fired: window.__ghostFired === true, eventTarget: window.__ghostSeen }))()`;

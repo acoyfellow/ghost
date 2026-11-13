@@ -1,4 +1,4 @@
-import { armListeners, boxNow, callAct, observe, pickByRule, pickBySelector, readOutcome, readyState } from "./pageScripts";
+import { armListeners, boxNow, callAct, hitAtPoint, observe, pickByRule, pickBySelector, readOutcome, readyState } from "./pageScripts";
 
 type Box = { x: number; y: number; width: number; height: number };
 
@@ -19,6 +19,10 @@ type CollectResult = {
   label?: "broken" | "held";
   observation?: Observation;
   outcome?: Outcome;
+  act0?: Observation | null;
+  recheck?: Observation | null;
+  recheckToClickMs?: number;
+  recheckPlannedHit?: boolean;
   jpegBase64?: string;
   ms: number;
 };
@@ -199,14 +203,19 @@ async function collect(env: Env, url: string, selector: string | null): Promise<
     if (jpegBase64 === null) return { url, ok: false, error: "no screenshot", ms: elapsed() };
 
     const actCalled = (await client.evaluate(callAct)) === true;
+    const act0 = await client.evaluate(observe);
     await sleep(300);
     await client.evaluate(armListeners);
     const boxAtClick = await client.evaluate(boxNow);
     if (!isBox(boxAtClick)) return { url, ok: false, error: "bad box", ms: elapsed() };
 
     const { x, y } = observation.clickPoint;
+    const recheckStartedAt = Date.now();
+    const recheck = await client.evaluate(observe);
+    const recheckPlannedHit = (await client.evaluate(hitAtPoint(x, y))) === true;
     await client.send("Input.dispatchMouseEvent", { type: "mouseMoved", x, y });
     await client.send("Input.dispatchMouseEvent", { type: "mousePressed", x, y, button: "left", clickCount: 1 });
+    const recheckToClickMs = Date.now() - recheckStartedAt;
     await client.send("Input.dispatchMouseEvent", { type: "mouseReleased", x, y, button: "left", clickCount: 1 });
     await sleep(300);
     const read = await client.evaluate(readOutcome);
@@ -218,6 +227,10 @@ async function collect(env: Env, url: string, selector: string | null): Promise<
       label: read.fired ? "held" : "broken",
       observation,
       outcome: { fired: read.fired, eventTarget: read.eventTarget, boxAtClick, clickPoint: { x, y }, actCalled },
+      act0: isObservation(act0) ? act0 : null,
+      recheck: isObservation(recheck) ? recheck : null,
+      recheckToClickMs,
+      recheckPlannedHit,
       jpegBase64,
       ms: elapsed(),
     };

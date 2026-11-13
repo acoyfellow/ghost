@@ -10,6 +10,10 @@ export type CollectResponse = {
   label?: Label;
   observation?: unknown;
   outcome?: unknown;
+  act0?: unknown;
+  recheck?: unknown;
+  recheckToClickMs?: number;
+  recheckPlannedHit?: boolean;
   jpegBase64?: string;
   ms: number;
 };
@@ -27,6 +31,10 @@ export const parseCollectResponse = (value: unknown, url: string): CollectRespon
     label: isLabel(value.label) ? value.label : undefined,
     observation: value.observation,
     outcome: value.outcome,
+    act0: value.act0,
+    recheck: value.recheck,
+    recheckToClickMs: typeof value.recheckToClickMs === "number" ? value.recheckToClickMs : undefined,
+    recheckPlannedHit: typeof value.recheckPlannedHit === "boolean" ? value.recheckPlannedHit : undefined,
     jpegBase64: typeof value.jpegBase64 === "string" ? value.jpegBase64 : undefined,
     ms: typeof value.ms === "number" ? value.ms : 0,
   };

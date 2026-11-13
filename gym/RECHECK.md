@@ -49,6 +49,16 @@ The collector also records `recheckToClickMs`: the time from the start of the `r
 - **Disproven** otherwise, with the failing prediction named.
 - Prediction 2 and 3d are reported. They do not set the verdict.
 
+## Amendment 1, after a 3-page smoke test and before collection
+
+Smoke pages F3/1, F9/1 and F2/1 were collected to check the collector. On F9/1, `recheck` said the target was hit, but the click failed. `observe` aims at the target's current centre. In F9 the target moved, so `recheck` looked at its new position, and the click went to the old point.
+
+The original predictions stay as written and are scored as written. Prediction 3b is now expected to fail. One system is added, defined before collection:
+
+- `rule-recheck-planned`: the frozen rule on `recheck`, but with `hitIsTarget` taken from `elementFromPoint` at the planned click point (the `early` click point). The collector records this as `recheckPlannedHit`.
+
+It is reported next to `rule-recheck` and does not set the verdict. If it wins F9 and `rule-recheck` does not, the finding is: a recheck must test the point that will be clicked.
+
 ## Known weakness, written before data
 
 In the gym, every change ends within 120 ms, and the recheck comes 300 ms after the change starts. So the recheck is expected to win in the gym by design. This test shows that the mechanism works and how late the recheck must come. It does not show the latency real sites need. Prediction 4 and `recheckToClickMs` are the parts that can surprise us.
