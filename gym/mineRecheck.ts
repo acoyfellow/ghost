@@ -6,8 +6,10 @@ import { splitOf } from "../eval/baseline-dom";
 type Job = { id: string; url: string; selector: string | null; family: string | null };
 
 const set = process.argv[2] === "real" ? "real" : "gym";
+const pass = process.argv[3];
 const root = import.meta.dir;
-const outDir = join(root, "..", ".real", set === "gym" ? "recheck-gym" : "recheck-real");
+const outName = pass === undefined ? (set === "gym" ? "recheck-gym" : "recheck-real") : `h1-p${Number(pass)}`;
+const outDir = join(root, "..", ".real", outName);
 const site = "https://ghost.customer0.dev/gym";
 
 const isRecord = (value: unknown): value is Record<string, unknown> => typeof value === "object" && value !== null;
