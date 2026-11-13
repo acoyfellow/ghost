@@ -55,6 +55,9 @@ git checkout -- gym/receipt.json
 [ "$gym_committed" = "$gym_recomputed" ] || fail "gym receipt does not match the recomputed scores"
 gym_verdict=$(bun -e 'console.log(require("./gym/receipt.json").verdict)')
 case "$gym_verdict" in proven|disproven) echo "gym verdict: $gym_verdict" ;; *) fail "gym verdict is $gym_verdict" ;; esac
+audit_committed=$(cat gym/receipts/audit.json)
+bun gym/audit.ts >/dev/null || fail "audit"
+[ "$audit_committed" = "$(cat gym/receipts/audit.json)" ] || fail "audit does not recompute"
 
 echo "== docs"
 for section in "## Why" "## What it does" "## Quick start" "## Proof" "## Limits"; do

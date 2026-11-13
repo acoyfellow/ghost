@@ -18,6 +18,8 @@ Held-out gym families, 250 pages, F1 on blocked clicks:
 
 Pre-registered conditions in [`gym/RULE.md`](gym/RULE.md): beats the best baseline by 0.05 **passes** (+0.09). Held-out F1 at least 0.90 **fails** (0.7374). Real holdout pages at least 0.883 **fails** (0.8387).
 
+**Audit** ([`gym/receipts/AUDIT.md`](gym/receipts/AUDIT.md), post hoc, the verdict stays): the 0.90 bar was above the 0.7374 ceiling that any rule reading only the observation can reach, and the candidate hit that ceiling. The real-site check scored round 2 facts against round 1 labels. With labels from the same collection, both rules score 0.8837: no regression. Flagging every page as blocked scores 0.6226, above both vision models.
+
 ## Why
 
 Most browser agents send a screenshot to a model and ask "is something in the way?". That is the model playing the game: slow, paid per page, and in round 1 it lost to one free DOM call. The better use of a model is to write the mechanism once. ghost measures whether a model-written rule generalises to pages it was never shown, or only memorises the ones it was.

@@ -32,6 +32,11 @@ if (!isRealReceipt(realParsed) || !isGymReceipt(gymParsed)) throw new Error("rec
 const real = realParsed;
 const gym = gymParsed;
 
+type Audit = { condition1: { observationOnlyCeilingF1: number }; condition3: { candidateSameCollectionLabels: number; domRuleSameCollectionLabels: number; labelsChanged: number }; flagEverything: { pooled: number } };
+const auditParsed = readJson("gym/receipts/audit.json");
+if (!isRecord(auditParsed) || !isRecord(auditParsed.condition1) || !isRecord(auditParsed.condition3)) throw new Error("gym/receipts/audit.json missing");
+const audit = auditParsed as unknown as Audit;
+
 const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 const repo = ["https:", "", "github.com", "acoyfellow", "ghost"].join("/");
@@ -103,6 +108,14 @@ ${gymRows}
 ${conditionRows}
 </ul>
 <p>The candidate scored ${gym.candidateHeldOutF1}, the best baseline ${gym.bestBaseline}. On the real holdout pages, collected again with the gym protocol, it scored ${gym.realHoldoutF1}.</p>
+<h2>Audit: why the failures say less than they seem</h2>
+<p>We checked our own verdict. It stays ${gym.verdict}, because that is what the frozen rules say. Two of the failures are in our test, not the rule.</p>
+<ul>
+<li><b>The 0.90 bar could not be met.</b> F3 and F9 change after the agent looks, so the best any rule can score is ${audit.condition1.observationOnlyCeilingF1}. The candidate scored exactly that.</li>
+<li><b>The real-site check mixed two collections.</b> ${audit.condition3.labelsChanged} pages changed their click result between them. With labels from the same collection, the candidate scores ${audit.condition3.candidateSameCollectionLabels}, the same as the DOM rule (${audit.condition3.domRuleSameCollectionLabels}). No regression.</li>
+<li><b>The vision models scored below a guess.</b> Flagging every page as blocked scores ${audit.flagEverything.pooled}.</li>
+</ul>
+<p>Next test, pre-registered: run the rule again at the moment of the click. Full audit: <a href="${repo}/blob/main/gym/receipts/AUDIT.md">AUDIT.md</a>.</p>
 <h2>What this means</h2>
 <p>The model wrote mechanisms, not memories. No train page had a disabled or inert target, yet its rule says a disabled control gets no click and an inert subtree is skipped. On that unseen family it scored 1.0; the hand-written rule scored 0.7.</p>
 <p>No rule can win F3 and F9. There the page changes after the agent looks, so nothing the agent saw predicts it. This was written down before any page existed. The fix is not a better rule: check again at the moment of the click.</p>

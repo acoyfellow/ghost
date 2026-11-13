@@ -1,0 +1,967 @@
+[
+ {
+  "id": "20minutes.fr",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "20minutos.es",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "360buyimg.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "360monitoring.io",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "9to5google.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "aboutyou.de",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "adafruit.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "adsmoloco.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "adster.tech",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "aiscore.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "alcopa-auction.fr",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "alodokter.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "amazon.co.jp",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "amocrm.ru",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "anime-sama.to",
+  "label": "held",
+  "labelV2": null
+ },
+ {
+  "id": "arte.tv",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "asml.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "avito.ru",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "bancointer.com.br",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "bangkokpost.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "bbc.co.uk",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "bbc.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "belwue.de",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "bigrock.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "bitcoinmagazine.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "blogfa.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "bocongan.gov.vn",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "bonappetit.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "booking.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "braiiz.com",
+  "label": "held",
+  "labelV2": null
+ },
+ {
+  "id": "breuninger.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "britbox.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "broadcastify.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "buffalo.edu",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "cdiscount.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "cdnjs.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "chron.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "citex.info",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "code.org",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "codecademy.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "comingsoon.it",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "copel.com",
+  "label": "broken",
+  "labelV2": "held"
+ },
+ {
+  "id": "countryliving.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "currys.co.uk",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "die.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "dome9.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "drmax.ro",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "dropcatch.ai",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "dxc.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "eagleeyenetworks.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ecal.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "elconfidencial.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "elmundo.es",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "elpais.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "epicentrk.ua",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ero-video.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "extra.cz",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "falabella.com.pe",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "fide.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "flipkart.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "forgejo.org",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ft.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "geni.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "geniussports.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "git-scm.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "gocarrot.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "gu.se",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "hawkhost.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "hentai.name",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "hmetro.com.my",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "hola.org",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "hover.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "hypixel.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "icims.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ilsole24ore.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "independent.co.uk",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ipecho.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "irfanview.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "jailatm.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "jigsy.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "jovempan.com.br",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "kantar.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "kayak.co.uk",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "kochava.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "la.lv",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "lamu.club",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "laposte.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "lastampa.it",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "lemonde.fr",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "leroymerlin.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "lexology.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "linear.app",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "livetv.sx",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "lokmat.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "longisland.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "lufthansa.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "mantis-intelligence.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "marca.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "matbao.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "mathsisfun.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "mediamarkt.de",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "metropoles.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "midilibre.fr",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "mirror.co.uk",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "missav.ws",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "myanimelist.net",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "narto-drama.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "navercorp.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "nccu.edu.tw",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ngenix.net",
+  "label": "broken",
+  "labelV2": "held"
+ },
+ {
+  "id": "nixos.org",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "nngroup.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "nos.nl",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "novel543.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ntp-servers.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "nu.nl",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "nutrition.org",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "oar.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ocnk.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ok.gov",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "on24.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "orizzontescuola.it",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "oscaro.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "otto.de",
+  "label": "broken",
+  "labelV2": null
+ },
+ {
+  "id": "over-blog.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "paloaltonetworks.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "paychex.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "pearltrees.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "redspell.ru",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "renfe.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "repubblica.it",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "riverisland.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "rkdms.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "rmf.fm",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "robinhood.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "rockstargames.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "rogerebert.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "rustore.ru",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "samsungads.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "sandia.gov",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "sdna.gr",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "sengkiper.site",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "shein.com.mx",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "shmu.sk",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "showcamrips.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "siteimproveanalytics.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "speakeasy.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "standard.co.uk",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "steadfast.com.bd",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "superuser.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "survicate.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "tapsell.ir",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "telstra.com.au",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "terrikon.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "theobjective.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "thestar.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "thesun.co.uk",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "thetvdb.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "thscore5.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "toyota.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "tradingeconomics.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "tripadvisor.co.uk",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "trouw.nl",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "tujugada.com.ar",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "tumadouga.jp",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "tvinsider.com",
+  "label": "held",
+  "labelV2": "broken"
+ },
+ {
+  "id": "ucsf.edu",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "uhaul.net",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ukdevilz.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "uline.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "ulta.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "uschamber.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "utwente.nl",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "uu.nl",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "vendhq.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "vendora.gr",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "videq-l.ink",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "vidyard.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "vintedgo.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "walkme.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "wavebrowserbase.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "weblate.org",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "wikivoyage.org",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "wiz.cn",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "worldpay.com",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "wpengine.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "xbiz.ne.jp",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "xleche.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "xoilacxbi.tv",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "xunlei.com",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "zalando.de",
+  "label": "broken",
+  "labelV2": "broken"
+ },
+ {
+  "id": "zcu.cz",
+  "label": "held",
+  "labelV2": "held"
+ },
+ {
+  "id": "zeit.de",
+  "label": "held",
+  "labelV2": "held"
+ }
+]

@@ -1,0 +1,26 @@
+{
+ "note": "Post hoc. Does not change the frozen verdict in gym/receipt.json.",
+ "condition1": {
+  "candidateHeldOutF1": 0.7374,
+  "brokenHeldOut": 113,
+  "brokenThatChangeAfterObservation": 47,
+  "observationOnlyCeilingF1": 0.7374,
+  "threshold": 0.9,
+  "finding": "The threshold is above the ceiling any observation-only rule can reach."
+ },
+ "condition3": {
+  "labelsChanged": 10,
+  "candidateOldLabels": 0.8387,
+  "candidateSameCollectionLabels": 0.8837,
+  "domRuleSameCollectionLabels": 0.8837,
+  "threshold": 0.883
+ },
+ "flagEverything": {
+  "pooled": 0.6226,
+  "F3": 0.6301,
+  "F6": 0.5915,
+  "F7": 0.5507,
+  "F9": 0.6486,
+  "F10": 0.6842
+ }
+}
