@@ -20,6 +20,8 @@ Pre-registered conditions in [`gym/RULE.md`](gym/RULE.md): beats the best baseli
 
 **Audit** ([`gym/receipts/AUDIT.md`](gym/receipts/AUDIT.md), post hoc, the verdict stays): the 0.90 bar was above the 0.7374 ceiling that any rule reading only the observation can reach, and the candidate hit that ceiling. The real-site check scored round 2 facts against round 1 labels. With labels from the same collection, both rules score 0.8837: no regression. Flagging every page as blocked scores 0.6226, above both vision models.
 
+**Test 1, recheck at click time** ([`gym/RECHECK.md`](gym/RECHECK.md), pre-registered, receipt [`gym/receipts/recheck.json`](gym/receipts/recheck.json)): **disproven** on F9. The same frozen rule, run again just before the click, scores 0.8812 on held-out families (late overlay 0 → 1.0) but 0 on the moving target, because it re-aimed at the target's new position. A variant added before collection that tests the planned click point scores **1.0 on every family**, with no false alarms. On 189 real pages, labelled from the same collection, it scores 0.8837 against 0.8923 for the plain DOM recheck. That result needs its own frozen test before it is a claim.
+
 ## Why
 
 Most browser agents send a screenshot to a model and ask "is something in the way?". That is the model playing the game: slow, paid per page, and in round 1 it lost to one free DOM call. The better use of a model is to write the mechanism once. ghost measures whether a model-written rule generalises to pages it was never shown, or only memorises the ones it was.

@@ -1,0 +1,313 @@
+{
+ "test": "gym/RECHECK.md",
+ "verdict": "disproven",
+ "failing": [
+  "p3bRecheckF9",
+  "p3cPooledHeldOut"
+ ],
+ "predictions": {
+  "p1ReproducesRound2": true,
+  "p2Act0StillBlindOnF3F9": true,
+  "p3aRecheckF3": true,
+  "p3bRecheckF9": false,
+  "p3cPooledHeldOut": false,
+  "p3cNoFalseAlarms": true,
+  "p3dBeatsDomRecheck": true,
+  "p4RealNoRegression": true
+ },
+ "counts": {
+  "gym": 500,
+  "real": 189
+ },
+ "gym": {
+  "rule-early": {
+   "heldOutF1": 0.7374,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F2": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F4": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F8": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F3": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F6": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F7": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F9": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F10": {
+     "f1": 1,
+     "fpr": 0
+    }
+   },
+   "nulls": 0
+  },
+  "rule-act0": {
+   "heldOutF1": 0.7514,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F2": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F4": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F8": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F3": {
+     "f1": 0.16,
+     "fpr": 0
+    },
+    "F6": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F7": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F9": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F10": {
+     "f1": 1,
+     "fpr": 0
+    }
+   },
+   "nulls": 0
+  },
+  "rule-recheck": {
+   "heldOutF1": 0.8812,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F2": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F4": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F8": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F3": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F6": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F7": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F9": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F10": {
+     "f1": 1,
+     "fpr": 0
+    }
+   },
+   "nulls": 0
+  },
+  "rule-recheck-planned": {
+   "heldOutF1": 1,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F2": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F4": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F8": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F3": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F6": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F7": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F9": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F10": {
+     "f1": 1,
+     "fpr": 0
+    }
+   },
+   "nulls": 0
+  },
+  "dom-recheck": {
+   "heldOutF1": 0.8105,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F2": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F4": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F8": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F3": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F6": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F7": {
+     "f1": 1,
+     "fpr": 0
+    },
+    "F9": {
+     "f1": 0,
+     "fpr": 0
+    },
+    "F10": {
+     "f1": 0.7,
+     "fpr": 0
+    }
+   },
+   "nulls": 0
+  },
+  "flag-everything": {
+   "heldOutF1": 0.6226,
+   "byFamily": {
+    "F1": {
+     "f1": 0,
+     "fpr": 1
+    },
+    "F2": {
+     "f1": 0.6842,
+     "fpr": 1
+    },
+    "F4": {
+     "f1": 0.5507,
+     "fpr": 1
+    },
+    "F5": {
+     "f1": 0,
+     "fpr": 1
+    },
+    "F8": {
+     "f1": 0.6301,
+     "fpr": 1
+    },
+    "F3": {
+     "f1": 0.6301,
+     "fpr": 1
+    },
+    "F6": {
+     "f1": 0.5915,
+     "fpr": 1
+    },
+    "F7": {
+     "f1": 0.5507,
+     "fpr": 1
+    },
+    "F9": {
+     "f1": 0.6486,
+     "fpr": 1
+    },
+    "F10": {
+     "f1": 0.6842,
+     "fpr": 1
+    }
+   },
+   "nulls": 0
+  }
+ },
+ "realHoldoutF1": {
+  "rule-early": 0.8571,
+  "rule-act0": 0.8661,
+  "rule-recheck": 0.8837,
+  "rule-recheck-planned": 0.8837,
+  "dom-recheck": 0.8923,
+  "flag-everything": 0.5517
+ },
+ "recheckToClickMs": {
+  "p50": 176,
+  "p95": 303,
+  "n": 689
+ }
+}

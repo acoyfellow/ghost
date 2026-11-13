@@ -37,6 +37,19 @@ const auditParsed = readJson("gym/receipts/audit.json");
 if (!isRecord(auditParsed) || !isRecord(auditParsed.condition1) || !isRecord(auditParsed.condition3)) throw new Error("gym/receipts/audit.json missing");
 const audit = auditParsed as unknown as Audit;
 
+type Recheck = { verdict: string; failing: string[]; gym: Record<string, { heldOutF1: number; byFamily: Record<string, { f1: number }> }>; realHoldoutF1: Record<string, number>; recheckToClickMs: { p50: number; p95: number } };
+const recheckParsed = readJson("gym/receipts/recheck.json");
+if (!isRecord(recheckParsed) || !isRecord(recheckParsed.gym)) throw new Error("gym/receipts/recheck.json missing");
+const recheck = recheckParsed as unknown as Recheck;
+const recheckOrder = ["rule-early", "rule-act0", "rule-recheck", "rule-recheck-planned", "dom-recheck", "flag-everything"];
+const recheckRows = recheckOrder
+  .map((system) => {
+    const score = recheck.gym[system];
+    if (score === undefined) return "";
+    return `<tr><td>${system}</td><td><b>${score.heldOutF1}</b></td><td>${score.byFamily.F3?.f1}</td><td>${score.byFamily.F9?.f1}</td><td>${score.byFamily.F10?.f1}</td><td>${recheck.realHoldoutF1[system]}</td></tr>`;
+  })
+  .join("\n");
+
 const escape = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 const repo = ["https:", "", "github.com", "acoyfellow", "ghost"].join("/");
@@ -115,7 +128,13 @@ ${conditionRows}
 <li><b>The real-site check mixed two collections.</b> ${audit.condition3.labelsChanged} pages changed their click result between them. With labels from the same collection, the candidate scores ${audit.condition3.candidateSameCollectionLabels}, the same as the DOM rule (${audit.condition3.domRuleSameCollectionLabels}). No regression.</li>
 <li><b>The vision models scored below a guess.</b> Flagging every page as blocked scores ${audit.flagEverything.pooled}.</li>
 </ul>
-<p>Next test, pre-registered: run the rule again at the moment of the click. Full audit: <a href="${repo}/blob/main/gym/receipts/AUDIT.md">AUDIT.md</a>.</p>
+<p>Full audit: <a href="${repo}/blob/main/gym/receipts/AUDIT.md">AUDIT.md</a>.</p>
+<h2>Test 1: check again at the moment of the click</h2>
+<p>Pre-registered in <a href="${repo}/blob/main/gym/RECHECK.md">RECHECK.md</a>. The same frozen rule, no new compile, read the page a second time just before the click. Verdict: <b>${recheck.verdict}</b>, failing ${recheck.failing.join(", ")}.</p>
+<div class="wrap"><table><thead><tr><th>System</th><th>Held-out F1</th><th>F3 late overlay</th><th>F9 moving target</th><th>F10 inert / disabled</th><th>Real holdout F1</th></tr></thead><tbody>
+${recheckRows}
+</tbody></table></div>
+<p>The recheck fixed the late overlay. It did not fix the moving target, because the recheck aimed at the target's new position, and the click went to the old point. A smoke test found this before collection. The amendment, written before collection, tests the point that will be clicked, and it scores 1.0 on every family. It is the result to test again, not a claim yet. The recheck adds ${recheck.recheckToClickMs.p50} ms at p50 before the click (p95 ${recheck.recheckToClickMs.p95} ms).</p>
 <h2>What this means</h2>
 <p>The model wrote mechanisms, not memories. No train page had a disabled or inert target, yet its rule says a disabled control gets no click and an inert subtree is skipped. On that unseen family it scored 1.0; the hand-written rule scored 0.7.</p>
 <p>No rule can win F3 and F9. There the page changes after the agent looks, so nothing the agent saw predicts it. This was written down before any page existed. The fix is not a better rule: check again at the moment of the click.</p>

@@ -55,6 +55,13 @@ git checkout -- gym/receipt.json
 [ "$gym_committed" = "$gym_recomputed" ] || fail "gym receipt does not match the recomputed scores"
 gym_verdict=$(bun -e 'console.log(require("./gym/receipt.json").verdict)')
 case "$gym_verdict" in proven|disproven) echo "gym verdict: $gym_verdict" ;; *) fail "gym verdict is $gym_verdict" ;; esac
+recheck_md=$(git log --diff-filter=A --format=%H -- gym/RECHECK.md | tail -1)
+recheck_data=$(git log --diff-filter=A --format=%H -- gym/real/recheck-decisions.json | tail -1)
+[ -n "$recheck_md" ] && [ -n "$recheck_data" ] || fail "test 1 pre-registration or data is not committed"
+git merge-base --is-ancestor "$recheck_md" "$recheck_data" && [ "$recheck_md" != "$recheck_data" ] || fail "gym/RECHECK.md was not committed before its data"
+recheck_committed=$(cat gym/receipts/recheck.json)
+bun gym/scoreRecheck.ts >/dev/null || fail "recheck score"
+[ "$recheck_committed" = "$(cat gym/receipts/recheck.json)" ] || fail "recheck receipt does not recompute"
 audit_committed=$(cat gym/receipts/audit.json)
 bun gym/audit.ts >/dev/null || fail "audit"
 [ "$audit_committed" = "$(cat gym/receipts/audit.json)" ] || fail "audit does not recompute"
