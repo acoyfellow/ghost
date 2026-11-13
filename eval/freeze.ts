@@ -21,6 +21,7 @@ export const frozenFiles = [
   "gym/compiled/tool-calls.jsonl",
   "gym/compiled/attempts.log",
   "gym/frames.index.json",
+  "gym/RECHECK.md",
 ];
 
 const frozenPath = "eval/frozen.json";

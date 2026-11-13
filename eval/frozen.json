@@ -18,7 +18,8 @@
   "gym/compiled/sandbox.manifest.json": "f0e7d87b009f32ff96685b650deb166506d5305f84ca024564856d5d961738f4",
   "gym/compiled/tool-calls.jsonl": "08d9e584e3d242b712b56af82aa92f6026b07023523f2d3ae222d9f3590931a3",
   "gym/compiled/attempts.log": "ef80a029235680eb8bae048a550bdbcd9cb9f247a491d0236924ad77df637b17",
-  "gym/frames.index.json": "ccc00dd34b43ccfb00cde7e7103fc6d75dbddadc54a14112c548b60aa127dd09"
+  "gym/frames.index.json": "ccc00dd34b43ccfb00cde7e7103fc6d75dbddadc54a14112c548b60aa127dd09",
+  "gym/RECHECK.md": "47a028f8727905ef3cc93f5c13ec1588e1a53d88686d59ea30c6a38dae5e821c"
  },
  "changes": [
   {
@@ -40,6 +41,10 @@
   {
    "at": "2026-11-12T19:19:37.979Z",
    "reason": "L4: freeze ghost-compiled-v2 (Fable 5.2, 2 of 5 train attempts, train F1 1.0) before its one held-out and real-site scoring"
+  },
+  {
+   "at": "2026-11-13T11:40:34.512Z",
+   "reason": "test 1: freeze gym/RECHECK.md before any recheck page is collected"
   }
  ]
 }
