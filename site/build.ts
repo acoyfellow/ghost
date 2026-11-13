@@ -41,6 +41,10 @@ type Recheck = { verdict: string; failing: string[]; gym: Record<string, { heldO
 const recheckParsed = readJson("gym/receipts/recheck.json");
 if (!isRecord(recheckParsed) || !isRecord(recheckParsed.gym)) throw new Error("gym/receipts/recheck.json missing");
 const recheck = recheckParsed as unknown as Recheck;
+type H1 = { verdict: string; pages: number; stablePages: number; labelDisagreement: number; guardErrorStable: number; guardErrorStableCI: number[]; stableMisses: unknown[] };
+const h1Parsed = readJson("gym/receipts/h1.json");
+if (!isRecord(h1Parsed) || !Array.isArray(h1Parsed.stableMisses)) throw new Error("gym/receipts/h1.json missing");
+const h1 = h1Parsed as unknown as H1;
 const recheckOrder = ["rule-early", "rule-act0", "rule-recheck", "rule-recheck-planned", "dom-recheck", "flag-everything"];
 const recheckRows = recheckOrder
   .map((system) => {
@@ -135,6 +139,10 @@ ${conditionRows}
 ${recheckRows}
 </tbody></table></div>
 <p>The recheck fixed the late overlay. It did not fix the moving target, because the recheck aimed at the target's new position, and the click went to the old point. A smoke test found this before collection. The amendment, written before collection, tests the point that will be clicked, and it scores 1.0 on every family. It is the result to test again, not a claim yet. The recheck adds ${recheck.recheckToClickMs.p50} ms at p50 before the click (p95 ${recheck.recheckToClickMs.p95} ms).</p>
+<h2>H1: is the rest label noise?</h2>
+<p>Pre-registered in <a href="${repo}/blob/main/gym/H1.md">H1.md</a>. The guarded click: just before the click, block if the target is disabled or inert, or if the exact click point does not reach it. No model. ${h1.pages} real pages, collected 3 times. Verdict: <b>${h1.verdict}</b>.</p>
+<p>Labels changed between passes on ${h1.labelDisagreement} of page pairs. On the ${h1.stablePages} pages whose label never changed, the guard was wrong on ${h1.guardErrorStable} of decisions (95% interval ${h1.guardErrorStableCI.join(" to ")}). So the rest is not noise.</p>
+<p>${h1.stableMisses.length} pages are blocked every time while every fact says the target is on top. The suspect is our own label: its listener is added after the page's scripts, so a page that stops the click early looks blocked. That is the next test. <a href="${repo}/blob/main/gym/receipts/H1-RESULT.md">Result</a>.</p>
 <h2>What this means</h2>
 <p>The model wrote mechanisms, not memories. No train page had a disabled or inert target, yet its rule says a disabled control gets no click and an inert subtree is skipped. On that unseen family it scored 1.0; the hand-written rule scored 0.7.</p>
 <p>No rule can win F3 and F9. There the page changes after the agent looks, so nothing the agent saw predicts it. This was written down before any page existed. The fix is not a better rule: check again at the moment of the click.</p>

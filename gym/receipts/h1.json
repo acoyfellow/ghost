@@ -1,0 +1,166 @@
+{
+ "test": "gym/H1.md",
+ "verdict": "falsified",
+ "predictions": {
+  "p1StableErrorAtMost002": false,
+  "p2ErrorWithinNoise": false
+ },
+ "pages": 189,
+ "stablePages": 182,
+ "brokenStablePages": 68,
+ "labelDisagreement": 0.0247,
+ "guardError": 0.0653,
+ "guardErrorStable": 0.0604,
+ "guardErrorStableCI": [
+  0.0276,
+  0.0973
+ ],
+ "guardErrorMinusDisagreementCI": [
+  0.0071,
+  0.0776
+ ],
+ "errorStable": {
+  "guard": 0.0604,
+  "dom": 0.0659,
+  "fable": 0.0714
+ },
+ "f1ByPass": [
+  {
+   "guard": 0.9091,
+   "dom": 0.9008,
+   "fable": 0.8923
+  },
+  {
+   "guard": 0.9077,
+   "dom": 0.8992,
+   "fable": 0.8906
+  },
+  {
+   "guard": 0.8992,
+   "dom": 0.8906,
+   "fable": 0.8819
+  }
+ ],
+ "stableMisses": [
+  {
+   "id": "cdiscount.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "SPAN"
+  },
+  {
+   "id": "hola.org",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "SPAN"
+  },
+  {
+   "id": "narto-drama.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "IMG",
+   "eventTarget": {
+    "tag": "IMG",
+    "id": "",
+    "className": "nd-hero-art"
+   }
+  },
+  {
+   "id": "paychex.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "A"
+  },
+  {
+   "id": "pearltrees.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "A"
+  },
+  {
+   "id": "showcamrips.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "IMG"
+  },
+  {
+   "id": "survicate.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "A",
+   "eventTarget": {
+    "tag": "A",
+    "id": "",
+    "className": "primary-btn-green w-button"
+   }
+  },
+  {
+   "id": "thesun.co.uk",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "BUTTON"
+  },
+  {
+   "id": "tripadvisor.co.uk",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "SPAN"
+  },
+  {
+   "id": "ukdevilz.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "IMG"
+  },
+  {
+   "id": "walkme.com",
+   "label": "broken",
+   "guard": [
+    false,
+    false,
+    false
+   ],
+   "hit": "SPAN"
+  }
+ ]
+}

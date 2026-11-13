@@ -22,6 +22,8 @@ Pre-registered conditions in [`gym/RULE.md`](gym/RULE.md): beats the best baseli
 
 **Test 1, recheck at click time** ([`gym/RECHECK.md`](gym/RECHECK.md), pre-registered, receipt [`gym/receipts/recheck.json`](gym/receipts/recheck.json)): **disproven** on F9. The same frozen rule, run again just before the click, scores 0.8812 on held-out families (late overlay 0 → 1.0) but 0 on the moving target, because it re-aimed at the target's new position. A variant added before collection that tests the planned click point scores **1.0 on every family**, with no false alarms. On 189 real pages, labelled from the same collection, it scores 0.8837 against 0.8923 for the plain DOM recheck. That result needs its own frozen test before it is a claim.
 
+**H1, is the rest label noise?** ([`gym/H1.md`](gym/H1.md), pre-registered, [result](gym/receipts/H1-RESULT.md)): **falsified**. 189 real pages, collected 3 times. Labels changed between passes on 2.5% of pairs, but the guarded click was wrong on 6.0% of the pages whose label never changed. 11 pages are blocked in all 3 passes, while every fact says the target is on top. The suspect is our label: it adds its listener after the page's own scripts, so a page that stops the click early looks blocked. That is the next test.
+
 ## Why
 
 Most browser agents send a screenshot to a model and ask "is something in the way?". That is the model playing the game: slow, paid per page, and in round 1 it lost to one free DOM call. The better use of a model is to write the mechanism once. ghost measures whether a model-written rule generalises to pages it was never shown, or only memorises the ones it was.

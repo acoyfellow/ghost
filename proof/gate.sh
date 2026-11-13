@@ -62,6 +62,13 @@ git merge-base --is-ancestor "$recheck_md" "$recheck_data" && [ "$recheck_md" !=
 recheck_committed=$(cat gym/receipts/recheck.json)
 bun gym/scoreRecheck.ts >/dev/null || fail "recheck score"
 [ "$recheck_committed" = "$(cat gym/receipts/recheck.json)" ] || fail "recheck receipt does not recompute"
+h1_md=$(git log --diff-filter=A --format=%H -- gym/H1.md | tail -1)
+h1_data=$(git log --diff-filter=A --format=%H -- gym/real/h1-decisions.json | tail -1)
+[ -n "$h1_md" ] && [ -n "$h1_data" ] || fail "H1 pre-registration or data is not committed"
+git merge-base --is-ancestor "$h1_md" "$h1_data" && [ "$h1_md" != "$h1_data" ] || fail "gym/H1.md was not committed before its data"
+h1_committed=$(cat gym/receipts/h1.json)
+bun gym/scoreH1.ts >/dev/null || fail "H1 score"
+[ "$h1_committed" = "$(cat gym/receipts/h1.json)" ] || fail "H1 receipt does not recompute"
 audit_committed=$(cat gym/receipts/audit.json)
 bun gym/audit.ts >/dev/null || fail "audit"
 [ "$audit_committed" = "$(cat gym/receipts/audit.json)" ] || fail "audit does not recompute"
