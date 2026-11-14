@@ -14,6 +14,9 @@ export type CollectResponse = {
   recheck?: unknown;
   recheckToClickMs?: number;
   recheckPlannedHit?: boolean;
+  early?: unknown;
+  requests?: number;
+  hrefBefore?: unknown;
   jpegBase64?: string;
   ms: number;
 };
@@ -35,6 +38,9 @@ export const parseCollectResponse = (value: unknown, url: string): CollectRespon
     recheck: value.recheck,
     recheckToClickMs: typeof value.recheckToClickMs === "number" ? value.recheckToClickMs : undefined,
     recheckPlannedHit: typeof value.recheckPlannedHit === "boolean" ? value.recheckPlannedHit : undefined,
+    early: value.early,
+    requests: typeof value.requests === "number" ? value.requests : undefined,
+    hrefBefore: value.hrefBefore,
     jpegBase64: typeof value.jpegBase64 === "string" ? value.jpegBase64 : undefined,
     ms: typeof value.ms === "number" ? value.ms : 0,
   };

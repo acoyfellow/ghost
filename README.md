@@ -24,6 +24,8 @@ Pre-registered conditions in [`gym/RULE.md`](gym/RULE.md): beats the best baseli
 
 **H1, is the rest label noise?** ([`gym/H1.md`](gym/H1.md), pre-registered, [result](gym/receipts/H1-RESULT.md)): **falsified**. 189 real pages, collected 3 times. Labels changed between passes on 2.5% of pairs, but the guarded click was wrong on 6.0% of the pages whose label never changed. 11 pages are blocked in all 3 passes, while every fact says the target is on top. The suspect is our label: it adds its listener after the page's own scripts, so a page that stops the click early looks blocked. That is the next test.
 
+**H1b, is our label wrong?** ([`gym/H1B.md`](gym/H1B.md), pre-registered, [result](gym/receipts/H1B-RESULT.md)): **instrument fails**. A second label, added before any page script, said 8 of the 11 "stable misses" did reach the target and the page reacted. But that label also missed 4 clicks on pages where the old label saw them, so it failed its own control (93.8%, needed 95%). Nothing is claimed. The next label must come from a source page scripts cannot touch.
+
 ## Why
 
 Most browser agents send a screenshot to a model and ask "is something in the way?". That is the model playing the game: slow, paid per page, and in round 1 it lost to one free DOM call. The better use of a model is to write the mechanism once. ghost measures whether a model-written rule generalises to pages it was never shown, or only memorises the ones it was.

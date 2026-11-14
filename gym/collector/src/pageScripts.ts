@@ -182,6 +182,52 @@ export const hitAtPoint = (x: number, y: number) => `(() => {
   return false;
 })()`;
 
+export const earlyListeners = `(() => {
+  window.__ghostEarly = { pointerdown: null, mousedown: null, click: null };
+  window.__ghostAtClick = { delivered: false, pointerdownOnTarget: false, clickSeen: false };
+  const note = (type) => (event) => {
+    if (window.__ghostEarly[type] !== null) return;
+    const path = event.composedPath();
+    window.__ghostEarly[type] = path;
+    const onTarget = Boolean(window.__ghostTarget) && path.includes(window.__ghostTarget);
+    if (type === "click") { window.__ghostAtClick.clickSeen = true; window.__ghostAtClick.delivered = onTarget; }
+    if (type === "pointerdown") window.__ghostAtClick.pointerdownOnTarget = onTarget;
+    try { sessionStorage.setItem("__ghostAtClick", JSON.stringify(window.__ghostAtClick)); } catch (e) {}
+  };
+  for (const type of ["pointerdown", "mousedown", "click"]) window.addEventListener(type, note(type), { capture: true });
+})();`;
+
+export const armEffect = `(() => {
+  window.__ghostEffect = { href: location.href, mutations: 0 };
+  const observer = new MutationObserver((records) => { window.__ghostEffect.mutations += records.length; });
+  observer.observe(document, { subtree: true, childList: true, attributes: true, characterData: true });
+  return true;
+})()`;
+
+export const readEarly = `(() => {
+  const target = window.__ghostTarget;
+  const early = window.__ghostEarly || { pointerdown: null, mousedown: null, click: null };
+  let atClick = window.__ghostAtClick || null;
+  let fromStorage = false;
+  if (!target) {
+    try { const stored = sessionStorage.getItem("__ghostAtClick"); if (stored) { atClick = JSON.parse(stored); fromStorage = true; } } catch (e) {}
+  }
+  const tagOf = (path) => (Array.isArray(path) && path[0] && path[0].tagName) || null;
+  const effect = window.__ghostEffect || null;
+  return {
+    installed: Boolean(window.__ghostEarly),
+    samePage: Boolean(target),
+    fromStorage,
+    clickSeen: atClick ? atClick.clickSeen === true : false,
+    delivered: atClick ? atClick.delivered === true : false,
+    pointerdownOnTarget: atClick ? atClick.pointerdownOnTarget === true : false,
+    clickTopTag: tagOf(early.click),
+    sameNode: Boolean(target && target.isConnected),
+    href: location.href,
+    domMutations: effect ? effect.mutations : null,
+  };
+})()`;
+
 export const boxNow = `(() => { const r = window.__ghostTarget.getBoundingClientRect(); return { x: r.left, y: r.top, width: r.width, height: r.height }; })()`;
 
 export const readOutcome = `(() => ({ fired: window.__ghostFired === true, eventTarget: window.__ghostSeen }))()`;

@@ -1,4 +1,4 @@
-import { armListeners, boxNow, callAct, hitAtPoint, observe, pickByRule, pickBySelector, readOutcome, readyState } from "./pageScripts";
+import { armEffect, armListeners, boxNow, callAct, earlyListeners, hitAtPoint, observe, readEarly, pickByRule, pickBySelector, readOutcome, readyState } from "./pageScripts";
 
 type Box = { x: number; y: number; width: number; height: number };
 
@@ -23,6 +23,9 @@ type CollectResult = {
   recheck?: Observation | null;
   recheckToClickMs?: number;
   recheckPlannedHit?: boolean;
+  early?: unknown;
+  requests?: number;
+  hrefBefore?: unknown;
   jpegBase64?: string;
   ms: number;
 };
@@ -191,6 +194,13 @@ async function collect(env: Env, url: string, selector: string | null): Promise<
     await client.send("Page.enable");
     await client.send("Runtime.enable");
     await client.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false });
+    await client.send("Network.enable");
+    await client.send("Page.addScriptToEvaluateOnNewDocument", { source: earlyListeners });
+    let counting = false;
+    let requests = 0;
+    client.on("Network.requestWillBeSent", () => {
+      if (counting) requests++;
+    });
     await load(client, url);
     await settle(client, selector !== null);
 
@@ -213,12 +223,18 @@ async function collect(env: Env, url: string, selector: string | null): Promise<
     const recheckStartedAt = Date.now();
     const recheck = await client.evaluate(observe);
     const recheckPlannedHit = (await client.evaluate(hitAtPoint(x, y))) === true;
+    await client.evaluate(armEffect);
+    const hrefBefore = await client.evaluate("location.href");
+    counting = true;
     await client.send("Input.dispatchMouseEvent", { type: "mouseMoved", x, y });
     await client.send("Input.dispatchMouseEvent", { type: "mousePressed", x, y, button: "left", clickCount: 1 });
     const recheckToClickMs = Date.now() - recheckStartedAt;
     await client.send("Input.dispatchMouseEvent", { type: "mouseReleased", x, y, button: "left", clickCount: 1 });
     await sleep(300);
     const read = await client.evaluate(readOutcome);
+    await sleep(1200);
+    counting = false;
+    const early = await client.evaluate(readEarly);
     if (!isOutcomeRead(read)) return { url, ok: false, error: "bad outcome", ms: elapsed() };
 
     return {
@@ -231,6 +247,9 @@ async function collect(env: Env, url: string, selector: string | null): Promise<
       recheck: isObservation(recheck) ? recheck : null,
       recheckToClickMs,
       recheckPlannedHit,
+      early,
+      requests,
+      hrefBefore,
       jpegBase64,
       ms: elapsed(),
     };

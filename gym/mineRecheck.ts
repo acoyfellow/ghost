@@ -8,7 +8,7 @@ type Job = { id: string; url: string; selector: string | null; family: string | 
 const set = process.argv[2] === "real" ? "real" : "gym";
 const pass = process.argv[3];
 const root = import.meta.dir;
-const outName = pass === undefined ? (set === "gym" ? "recheck-gym" : "recheck-real") : `h1-p${Number(pass)}`;
+const outName = pass === undefined ? (set === "gym" ? "recheck-gym" : "recheck-real") : pass === "b" ? "h1b" : `h1-p${Number(pass)}`;
 const outDir = join(root, "..", ".real", outName);
 const site = "https://ghost.customer0.dev/gym";
 
@@ -38,7 +38,8 @@ const fetchTruth = async (job: Job) => {
 };
 
 mkdirSync(outDir, { recursive: true });
-const jobs = set === "gym" ? gymJobs() : realJobs();
+const only = process.argv[4]?.split(",") ?? null;
+const jobs = (set === "gym" ? gymJobs() : realJobs()).filter((job) => only === null || only.includes(job.id));
 const pending = jobs.filter((job) => !existsSync(join(outDir, `${job.id}.json`)));
 let done = 0;
 
@@ -59,6 +60,9 @@ await runPool(pending, 3, async (job) => {
     recheck: result.recheck,
     recheckToClickMs: result.recheckToClickMs,
     recheckPlannedHit: result.recheckPlannedHit,
+    early: result.early,
+    requests: result.requests,
+    hrefBefore: result.hrefBefore,
     outcome: result.outcome,
   };
   writeFileSync(join(outDir, `${job.id}.json`), `${JSON.stringify(record, null, 1)}\n`);

@@ -1,0 +1,651 @@
+{
+ "test": "gym/H1B.md",
+ "verdict": "instrument fails",
+ "predictions": {
+  "p1MissesDelivered": true,
+  "p2DeliveredHaveEffect": true,
+  "p4ControlDelivered": false
+ },
+ "pages": 187,
+ "misses": {
+  "loaded": 11,
+  "delivered": 8,
+  "deliveredWithEffect": 8
+ },
+ "control": {
+  "pages": 113,
+  "delivered": 106
+ },
+ "labels": {
+  "lateBroken": 73,
+  "deliveredFalse": 69,
+  "lateBrokenButDelivered": 8,
+  "lateHeldButNotDelivered": 4,
+  "noClickSeen": 5
+ },
+ "guard": {
+  "agreeLate": 0.9358,
+  "agreeDelivered": 0.9572,
+  "f1Late": 0.9104,
+  "f1Delivered": 0.9385
+ },
+ "missRows": [
+  {
+   "id": "cdiscount.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false,
+   "requests": 9,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "hola.org",
+   "labelLate": "held",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false,
+   "requests": 82,
+   "domMutations": 838,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "narto-drama.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false,
+   "requests": 1,
+   "domMutations": 0,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "paychex.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": true,
+   "requests": 140,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "pearltrees.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": true,
+   "requests": 53,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "showcamrips.com",
+   "labelLate": "broken",
+   "delivered": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true,
+   "requests": 188,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "survicate.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false,
+   "requests": 17,
+   "domMutations": 61,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "thesun.co.uk",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false,
+   "requests": 9,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "tripadvisor.co.uk",
+   "labelLate": "broken",
+   "delivered": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true,
+   "requests": 73,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "ukdevilz.com",
+   "labelLate": "broken",
+   "delivered": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true,
+   "requests": 192,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  },
+  {
+   "id": "walkme.com",
+   "labelLate": "broken",
+   "delivered": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": true,
+   "requests": 112,
+   "domMutations": null,
+   "effect": true,
+   "guard": false
+  }
+ ],
+ "notDelivered": [
+  {
+   "id": "20minutes.fr",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "360buyimg.com",
+   "guard": false,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "adsmoloco.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "asml.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "bancointer.com.br",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "bangkokpost.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "bigrock.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "bonappetit.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "booking.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "breuninger.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "britbox.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "chron.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "comingsoon.it",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "countryliving.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "currys.co.uk",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "drmax.ro",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "eagleeyenetworks.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "elmundo.es",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": true
+  },
+  {
+   "id": "falabella.com.pe",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "flipkart.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "forgejo.org",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "icims.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "ilsole24ore.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "kayak.co.uk",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "kochava.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "la.lv",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "lastampa.it",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "lemonde.fr",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "lexology.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "livetv.sx",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "lokmat.com",
+   "guard": false,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "longisland.com",
+   "guard": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true
+  },
+  {
+   "id": "lufthansa.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "mantis-intelligence.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "marca.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "matbao.com",
+   "guard": true,
+   "pointerdownOnTarget": true,
+   "clickSeen": false,
+   "navigated": false
+  },
+  {
+   "id": "mediamarkt.de",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "midilibre.fr",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": true
+  },
+  {
+   "id": "myanimelist.net",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "navercorp.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "nngroup.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "orizzontescuola.it",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "oscaro.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "otto.de",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "renfe.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "repubblica.it",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "riverisland.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "rkdms.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "rmf.fm",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "rustore.ru",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "samsungads.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "sandia.gov",
+   "guard": false,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "sdna.gr",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "sengkiper.site",
+   "guard": false,
+   "pointerdownOnTarget": true,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "shein.com.mx",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "showcamrips.com",
+   "guard": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true
+  },
+  {
+   "id": "superuser.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "tripadvisor.co.uk",
+   "guard": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true
+  },
+  {
+   "id": "tvinsider.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "ucsf.edu",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "ukdevilz.com",
+   "guard": false,
+   "pointerdownOnTarget": false,
+   "clickSeen": false,
+   "navigated": true
+  },
+  {
+   "id": "ulta.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": true
+  },
+  {
+   "id": "utwente.nl",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "vendora.gr",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "vidyard.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "wavebrowserbase.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "worldpay.com",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  },
+  {
+   "id": "xoilacxbi.tv",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": true
+  },
+  {
+   "id": "zalando.de",
+   "guard": true,
+   "pointerdownOnTarget": false,
+   "clickSeen": true,
+   "navigated": false
+  }
+ ]
+}
