@@ -20,7 +20,8 @@
   "gym/compiled/attempts.log": "ef80a029235680eb8bae048a550bdbcd9cb9f247a491d0236924ad77df637b17",
   "gym/frames.index.json": "ccc00dd34b43ccfb00cde7e7103fc6d75dbddadc54a14112c548b60aa127dd09",
   "gym/RECHECK.md": "c2d926064e0a2ce4f27d53e1e4002c32d9712f966e99e7ce77bd17cad67c8085",
-  "gym/H1.md": "caaf37d70850b07f856d7449856cbc936832cdb93afa15bc89e007e2e78b3fd9"
+  "gym/H1.md": "caaf37d70850b07f856d7449856cbc936832cdb93afa15bc89e007e2e78b3fd9",
+  "gym/H1B.md": "0a645906a2ca0e0460de78788043280f797b91ead844a0938b19ff1c8696ee8d"
  },
  "changes": [
   {
@@ -54,6 +55,10 @@
   {
    "at": "2026-11-13T12:22:30.033Z",
    "reason": "H1: freeze gym/H1.md before any H1 page is collected"
+  },
+  {
+   "at": "2026-11-14T11:51:29.362Z",
+   "reason": "H1b: freeze gym/H1B.md before any H1b page is collected"
   }
  ]
 }
